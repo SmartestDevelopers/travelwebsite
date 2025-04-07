@@ -5246,4 +5246,116 @@
     <!-- ================================
     END CTA AREA
 ================================= -->
+
+    <!-- ================================
+    START MOBILE AREA
+================================= -->
+<section
+      class="mobile-app padding-top-100px padding-bottom-50px section-bg"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mobile-app-content">
+              <div class="section-heading">
+                <h2 class="sec__title line-height-55">
+                  Trizen Android and IOS App is Available!
+                </h2>
+              </div>
+              <!-- end section-heading -->
+              <ul class="info-list padding-top-30px">
+                <li class="d-flex align-items-center mb-3">
+                  <span
+                    class="la la-check icon-element flex-shrink-0 ms-0"
+                  ></span>
+                  Access and change your itinerary on-the-go
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <span
+                    class="la la-check icon-element flex-shrink-0 ms-0"
+                  ></span>
+                  Free cancellation on select hotels
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <span
+                    class="la la-check icon-element flex-shrink-0 ms-0"
+                  ></span>
+                  Get real-time trip updates
+                </li>
+              </ul>
+              <div class="btn-box padding-top-30px">
+                <a href="#" class="d-inline-block me-3">
+                  <img src="images/app-store.png" alt="" />
+                </a>
+                <a href="#" class="d-inline-block">
+                  <img src="images/google-play.png" alt="" />
+                </a>
+              </div>
+              <!-- end btn-box -->
+            </div>
+          </div>
+          <!-- end col-lg-6 -->
+          <div class="col-lg-6">
+            <div class="mobile-img">
+              <img src="images/mobile-app.png" alt="mobile-img" />
+            </div>
+          </div>
+          <!-- end col-lg-5 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end mobile-app -->
+    <!-- ================================
+    END MOBILE AREA
+================================= -->
+
+    <!-- ================================
+       START CLIENTLOGO AREA
+================================= -->
+    <section
+      class="clientlogo-area padding-top-80px padding-bottom-80px text-center"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="client-logo">
+              <div class="client-logo-item">
+                <img src="images/client-logo.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+              <div class="client-logo-item">
+                <img src="images/client-logo2.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+              <div class="client-logo-item">
+                <img src="images/client-logo3.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+              <div class="client-logo-item">
+                <img src="images/client-logo4.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+              <div class="client-logo-item">
+                <img src="images/client-logo5.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+              <div class="client-logo-item">
+                <img src="images/client-logo6.png" alt="brand image" />
+              </div>
+              <!-- end client-logo-item -->
+            </div>
+            <!-- end client-logo -->
+          </div>
+          <!-- end col-lg-12 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end clientlogo-area -->
+    <!-- ================================
+       START CLIENTLOGO AREA
+================================= -->
 @endsection
