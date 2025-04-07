@@ -13,10 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'FrontController@index');
+
+Route::get('/login', 'FrontController@login');
+Route::get('/signup', 'FrontController@signup');
+
+Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
+
