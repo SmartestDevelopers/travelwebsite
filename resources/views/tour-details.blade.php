@@ -11,7 +11,7 @@
           <div class="col-lg-12">
             <div class="breadcrumb-list breadcrumb-top-list">
               <ul class="list-items bg-transparent radius-none p-0">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li>China</li>
                 <li>Great Wall of China, Tour</li>
               </ul>
@@ -49,7 +49,7 @@
                   </a>
                   <a
                     class="theme-btn"
-                    data-src="images/destination-img.jpg"
+                    data-src="{{asset('travel-website/images/destination-img.jpg')}}"
                     data-fancybox="gallery"
                     data-caption="Showing image - 01"
                     data-speed="700"
@@ -60,21 +60,21 @@
                 <a
                   class="d-none"
                   data-fancybox="gallery"
-                  data-src="images/destination-img2.jpg"
+                  data-src="{{asset('travel-website/images/destination-img2.jpg')}}"
                   data-caption="Showing image - 02"
                   data-speed="700"
                 ></a>
                 <a
                   class="d-none"
                   data-fancybox="gallery"
-                  data-src="images/destination-img3.jpg"
+                  data-src="{{asset('travel-website/images/destination-img3.jpg')}}"
                   data-caption="Showing image - 03"
                   data-speed="700"
                 ></a>
                 <a
                   class="d-none"
                   data-fancybox="gallery"
-                  data-src="images/destination-img4.jpg"
+                  data-src="{{asset('travel-website/images/destination-img4.jpg')}}"
                   data-caption="Showing image - 04"
                   data-speed="700"
                 ></a>
@@ -447,7 +447,7 @@
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
                               <img
-                                src="images/small-img.jpg"
+                                src="{{asset('travel-website/images/small-img.jpg')}}"
                                 alt="destination-img"
                               />
                             </div>
@@ -527,7 +527,7 @@
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
                               <img
-                                src="images/small-img3.jpg"
+                                src="{{asset('travel-website/images/small-img3.jpg')}}"
                                 alt="destination-img"
                               />
                             </div>
@@ -560,7 +560,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="images/destination-img2.jpg"
+                            src="{{asset('travel-website/images/destination-img2.jpg')}}"
                             alt="Destination-img"
                           />
                         </div>
@@ -569,7 +569,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="images/destination-img3.jpg"
+                            src="{{asset('travel-website/images/destination-img3.jpg')}}"
                             alt="Destination-img"
                           />
                         </div>
@@ -578,7 +578,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="images/destination-img4.jpg"
+                            src="{asset('travel-website/images/destination-img4.jpg')}}"
                             alt="Destination-img"
                           />
                         </div>
@@ -935,7 +935,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team8.jpg"
+                            src="{{asset(travel-website/images/team8.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
@@ -991,7 +991,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team9.jpg"
+                            src="{{asset('travel-website/images/team9.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
@@ -1047,7 +1047,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team10.jpg"
+                            src="{{url('travel-website/images/team10.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
@@ -1485,7 +1485,7 @@
                   <!-- end sidebar-widget-item -->
                   <div class="btn-box pt-2">
                     <a
-                      href="tour-booking.html"
+                      href="{{url('tour-booking')}}"
                       class="theme-btn text-center w-100 mb-2"
                       ><i class="la la-shopping-cart me-2 font-size-18"></i>Book
                       Now</a
@@ -1638,7 +1638,7 @@
                   <div class="author-content d-flex">
                     <div class="author-img">
                       <a href="#"
-                        ><img src="images/team8.jpg" alt="testimonial image"
+                        ><img src="{{asset('travel-website/images/team8.jpg')}}" alt="testimonial image"
                       /></a>
                     </div>
                     <div class="author-bio">
@@ -1702,14 +1702,14 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item trending-card">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
-                  <img src="{{asset('travel-images/images/img9.jpg')}}" alt="Destination-img" />
+                <a href="{{url('tour-details')}}" class="d-block">
+                  <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
                 </a>
                 <span class="badge">Bestseller</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html"
+                  <a href="{{url('tour-details')}}"
                     >Empire State Building Admission</a
                   >
                 </h3>
@@ -1725,7 +1725,7 @@
                   <p>
                     <span class="price__num">$124.00</span>
                   </p>
-                  <a href="tour-details.html" class="btn-text"
+                  <a href="{{url('tour-details')}}" class="btn-text"
                     >View details<i class="la la-angle-right"></i
                   ></a>
                 </div>
@@ -1737,14 +1737,14 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item trending-card">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
-                  <img src="{{asset('travel-images/images/img10.jpg')}}" alt="Destination-img" />
+                <a href="{{url('tour-details')}}" class="d-block">
+                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                   <span class="badge badge-ribbon">Save 24%</span>
                 </a>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Hut on Blue Water Beach Tour</a>
+                  <a href="{{url('tour-details')}}">Hut on Blue Water Beach Tour</a>
                 </h3>
                 <p class="card-meta">124 Nevada, Las Vegas</p>
                 <div class="card-rating">
@@ -1761,7 +1761,7 @@
                       >$124.00</span
                     >
                   </p>
-                  <a href="tour-details.html" class="btn-text"
+                  <a href="{{url('tour-details')}}" class="btn-text"
                     >View details<i class="la la-angle-right"></i
                   ></a>
                 </div>
@@ -1773,14 +1773,14 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item trending-card">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
-                  <img src="{{asset('travel-images/images//img11.jpg')}}" alt="Destination-img" />
+                <a href="{{url('tour-details')}}" class="d-block">
+                  <img src="{{asset('travel-website/images//img11.jpg')}}" alt="Destination-img" />
                 </a>
                 <span class="badge">Featured</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Golden Gate Seaplane Tour</a>
+                  <a href="{{url('tour-details')}}">Golden Gate Seaplane Tour</a>
                 </h3>
                 <p class="card-meta">124 E Huron St, New york</p>
                 <div class="card-rating">
@@ -1794,7 +1794,7 @@
                   <p>
                     <span class="price__num">$124.00</span>
                   </p>
-                  <a href="tour-details.html" class="btn-text"
+                  <a href="{{url('tour-details')}}" class="btn-text"
                     >View details<i class="la la-angle-right"></i
                   ></a>
                 </div>
