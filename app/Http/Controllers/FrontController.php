@@ -38,7 +38,7 @@ class FrontController extends Controller
     }
 
     public function tourDetails(){
-        return view('trou-details');
+        return view('tour-details');
     }
 
     /**
