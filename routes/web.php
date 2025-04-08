@@ -28,4 +28,5 @@ Route::get('/signup', 'FrontController@signup');
 
 Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
 Route::get('/tour-list', 'FrontController@tourList');
+Route::get('/tour-details', 'FrontController@tourDetails');
 

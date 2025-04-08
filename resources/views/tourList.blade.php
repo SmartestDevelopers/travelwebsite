@@ -790,7 +790,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img10.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -833,7 +833,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img9.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -873,7 +873,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img10.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -916,7 +916,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img11.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img11.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -954,7 +954,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img12.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img12.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -995,7 +995,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img13.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img13.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -1033,7 +1033,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
-                  <img src="images/img14.jpg" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img14.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
