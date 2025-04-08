@@ -32,6 +32,11 @@ class FrontController extends Controller
 
     }
 
+
+    public function tourList(){
+        return view('tourList');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
