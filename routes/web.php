@@ -30,4 +30,7 @@ Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
 Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/tour-booking', 'FrontController@tourBooking');
+Route::get('/contact-us', 'FrontController@contactUs');
+Route::post('/insert-record-create', 'FrontController@insertRecordCreate');
+
 

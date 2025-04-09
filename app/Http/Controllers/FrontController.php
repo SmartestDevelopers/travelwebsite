@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -39,13 +39,6 @@ class FrontController extends Controller
 
     public function tourDetails(){
         return view('tour-details');
-<<<<<<< HEAD
-    }
-
-    public function tourBooking(){
-        return view('tour-booking');
-=======
->>>>>>> c6e95fa77ec6228d4ed989c0784fd7b7d48d24e8
     }
 
     /**
@@ -113,4 +106,26 @@ class FrontController extends Controller
     {
         //
     }
+
+    public function contactUs(){
+        return view('contactUs');
+    }
+
+
+    public function insertRecordCreate(Request $request){
+
+       // echo "<pre>";
+        //print_r($request->all());
+        $record = $request->all();
+        //echo "</pre>";
+
+        $name = $record['name'];
+        $email = $record['email'];
+        $message = $record['message'];
+       
+
+    }
+
+
+
 }

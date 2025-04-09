@@ -239,7 +239,7 @@
                       <li><a href="{{url('gallary')}}">Gallery</a></li>
                       <li><a href="{{url('faq')}}">FAQ</a></li>
                       <li><a href="{{url('blog')}}">Blog</a></li>
-                      <li><a href="{{url('contact')}}">Contact</a></li>
+                      <li><a href="{{url('contact-us')}}">Contact</a></li>
                     </ul>
                   </nav>
                 </div>
