@@ -77,8 +77,15 @@
                   >
                     Thank You! Your message has been sent.
                   </div>
-                  <form method="POST" action="{{url('/insert-record-create')}}" class="row">
-                    @csrf
+                  <form method="POST" action="{{url('/insert-contact-record')}}" class="row">
+                  @csrf
+                  @if (\Session::has('success'))
+                      <div class="alert alert-success">
+                          <ul>
+                              <li>{!! \Session::get('success') !!}</li>
+                          </ul>
+                      </div>
+                  @endif
                     <div class="col-lg-6 responsive-column">
                       <div class="input-box">
                         <label class="label-text">Your Name</label>

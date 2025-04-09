@@ -112,18 +112,21 @@ class FrontController extends Controller
     }
 
 
-    public function insertRecordCreate(Request $request){
+    public function insertContactRecord(Request $request){
+        // echo "<pre>";
+        // print_r($request->all());
+        // echo "</pre>";
 
-       // echo "<pre>";
-        //print_r($request->all());
         $record = $request->all();
-        //echo "</pre>";
+
 
         $name = $record['name'];
         $email = $record['email'];
         $message = $record['message'];
-       
 
+        DB::table('contact_us')->insert(
+            ['name' => $name, 'email' => $email, 'message'=>$message]);
+            return redirect()->back()->with('success','your record has been successfully submited!');
     }
 
 
