@@ -39,10 +39,13 @@ class FrontController extends Controller
 
     public function tourDetails(){
         return view('tour-details');
+<<<<<<< HEAD
     }
 
     public function tourBooking(){
         return view('tour-booking');
+=======
+>>>>>>> c6e95fa77ec6228d4ed989c0784fd7b7d48d24e8
     }
 
     /**
