@@ -79,7 +79,7 @@
                     ><i class="la la-th-large"></i
                   ></a>
                   <a
-                    href="tour-list.html"
+                    href="{{(tour-list.html"
                     data-bs-toggle="tooltip"
                     data-placement="top"
                     title="List View"

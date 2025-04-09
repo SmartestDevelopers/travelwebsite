@@ -620,7 +620,7 @@
                         aria-selected="false"
                       >
                         <i class="la la-check icon-element"></i>
-                        <img src="{{asset('travel-images/images/payment-img.png')}}" alt="" />
+                        <img src="{{asset('travel-website/images/payment-img.png')}}" alt="" />
                         <span class="d-block pt-2"
                           >Payment with credit card</span
                         >
@@ -637,7 +637,7 @@
                         aria-selected="true"
                       >
                         <i class="la la-check icon-element"></i>
-                        <img src="{{asset('travel-images/images/paypal.png')}}" alt="" />
+                        <img src="{{asset('travel-website/images/paypal.png')}}" alt="" />
                         <span class="d-block pt-2">Payment with PayPal</span>
                       </a>
                     </li>
@@ -910,8 +910,8 @@
               <div class="form-content">
                 <div class="card-item shadow-none radius-none mb-0">
                   <div class="card-img pb-4">
-                    <a href="tour-details.html" class="d-block">
-                      <img src="images/img11.jpg" alt="tour-img" />
+                    <a href="" class="d-block">
+                      <img src="{{asset('travel-website/images/img11.jpg')}}" alt="tour-img" />
                     </a>
                   </div>
                   <div class="card-body p-0">
@@ -921,7 +921,7 @@
                         <p class="card-meta">124 E Huron St, New york</p>
                       </div>
                       <div>
-                        <a href="tour-details.html" class="btn ms-1"
+                        <a href="{{url('tour-details')}} class="btn ms-1"
                           ><i
                             class="la la-edit"
                             data-bs-toggle="tooltip"
