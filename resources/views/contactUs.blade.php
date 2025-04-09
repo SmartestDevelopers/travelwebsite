@@ -61,7 +61,15 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="form-box">
+           
               <div class="form-title-wrap">
+              @if (\Session::has('success'))
+                      <div class="alert alert-success">
+                          <ul>
+                              <li>{!! \Session::get('success') !!}</li>
+                          </ul>
+                      </div>
+                  @endif
                 <h3 class="title">We'd love to hear from you</h3>
                 <p class="font-size-15">
                   Send us a message, and we'll respond as soon as possible
@@ -79,13 +87,7 @@
                   </div>
                   <form method="POST" action="{{url('/insert-contact-record')}}" class="row">
                   @csrf
-                  @if (\Session::has('success'))
-                      <div class="alert alert-success">
-                          <ul>
-                              <li>{!! \Session::get('success') !!}</li>
-                          </ul>
-                      </div>
-                  @endif
+                  
                     <div class="col-lg-6 responsive-column">
                       <div class="input-box">
                         <label class="label-text">Your Name</label>
