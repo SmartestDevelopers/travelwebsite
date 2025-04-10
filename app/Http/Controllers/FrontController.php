@@ -123,11 +123,11 @@ class FrontController extends Controller
         $name = $record['name'];
         $email = $record['email'];
         $message = $record['message'];
-
         DB::table('contact_us')->insert(
             ['name' => $name, 'email' => $email, 'message'=>$message]);
             return redirect()->back()->with('success','your record has been successfully submited!');
     }
+
 
 
 
