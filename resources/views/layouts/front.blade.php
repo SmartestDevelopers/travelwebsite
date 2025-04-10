@@ -236,7 +236,7 @@
                       <li><a href="{{url('/')}}">Home</a></li>
                       <li><a href="{{url('about')}}">About</a></li>
                       <li><a href="{{url('services')}}">Services</a></li>
-                      <li><a href="{{url('gallary')}}">Gallery</a></li>
+                      <li><a href="{{url('gallery')}}">Gallery</a></li>
                       <li><a href="{{url('faq')}}">FAQ</a></li>
                       <li><a href="{{url('blog')}}">Blog</a></li>
                       <li><a href="{{url('contact-us')}}">Contact</a></li>
