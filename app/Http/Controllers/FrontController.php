@@ -143,4 +143,20 @@ class FrontController extends Controller
         return view('gallery');
     }
 
+    public function signupForm(Request $request){
+        // echo "<pre>";
+        // print_r($request->all());
+        // echo "</pre>";
+
+        $record = $request->all();
+
+        $username = $record['username'];
+        $email = $record['email'];
+        $password = $record['password'];
+        $repeatPassword = $record['repeatpassword'];
+        DB::table('sign_up')->insert(
+            ['username' => $username, 'email' => $email, 'password'=>$password, 'repeatpassword'=>$repeatPassword]);
+            return redirect()->back()->with('Success','You have successfully registered!');
+        }
+      
 }
