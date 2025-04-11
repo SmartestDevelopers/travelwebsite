@@ -128,7 +128,19 @@ class FrontController extends Controller
             return redirect()->back()->with('success','your record has been successfully submited!');
     }
 
+    public function about(){
+        return view('about');
+    }
 
+    public function services(){
+        return view('services');
+    }
+    public function blog(){
+        return view('blog');
+    }
 
+    public function gallery(){
+        return view('gallery');
+    }
 
 }
