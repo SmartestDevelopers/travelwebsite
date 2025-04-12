@@ -128,7 +128,35 @@ class FrontController extends Controller
             return redirect()->back()->with('success','your record has been successfully submited!');
     }
 
+    public function about(){
+        return view('about');
+    }
 
+    public function services(){
+        return view('services');
+    }
+    public function blog(){
+        return view('blog');
+    }
 
+    public function gallery(){
+        return view('gallery');
+    }
 
+    public function signupDataInsert(Request $request){
+        // echo "<pre>";
+        // print_r($request->all());
+        // echo "</pre>";
+
+        $record = $request->all();
+
+        $username = $record['username'];
+        $email = $record['email'];
+        $password = $record['password'];
+        $repeatPassword = $record['repeatpassword'];
+        DB::table('sign_up')->insert(
+            ['username' => $username, 'email' => $email, 'password'=>$password, 'repeatpassword'=>$repeatPassword]);
+            return redirect()->back()->with('Success','You have successfully registered!');
+        }
+      
 }

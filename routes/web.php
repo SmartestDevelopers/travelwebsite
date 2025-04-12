@@ -38,4 +38,5 @@ Route::resource('services', 'ServicesController');
 Route::resource('about', 'AboutController');
 Route::resource('faq', 'FAQController');
 
+Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 
