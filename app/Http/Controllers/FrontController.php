@@ -143,7 +143,7 @@ class FrontController extends Controller
         return view('gallery');
     }
 
-    public function signupForm(Request $request){
+    public function signupDataInsert(Request $request){
         // echo "<pre>";
         // print_r($request->all());
         // echo "</pre>";
