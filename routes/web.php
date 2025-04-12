@@ -37,6 +37,15 @@ Route::resource('gallery', 'GalleryController');
 Route::resource('services', 'ServicesController');
 Route::resource('about', 'AboutController');
 Route::resource('faq', 'FAQController');
+Route::resource('packages', 'PackageController');
+Route::resource('hotels', 'HotelController');
+Route::resource('car-rentals', 'CarRentalController');
 
 Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
+
+// Route::get('/contacts', [ContactController::class, 'index'])->name('contact.index');
+
+//Route::get('/contactList', [AdminController::class, 'index']);
+
+Route::get('/contactList', 'AdminController@contactList');
 
