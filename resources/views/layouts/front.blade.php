@@ -473,6 +473,8 @@
     <script src="{{ asset('travel-website/js/animated-headline.js') }}"></script>
     <script src="{{ asset('travel-website/js/jquery.ripples-min.js') }}"></script>
     <script src="{{ asset('travel-website/js/quantity-input.js') }}"></script>
+    <script src="{{ asset('travel-website/js/jquery.superslides.min.js') }}"></script>
+    <script src="{{ asset('travel-website/js/superslider-script.js') }}"></script>
     <script src="{{ asset('travel-website/js/main.js') }}"></script>
   </body>
 
