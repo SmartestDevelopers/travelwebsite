@@ -143,19 +143,31 @@ class FrontController extends Controller
         return view('gallery');
     }
 
-    public function signupDataInsert(Request $request){
+    public function register(Request $request){
         // echo "<pre>";
         // print_r($request->all());
         // echo "</pre>";
 
-        $record = $request->all();
+        // Validate the form input
+    $request->validate([
+        'username' => 'required|string|max:255',
+        'email' => 'required|email|unique:sign_up,email',
+        'password' => 'required|string|min:8|confirmed',
+    ]);
 
-        $username = $record['username'];
-        $email = $record['email'];
-        $password = $record['password'];
-        $repeatPassword = $record['repeatpassword'];
+        // $record = $request->all();
+
+        // $username = $record['username'];
+        // $email = $record['email'];
+        // $password = $record['password'];
+
+        // Insert the record into the database
         DB::table('sign_up')->insert(
-            ['username' => $username, 'email' => $email, 'password'=>$password, 'repeatpassword'=>$repeatPassword]);
+            ['username' => $username, 
+            'email' => $email, 
+            'password'=>$password]);
+            
+            // Redirect with a success message
             return redirect()->back()->with('Success','You have successfully registered!');
         }
       

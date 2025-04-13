@@ -31,7 +31,7 @@ Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/tour-booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
-Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
+Route::post('/register', 'FrontController@register');
 
 Route::resource('gallery', 'GalleryController');
 Route::resource('services', 'ServicesController');

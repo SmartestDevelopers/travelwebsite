@@ -286,15 +286,15 @@
               </div>
               <!-- end logo -->
               <p class="footer__desc">
-                Morbi convallis bibendum urna ut viverra. Maecenas consequat
+              Travel Pakistan Now offers unforgettable nature, trekking, and religious tours across Pakistan
               </p>
               <ul class="list-items pt-3">
                 <li>
-                  3015 Grand Ave, Coconut Grove,<br />
-                  Cerrick Way, FL 12345
+                53/2, SIRIRAT ROAD, PATONG, KATHU, <br />
+                PHUKET, THAILAND, PHUKET 83150
                 </li>
-                <li>+123-456-789</li>
-                <li><a href="#">trizen@yourwebsite.com</a></li>
+                <li>+66 82 586 6889</li>
+                <li><a href="#">travelphuketwithuf@gmail.com</a></li>
               </ul>
             </div>
             <!-- end footer-item -->
@@ -398,16 +398,13 @@
             <div class="footer-social-box text-end">
               <ul class="social-profile">
                 <li>
-                  <a href="#"><i class="lab la-facebook-f"></i></a>
+                  <a href="https://web.facebook.com/profile.php?id=61568604338068"><i class="lab la-facebook-f"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="lab la-twitter"></i></a>
+                  <a href="https://www.tiktok.com/@travel_pakistannow?_t=ZS-8vUwz53JFq6&_r=1"><i class="lab la-tiktok"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="lab la-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="lab la-linkedin-in"></i></a>
+                  <a href="https://www.instagram.com/travelpakistannow"><i class="lab la-instagram"></i></a>
                 </li>
               </ul>
             </div>
@@ -423,7 +420,7 @@
           <div class="col-lg-7">
             <div class="copy-right padding-top-30px">
               <p class="copy__desc">
-                &copy; Copyright Trizen <span id="get-year"></span> . Made with
+                &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made with
                 <span class="la la-heart"></span> by
                 <a href="https://themeforest.net/user/techydevs/portfolio"
                   >TechyDevs</a
