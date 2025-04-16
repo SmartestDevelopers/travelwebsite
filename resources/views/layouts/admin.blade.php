@@ -39,9 +39,18 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+                         
                         @guest
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('booking-list') }}">Booking List</a>
+                                </li>
+
+                        <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('contact-list') }}">Contact List</a>
+                                </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link" href="{{ url('login') }}">{{ __('Login') }}</a>
+
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">

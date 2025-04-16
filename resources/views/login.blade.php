@@ -15,12 +15,13 @@
             </div>
             <div class="modal-body">
               <div class="contact-form-action">
-                <form method="post">
+                <form method="post" action="{{url('my_login')}}">
+                  @csrf
                   <div class="input-box">
-                    <label class="label-text">Username</label>
+                    <label class="label-text">Email</label>
                     <div class="form-group">
                       <span class="la la-user form-icon"></span>
-                      <input class="form-control" type="text" name="text" placeholder="Type your username">
+                      <input class="form-control" type="email" name="email" placeholder="Type your Email">
                     </div>
                   </div>
                   <!-- end input-box -->
@@ -28,7 +29,7 @@
                     <label class="label-text">Password</label>
                     <div class="form-group mb-2">
                       <span class="la la-lock form-icon"></span>
-                      <input class="form-control" type="text" name="text" placeholder="Type your password">
+                      <input class="form-control" type="password" name="password" placeholder="Type your password">
                     </div>
                     <div class="d-flex align-items-center justify-content-between">
                       <div class="custom-checkbox mb-0">
@@ -42,7 +43,7 @@
                   </div>
                   <!-- end input-box -->
                   <div class="btn-box pt-3 pb-4">
-                    <button type="button" class="theme-btn w-100">
+                    <button type="submit" class="theme-btn w-100">
                       Login Account
                     </button>
                   </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -24,6 +25,71 @@ class FrontController extends Controller
     public function login()
     {
         return view('login');
+    }
+
+    public function myLogin(Request $request){
+
+        // logic = every programming language starts with logic, 
+        // (1) variable declaration $, var, let, const, 
+        // (2) data types int, float, string, boolean, array, object, null,
+        // (3) operators +, -, *, /, %, ==, !=, ===, !==,
+        // (4) control structures if, else if, else, switch, case, default, for, foreach
+        // (5) functions, methods, classes, objects, inheritance, polymorphism, encapsulation,
+        // (6) arrays, objects, collections, maps, sets, stacks, queues, trees,
+        // (7) exceptions, error handling, try, catch, finally, throw, throw exception,
+        // (8) file input/output, file read, file write, file append, file delete,
+        // (9) database, CRUD, select, insert, update, delete, join, subquery
+        // (10) security, authentication, authorization, encryption, decryption, hashing, salting, password
+        // (11) web development, http, https, http request, http response, http method,
+        // (12) web framework, mvc, mvp, mvvm, rest, soap,
+        // (13) testing, unit testing, integration testing, functional testing, black box testing, whit
+        // box testing, smoke testing, regression testing, sanity testing, exploratory testing, acceptance testing,
+        // (14) deployment, continuous integration, continuous deployment, continuous delivery, continuous monitoring, continuous testing
+        // (15) cloud computing, aws, azure, google cloud, ibm cloud, oracle cloud
+        // (16) machine learning, deep learning, natural language processing, computer vision, reinforcement learning,
+        // (17) data science, data analysis, data visualization, data mining, data warehousing,
+        // (18) big data, hadoop, spark, flink, kafka, cassandra,
+        // (19) cybersecurity, threat modeling, risk assessment, vulnerability assessment, penetration testing, security testing
+        // (20) DevOps, agile, scrum, kanban, lean, six sigma,
+        // (21) project management, gantt, asana, trello, basecamp
+        // (22) agile methodologies, scrum, kanban, lean, six sigma, extreme programming
+        // (23) software development methodologies, waterfall, v model, spiral model, prototyping model,
+        // (24) software testing methodologies, black box testing, white box testing, gray box testing,
+        // (25) software testing techniques, equivalence partitioning, boundary value analysis, state transition testing,
+
+
+        $record = $request->all();
+        $email = $record['email'];
+        $password = $record['password'];
+
+        
+        $loggedInDetail = DB::table('users')->where('email', $email)->first();
+
+
+        if($loggedInDetail){
+            if (Hash::check($password, $loggedInDetail->password)) {
+                // Password matches
+               
+            //    echo "matches success";
+                //return redirect()->back()->with('Success', 'Login successful!');
+                return redirect('home');
+            } else {
+                // Invalid email or password
+    
+                echo "matches Failed";
+                //return redirect()->back()->with('Error', 'Invalid credentials');
+            }
+        }else{
+            echo "Email not exists";
+        }
+        //print_r($loggedInDetail);
+
+
+       // die();
+       
+
+
+
     }
 
     public function becomeLocalExpert(){
@@ -108,24 +174,27 @@ class FrontController extends Controller
     }
 
     public function contactUs(){
+        
         return view('contactUs');
     }
 
 
     public function insertContactRecord(Request $request){
-        // echo "<pre>";
-        // print_r($request->all());
-        // echo "</pre>";
-
         $record = $request->all();
-
-
         $name = $record['name'];
         $email = $record['email'];
+        $phone = $record['phone'];
         $message = $record['message'];
+        // Insert the record into the database
         DB::table('contact_us')->insert(
-            ['name' => $name, 'email' => $email, 'message'=>$message]);
-            return redirect()->back()->with('success','your record has been successfully submited!');
+            ['name' => $name, 
+            'email' => $email, 
+            'phone'=>$phone,
+            'message'=>$message]);
+            
+            // Redirect with a success message
+            return redirect()->back()->with('Success','Your message has been sent successfully!');
+
     }
 
     public function about(){
@@ -144,28 +213,23 @@ class FrontController extends Controller
     }
 
     public function register(Request $request){
-        // echo "<pre>";
-        // print_r($request->all());
-        // echo "</pre>";
 
-        // Validate the form input
-    $request->validate([
-        'username' => 'required|string|max:255',
-        'email' => 'required|email|unique:sign_up,email',
-        'password' => 'required|string|min:8|confirmed',
-    ]);
 
-        // $record = $request->all();
+        $record = $request->all();
 
-        // $username = $record['username'];
-        // $email = $record['email'];
-        // $password = $record['password'];
+        $name = $record['name'];
+        $email = $record['email'];
+        $password = $record['password'];
 
         // Insert the record into the database
-        DB::table('sign_up')->insert(
-            ['username' => $username, 
+        DB::table('users')->insert(
+            ['name' => $name, 
             'email' => $email, 
-            'password'=>$password]);
+            'created_at' => now(),
+            'updated_at' => now(), 
+            'password'=> Hash::make($password)
+            
+            ]);
             
             // Redirect with a success message
             return redirect()->back()->with('Success','You have successfully registered!');

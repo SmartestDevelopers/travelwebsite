@@ -191,17 +191,13 @@
                   </div>
                   <div class="header-right-action">
                     <a
-                      href="#"
+                      href="{{url('/signup')}}"
                       class="theme-btn theme-btn-small theme-btn-transparent me-1"
-                      data-bs-toggle="modal"
-                      data-bs-target="#signupPopupForm"
                       >Sign Up</a
                     >
                     <a
-                      href="#"
+                      href="{{url('/login')}}"
                       class="theme-btn theme-btn-small"
-                      data-bs-toggle="modal"
-                      data-bs-target="#loginPopupForm"
                       >Login</a
                     >
                   </div>
@@ -221,7 +217,7 @@
                 ></a>
                 <div class="logo">
                   <a href="index.html"
-                    ><img src="{{ asset('travel-website/images/logo.png') }}" alt="logo"
+                    ><img src="{{ asset('travelpaksitanlogo.jpg') }}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>

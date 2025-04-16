@@ -30,7 +30,8 @@
               <!-- end hero-content -->
               <div class="search-fields-container">
                 <div class="contact-form-action">
-                  <form action="#" class="row">
+                <form method="POST" action="{{url('/formSubmitFirstStep')}}" class="row">
+                    @csrf
                     <div class="col-lg-3 pe-0">
                       <div class="input-box">
                         <label class="label-text">Destination</label>
@@ -39,6 +40,7 @@
                           <input
                             class="form-control"
                             type="text"
+                            name="destination"
                             placeholder="Where are you going?"
                           />
                         </div>
@@ -150,6 +152,7 @@
                                 <input
                                   type="text"
                                   id="amount"
+                                  name="price"
                                   class="amounts py-0"
                                   readonly
                                 />
@@ -171,12 +174,14 @@
                       </div>
                     </div>
                     <!-- end col-lg-3 -->
-                  </form>
+                  
                   <div class="btn-box pt-2">
-                    <a href="{{url('tour-list')}}" class="theme-btn"
-                      >Search Now</a
-                    >
+                    <input class="theme-btn" type="submit" value="Search Now"/>
+                 
+
                   </div>
+                  </form>
+                  
                 </div>
               </div>
             </div>

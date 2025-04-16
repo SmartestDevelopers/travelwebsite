@@ -62,6 +62,7 @@
           
           <div class="col-lg-8">
             <div class="form-box">
+             
            
               <div class="form-title-wrap">
               @if (\Session::has('success'))

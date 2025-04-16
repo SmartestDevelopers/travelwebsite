@@ -19,11 +19,14 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
 
 Route::get('/', 'FrontController@index');
 
 Route::get('/login', 'FrontController@login');
+Route::post('/my_login', 'FrontController@myLogin');
+
+
 Route::get('/signup', 'FrontController@signup');
 
 Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
@@ -31,6 +34,10 @@ Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/tour-booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
+
+Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
+
+
 Route::post('/register', 'FrontController@register');
 
 Route::resource('gallery', 'GalleryController');
@@ -47,5 +54,6 @@ Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 
 //Route::get('/contactList', [AdminController::class, 'index']);
 
-Route::get('/contactList', 'AdminController@contactList');
+Route::get('/contact-list', 'AdminController@contactList');
+Route::get('/booking-list', 'AdminController@bookingList');
 

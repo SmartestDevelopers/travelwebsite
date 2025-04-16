@@ -92,4 +92,17 @@ class AdminController extends Controller
         
         return view('contact.view', compact('contacts'));
     }
+
+    public function bookingList(){
+        
+        $bookings = DB::table('booking')->get();
+
+        // echo "<pre>";
+        // echo "<h1>Booking List</h1>";
+        // print_r($bookings);
+        // echo "</pre>";
+        // die();
+
+        return view('booking.show', compact('bookings'));
+    }
 }
