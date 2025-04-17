@@ -934,81 +934,113 @@
               </button>
             </div>
             <div class="modal-body">
-              <div class="contact-form-action">
-                <form method="post">
-                  <div class="input-box">
-                    <label class="label-text">Username</label>
-                    <div class="form-group">
-                      <span class="la la-user form-icon"></span>
-                      <input
+            <div class="modal-body">
+    <div class="contact-form-action">
+        <form method="post" action="{{ url('/local-expert/register') }}">
+            @csrf
+            <div class="input-box">
+                <label class="label-text">Full Name</label>
+                <div class="form-group">
+                    <span class="la la-user form-icon"></span>
+                    <input
                         class="form-control"
                         type="text"
-                        name="text"
-                        placeholder="Type your username"
-                      />
-                    </div>
-                  </div>
-                  <!-- end input-box -->
-                  <div class="input-box">
-                    <label class="label-text">Password</label>
-                    <div class="form-group mb-2">
-                      <span class="la la-lock form-icon"></span>
-                      <input
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    />
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Email Address</label>
+                <div class="form-group">
+                    <span class="la la-envelope form-icon"></span>
+                    <input
+                        class="form-control"
+                        type="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    />
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Phone Number</label>
+                <div class="form-group">
+                    <span class="la la-phone form-icon"></span>
+                    <input
                         class="form-control"
                         type="text"
-                        name="text"
-                        placeholder="Type your password"
-                      />
-                    </div>
-                    <div
-                      class="d-flex align-items-center justify-content-between"
-                    >
-                      <div class="custom-checkbox mb-0">
-                        <input
-                          type="checkbox"
-                          class="form-check-input"
-                          id="rememberchb"
-                        />
-                        <label for="rememberchb">Remember me</label>
-                      </div>
-                      <p class="forgot-password">
-                        <a href="recover.html">Forgot Password?</a>
-                      </p>
-                    </div>
-                  </div>
-                  <!-- end input-box -->
-                  <div class="btn-box pt-3 pb-4">
-                    <button type="button" class="theme-btn w-100">
-                      Login Account
-                    </button>
-                  </div>
-                  <div class="action-box text-center">
-                    <p class="font-size-14">Or Login Using</p>
-                    <ul class="social-profile py-3">
-                      <li>
-                        <a href="#" class="bg-5 text-white"
-                          ><i class="lab la-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" class="bg-6 text-white"
-                          ><i class="lab la-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" class="bg-7 text-white"
-                          ><i class="lab la-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" class="bg-5 text-white"
-                          ><i class="lab la-linkedin-in"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </form>
-              </div>
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        required
+                    />
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Location</label>
+                <div class="form-group">
+                    <span class="la la-map-marker form-icon"></span>
+                    <input
+                        class="form-control"
+                        type="text"
+                        name="location"
+                        placeholder="Enter your location"
+                        required
+                    />
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Expertise</label>
+                <div class="form-group">
+                    <span class="la la-briefcase form-icon"></span>
+                    <textarea
+                        class="form-control"
+                        name="expertise"
+                        rows="4"
+                        placeholder="Describe your expertise (e.g., trekking, cultural tours, etc.)"
+                        required
+                    ></textarea>
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Years of Experience</label>
+                <div class="form-group">
+                    <span class="la la-calendar form-icon"></span>
+                    <input
+                        class="form-control"
+                        type="number"
+                        name="experience"
+                        placeholder="Enter your years of experience"
+                        required
+                    />
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="input-box">
+                <label class="label-text">Availability</label>
+                <div class="form-group">
+                    <span class="la la-clock form-icon"></span>
+                    <select class="form-control" name="availability" required>
+                        <option value="full-time">Full-Time</option>
+                        <option value="part-time">Part-Time</option>
+                    </select>
+                </div>
+            </div>
+            <!-- end input-box -->
+            <div class="btn-box pt-3 pb-4">
+                <button type="submit" class="theme-btn w-100">
+                    Register as Local Expert
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
               <!-- end contact-form-action -->
             </div>
           </div>

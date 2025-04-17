@@ -56,4 +56,5 @@ Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 
 Route::get('/contact-list', 'AdminController@contactList');
 Route::get('/booking-list', 'AdminController@bookingList');
+Route::get('/local-list', 'AdminController@localList');
 

@@ -105,4 +105,10 @@ class AdminController extends Controller
 
         return view('booking.show', compact('bookings'));
     }
+
+    public function localList(){
+        $locallists = DB::table('local_experts')->get();
+        
+        return view('becomelocalexpert.local', compact('locallists'));
+    }
 }

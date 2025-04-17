@@ -97,7 +97,34 @@ class FrontController extends Controller
         return view('becomeLocalExpert');
 
     }
+    
+    public function registerLocalExpert(Request $request)
+{
+    $record = $request->all();
+    $name = $record['name'];
+    $email = $record['email'];
+    $phone = $record['phone'];
+    $location = $record['location'];
+    $expertise = $record['expertise'];
+    $experience = $record['experience'];
+    $availability = $record['availability'];
 
+    // Insert the record into the database
+    DB::table('local_experts')->insert([
+        'name' => $request->name,
+        'email' => $request->email,
+        'phone' => $request->phone,
+        'location' => $request->location,
+        'expertise' => $request->expertise,
+        'experience' => $request->experience,
+        'availability' => $request->availability,
+        'created_at' => now(),
+        'updated_at' => now(),
+    ]);
+
+    // Redirect with a success message
+    return redirect()->back()->with('success', 'Your application has been submitted successfully!');
+}
 
     public function tourList(){
         return view('tourList');
