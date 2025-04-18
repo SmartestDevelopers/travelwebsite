@@ -30,14 +30,16 @@ Route::post('/my_login', 'FrontController@myLogin');
 Route::get('/signup', 'FrontController@signup');
 
 Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
+
 Route::post('/local-expert/register', 'FrontController@registerLocalExpert');
+
+
 Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/tour-booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
 
 Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
-
 
 Route::post('/register', 'FrontController@register');
 

@@ -216,8 +216,8 @@
                   ><i class="la la-angle-down"></i
                 ></a>
                 <div class="logo">
-                  <a href="index.html"
-                    ><img src="{{ asset('travelpaksitanlogo.jpg') }}" alt="logo"
+                  <a href="{{url('/')}}"
+                    ><img src="{{ asset('travel-website/images/logotpn.jpg') }}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
