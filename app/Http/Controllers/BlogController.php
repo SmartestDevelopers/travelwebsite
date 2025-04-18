@@ -4,17 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FAQController extends Controller
+class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function showFAQ()
+    public function showBlog()
     {
         //
-        return view('faq');
+        return view('blog');
     }
 
     /**

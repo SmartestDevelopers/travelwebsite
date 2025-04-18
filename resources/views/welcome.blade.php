@@ -381,7 +381,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img.png"
+                            src="{{asset('travel-website/images/airline-img.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -414,7 +414,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img2.png"
+                            src="{{asset('travel-website/images/airline-img2.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -447,7 +447,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img3.png"
+                            src="{{asset('travel-website/images/airline-img3.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -479,7 +479,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img4.png"
+                            src="{{asset('travel-website/images/airline-img4.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -512,7 +512,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img5.png"
+                            src="{{asset('travel-website/images/airline-img5.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -544,7 +544,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img6.png"
+                            src="{{asset('travel-website/images/airline-img6.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -586,7 +586,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img.png"
+                            src="{{asset('travel-website/images/airline-img.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -619,7 +619,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img2.png"
+                            src="{{asset('travel-website/images/airline-img2.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -651,7 +651,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img3.png"
+                            src="{{asset('travel-website/images/airline-img3.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -683,7 +683,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img4.png"
+                            src="{{asset('travel-website/images/airline-img4.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -715,7 +715,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img5.png"
+                            src="{{asset('travel-website/images/airline-img5.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -747,7 +747,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img6.png"
+                            src="{{asset('travel-website/images/airline-img6.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -790,7 +790,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img.png"
+                            src="{{asset('travel-website/images/airline-img.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -822,7 +822,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img2.png"
+                            src="{{asset('travel-website/images/airline-img2.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -854,7 +854,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img3.png"
+                            src="{{asset('travel-website/images/airline-img3.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -886,7 +886,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img4.png"
+                            src="{{asset('travel-website/images/airline-img4.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -918,7 +918,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img5.png"
+                            src="{{asset('travel-website/images/airline-img5.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -950,7 +950,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img6.png"
+                            src="{{asset('travel-website/images/airline-img6.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -992,7 +992,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img.png"
+                            src="{{asset('travel-website/images/airline-img.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1024,7 +1024,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img2.png"
+                            src="{{asset('travel-website/images/airline-img2.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1056,7 +1056,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img3.png"
+                            src="{{asset('travel-website/images/airline-img3.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1088,7 +1088,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img4.png"
+                            src="{{asset('travel-website/images/airline-img4.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1120,7 +1120,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img5.png"
+                            src="{{asset('travel-website/images/airline-img5.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1152,7 +1152,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img6.png"
+                            src="{{asset('travel-website/images/airline-img6.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1194,7 +1194,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img.png"
+                            src="{{asset('travel-website/images/airline-img.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1226,7 +1226,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img2.png"
+                            src="{{asset('travel-website/images/airline-img2.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1258,7 +1258,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img3.png"
+                            src="{{asset('travel-website/images/airline-img3.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1290,7 +1290,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img4.png"
+                            src="{{asset('travel-website/images/airline-img4.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1322,7 +1322,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img5.png"
+                            src="{{asset('travel-website/images/airline-img5.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1355,7 +1355,7 @@
                       <div class="deal-card">
                         <div class="deal-title d-flex align-items-center">
                           <img
-                            src="images/airline-img6.png"
+                            src="{{asset('travel-website/images/airline-img6.png')}}"
                             alt="air-line-img"
                           />
                           <h3 class="deal__title">
@@ -1441,7 +1441,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img1.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img1.jpg')}}" alt="hotel-img" />
                     </a>
                     <span class="badge">Bestseller</span>
                     <div
@@ -1483,7 +1483,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img2.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img2.jpg')}}" alt="hotel-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -1524,7 +1524,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img3.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img3.jpg')}}" alt="hotel-img" />
                     </a>
                     <span class="badge">Featured</span>
                     <div
@@ -1566,7 +1566,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img4.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img4.jpg')}}" alt="hotel-img" />
                     </a>
                     <span class="badge">Popular</span>
                     <div
@@ -1608,7 +1608,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img5.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img5.jpg')}}" alt="hotel-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -1649,7 +1649,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img6.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img6.jpg')}}" alt="hotel-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -1692,7 +1692,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img1.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img1.jpg')}}" alt="hotel-img" />
                     </a>
                     <span class="badge">Bestseller</span>
                     <div
@@ -1734,7 +1734,7 @@
                 <div class="card-item mb-0">
                   <div class="card-img">
                     <a href="hotel-single.html" class="d-block">
-                      <img src="images/img2.jpg" alt="hotel-img" />
+                      <img src="{{asset('travel-website/images/img2.jpg')}}" alt="hotel-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -1815,7 +1815,7 @@
           <div class="col-lg-4">
             <div class="card-item destination-card">
               <div class="card-img">
-                <img src="images/destination-img2.jpg" alt="destination-img" />
+                <img src="{{asset('travel-website/images/destination-img2.jpg')}}" alt="destination-img" />
                 <span class="badge">new york</span>
               </div>
               <div class="card-body">
@@ -1846,12 +1846,12 @@
             <!-- end card-item -->
             <div class="card-item destination-card">
               <div class="card-img">
-                <img src="images/destination-img3.jpg" alt="destination-img" />
+                <img src="{{asset('travel-website/images/destination-img3.jpg')}}" alt="destination-img" />
                 <span class="badge">chicago</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Chicago Cultural Center</a>
+                  <a href="{{url('tour-details')}}">Chicago Cultural Center</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -1880,7 +1880,7 @@
           <div class="col-lg-4">
             <div class="card-item destination-card">
               <div class="card-img">
-                <img src="images/destination-img4.jpg" alt="destination-img" />
+                <img src="{{asset('travel-website/images/destination-img4.jpg')}}" alt="destination-img" />
                 <span class="badge">Hong Kong</span>
               </div>
               <div class="card-body">
@@ -1912,7 +1912,7 @@
             <!-- end card-item -->
             <div class="card-item destination-card">
               <div class="card-img">
-                <img src="images/destination-img5.jpg" alt="destination-img" />
+                <img src="{{asset('travel-website/images/destination-img5.jpg')}}" alt="destination-img" />
                 <span class="badge">Las Vegas</span>
               </div>
               <div class="card-body">
@@ -1946,7 +1946,7 @@
           <div class="col-lg-4">
             <div class="card-item destination-card">
               <div class="card-img">
-                <img src="images/destination-img.jpg" alt="destination-img" />
+                <img src="{{asset('travel-website/images/destination-img.jpg')}}" alt="destination-img" />
                 <span class="badge">Shanghai</span>
               </div>
               <div class="card-body">
@@ -2009,7 +2009,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img.png')}}" alt="car-img" />
                     </a>
                     <span class="badge">Bestseller</span>
                     <div
@@ -2069,7 +2069,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img2.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img2.png')}}" alt="car-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -2130,7 +2130,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img3.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img3.png')}}" alt="car-img" />
                     </a>
                     <span class="badge">featured</span>
                     <div
@@ -2190,7 +2190,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img4.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img4.png')}}" alt="car-img" />
                     </a>
                     <span class="badge">Bestseller</span>
                     <div
@@ -2250,7 +2250,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img5.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img5.png')}}" alt="car-img" />
                     </a>
                     <div
                       class="add-to-wishlist icon-element"
@@ -2309,7 +2309,7 @@
                 <div class="card-item car-card mb-0">
                   <div class="card-img">
                     <a href="car-single.html" class="d-block">
-                      <img src="images/car-img6.png" alt="car-img" />
+                      <img src="{{asset('travel-website/images/car-img6.png')}}" alt="car-img" />
                     </a>
                     <span class="badge">featured</span>
                     <div
@@ -2417,7 +2417,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team8.jpg" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Leroy Bell</h4>
@@ -2443,7 +2443,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team9.jpg" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/team9.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Richard Pam</h4>
@@ -2469,7 +2469,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team10.jpg" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/team10.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Luke Jacobs</h4>
@@ -2495,7 +2495,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team8.jpg" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Chulbul Panday</h4>
@@ -2623,10 +2623,10 @@
               </ul>
               <div class="btn-box padding-top-30px">
                 <a href="#" class="d-inline-block me-3">
-                  <img src="images/app-store.png" alt="" />
+                  <img src="{{asset('travel-website/images/app-store.png')}}" alt="" />
                 </a>
                 <a href="#" class="d-inline-block">
-                  <img src="images/google-play.png" alt="" />
+                  <img src="{{asset('travel-website/images/google-play.png')}}" alt="" />
                 </a>
               </div>
               <!-- end btn-box -->
@@ -2635,7 +2635,7 @@
           <!-- end col-lg-6 -->
           <div class="col-lg-6">
             <div class="mobile-img">
-              <img src="images/mobile-app.png" alt="mobile-img" />
+              <img src="{{asset('travel-website/images/mobile-app.png')}}" alt="mobile-img" />
             </div>
           </div>
           <!-- end col-lg-5 -->
@@ -2660,27 +2660,27 @@
           <div class="col-lg-12">
             <div class="client-logo">
               <div class="client-logo-item">
-                <img src="images/client-logo.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
               <div class="client-logo-item">
-                <img src="images/client-logo2.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo2.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
               <div class="client-logo-item">
-                <img src="images/client-logo3.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo3.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
               <div class="client-logo-item">
-                <img src="images/client-logo4.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo4.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
               <div class="client-logo-item">
-                <img src="images/client-logo5.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo5.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
               <div class="client-logo-item">
-                <img src="images/client-logo6.png" alt="brand image" />
+                <img src="{{asset('travel-website/images/client-logo6.png')}}" alt="brand image" />
               </div>
               <!-- end client-logo-item -->
             </div>
