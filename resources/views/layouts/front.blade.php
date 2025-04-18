@@ -241,7 +241,7 @@
                 </div>
                 <!-- end main-menu-content -->
                 <div class="nav-btn">
-                  <a href="become-local-expert.html" class="theme-btn"
+                  <a href="{{url('become-local-expert')}}" class="theme-btn"
                     >Become Local Expert</a
                   >
                 </div>
