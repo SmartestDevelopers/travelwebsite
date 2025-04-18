@@ -30,6 +30,7 @@ Route::post('/my_login', 'FrontController@myLogin');
 Route::get('/signup', 'FrontController@signup');
 
 Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
+Route::post('/local-expert/register', 'FrontController@registerLocalExpert');
 Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/tour-booking', 'FrontController@tourBooking');
@@ -57,4 +58,5 @@ Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 Route::get('/contact-list', 'AdminController@contactList');
 Route::get('/booking-list', 'AdminController@bookingList');
 Route::get('/local-list', 'AdminController@localList');
+
 

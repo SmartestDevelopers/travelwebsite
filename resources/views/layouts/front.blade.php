@@ -277,7 +277,7 @@
             <div class="footer-item">
               <div class="footer-logo padding-bottom-30px">
                 <a href="index.html" class="foot__logo"
-                  ><img src="{{ asset('travel-website/images/logo.png') }}" alt="logo"
+                  ><img src="{{ asset('travel-website/images/logotpn.png') }}" alt="logo"
                 /></a>
               </div>
               <!-- end logo -->

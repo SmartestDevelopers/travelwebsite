@@ -937,7 +937,7 @@
             <div class="modal-body">
     <div class="contact-form-action">
         <form method="post" action="{{ url('/local-expert/register') }}">
-            @csrf
+    @csrf
             <div class="input-box">
                 <label class="label-text">Full Name</label>
                 <div class="form-group">
