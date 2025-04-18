@@ -45,13 +45,13 @@
                   <ul class="list-items">
                     <li>
                       <a href="#"
-                        ><i class="la la-phone me-1"></i>(123) 123-456</a
+                        ><i class="la la-phone me-1"></i>+66 82 586 6889</a
                       >
                     </li>
                     <li>
                       <a href="#"
                         ><i class="la la-envelope me-1"></i
-                        >trizen@example.com</a
+                        >travelphuketwithuf@gmail.com</a
                       >
                     </li>
                   </ul>
@@ -216,8 +216,8 @@
                   ><i class="la la-angle-down"></i
                 ></a>
                 <div class="logo">
-                  <a href="index.html"
-                    ><img src="{{ asset('travelpaksitanlogo.jpg') }}" alt="logo"
+                  <a href="{{url('/')}}"
+                    ><img src="{{ asset('travel-website/images/logotpn.png') }}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
@@ -305,11 +305,11 @@
                 Company
               </h4>
               <ul class="list-items list--items">
-                <li><a href="about.html">About us</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="{{url('about')}}">About us</a></li>
+                <li><a href="{{url('services')}}">Services</a></li>
                 <li><a href="#">Jobs</a></li>
-                <li><a href="blog-grid.html">News</a></li>
-                <li><a href="contact.html">Support</a></li>
+                <li><a href="{{url('blog')}}">News</a></li>
+                <li><a href="{{url('contact-us')}}">Support</a></li>
                 <li><a href="#">Advertising</a></li>
               </ul>
             </div>
@@ -330,7 +330,7 @@
                 <li><a href="#">USA Hotels</a></li>
                 <li><a href="#">USA Car Hire</a></li>
                 <li><a href="#">Create an Account</a></li>
-                <li><a href="#">Trizen Reviews</a></li>
+                <li><a href="#">Reviews</a></li>
               </ul>
             </div>
             <!-- end footer-item -->
