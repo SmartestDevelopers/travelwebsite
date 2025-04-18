@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -59,4 +60,8 @@ Route::get('/contact-list', 'AdminController@contactList');
 Route::get('/booking-list', 'AdminController@bookingList');
 Route::get('/local-list', 'AdminController@localList');
 
-
+Route::get('/faq', 'FAQController@showFAQ');
+Route::get('/about', 'AboutController@showAbout');
+Route::get('/services', 'ServicesController@showServices');
+Route::get('/gallery', 'GalleryController@showGallery');
+Route::get('/blog', 'BlogController@showBlog');

@@ -10,7 +10,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img.jpg'}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img.jpg')}}" alt="blog-img"/>
                 <div class="post-format icon-element">
                   <i class="la la-photo"></i>
                 </div>
@@ -36,7 +36,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team1.jpg'}}" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team1.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">Leroy Bell</a>
@@ -68,7 +68,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img2.jpg" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img2.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-play"></i>
                 </div>
@@ -93,7 +93,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team2.jpg" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team2.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">Phillip Hunt</a>
@@ -125,7 +125,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img3.jpg'}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img3.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-music"></i>
                 </div>
@@ -150,7 +150,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team3.jpg'}}" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team3.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">Luke Jacobs</a>
@@ -182,7 +182,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img.jpg'}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-photo"></i>
                 </div>
@@ -208,7 +208,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team4.jpg'}}" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team4.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">Alex Smith</a>
@@ -240,7 +240,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img2.jpg'}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img2.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-play"></i>
                 </div>
@@ -265,7 +265,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team5.jpg'}}" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team5.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">Abraham Doe</a>
@@ -297,7 +297,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img3.jpg'}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/blog-img3.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-music"></i>
                 </div>
@@ -322,7 +322,7 @@
               >
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{asset('travel-website/images/small-team6.jpg'}}" alt="testimonial image" />
+                    <img src="{{asset('travel-website/images/small-team6.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <a href="#" class="author__title">David Martin</a>

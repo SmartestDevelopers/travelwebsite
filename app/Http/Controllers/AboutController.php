@@ -11,9 +11,10 @@ class AboutController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function showAbout()
     {
         //
+        return view('about');
     }
 
     /**
