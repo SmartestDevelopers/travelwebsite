@@ -27,7 +27,6 @@ Route::get('/', 'FrontController@index');
 Route::get('/login', 'FrontController@login');
 Route::post('/my_login', 'FrontController@myLogin');
 
-
 Route::get('/signup', 'FrontController@signup');
 
 Route::get('/become-local-expert', 'FrontController@becomeLocalExpert');
@@ -58,9 +57,9 @@ Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 
 //Route::get('/contactList', [AdminController::class, 'index']);
 
-Route::get('/contact-list', 'AdminController@contactList');
-Route::get('/booking-list', 'AdminController@bookingList');
-Route::get('/local-list', 'AdminController@localList');
+Route::get('/admin-contact-list', 'AdminController@contactList');
+Route::get('/admin-booking-list', 'AdminController@bookingList');
+Route::get('/admin-local-list', 'AdminController@localList');
 
 Route::get('/faq', 'FAQController@showFAQ');
 Route::get('/about', 'AboutController@showAbout');
