@@ -1,6 +1,8 @@
 @extends('layouts.front')
 
 @section('content')
+
+
 <!-- 
 <section id="about-us">
 
