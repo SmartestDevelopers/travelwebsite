@@ -207,16 +207,17 @@ class FrontController extends Controller
 
 
     public function insertContactRecord(Request $request){
+
+        
         $record = $request->all();
         $name = $record['name'];
         $email = $record['email'];
-        $phone = $record['phone'];
+       
         $message = $record['message'];
         // Insert the record into the database
         DB::table('contact_us')->insert(
             ['name' => $name, 
             'email' => $email, 
-            'phone'=>$phone,
             'message'=>$message]);
             
             // Redirect with a success message
