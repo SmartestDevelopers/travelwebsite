@@ -418,8 +418,8 @@
               <p class="copy__desc">
                 &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made with
                 <span class="la la-heart"></span> by
-                <a href="https://themeforest.net/user/techydevs/portfolio"
-                  >TechyDevs</a
+                <a href="https://smartestdevelopers.com/"
+                  >SmartestDevelopers</a
                 >
               </p>
             </div>
@@ -431,7 +431,7 @@
               class="copy-right-content d-flex align-items-center justify-content-end padding-top-30px"
             >
               <h3 class="title font-size-15 pe-2">We Accept</h3>
-              <img src="images/payment-img.png" alt="" />
+              <img src="{{asset('travel-website/images/payment-img.png')}}" alt="" />
             </div>
             <!-- end copy-right-content -->
           </div>

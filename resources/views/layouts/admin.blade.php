@@ -430,6 +430,11 @@
               </ul>
             </li>
             <li>
+              <a href="{{url('admin-faq-list')}}"
+                ><i class="la la-users me-2 text-color"></i>FAQs List</a
+              >
+            </li>
+            <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
               </span>

@@ -5,17 +5,38 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
-class AdminController extends Controller
+class BecomeLocalExpertController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function showLocal()
     {
         //
+        return view('becomeLocalExpert');
+        
     }
+
+    public function storeFAQ(Request $request)
+{
+    // $request->validate([
+    //     'name' => 'required|string|max:255',
+    //     'email' => 'required|email|max:255',
+    //     'message' => 'required|string',
+    // ]);
+
+    DB::table('faq')->insert([
+        'name' => $request->name,
+        'email' => $request->email,
+        'message' => $request->message,
+        'created_at' => now(),
+        'updated_at' => now(),
+    ]);
+
+    return redirect()->back()->with('success', 'Your question has been submitted successfully!');
+}
 
     /**
      * Show the form for creating a new resource.
@@ -81,40 +102,5 @@ class AdminController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-
-
-
-
-    public function contactList(){
-        $contacts = DB::table('contact_us')->get();
-        
-        return view('contact.view', compact('contacts'));
-    }
-
-    public function bookingList(){
-        
-        $bookings = DB::table('booking')->get();
-
-        // echo "<pre>";
-        // echo "<h1>Booking List</h1>";
-        // print_r($bookings);
-        // echo "</pre>";
-        // die();
-
-        return view('booking.show', compact('bookings'));
-    }
-
-    public function localList(){
-        $locallists = DB::table('local_experts')->get();
-        
-        return view('becomelocalexpert.local', compact('locallists'));
-    }
-
-    public function faqList(){
-        $faqlists = DB::table('faq')->get();
-        
-        return view('faqs.faqlist', compact('faqlists'));
     }
 }
