@@ -217,7 +217,7 @@
                 ></a>
                 <div class="logo">
                   <a href="{{url('/')}}"
-                    ><img src="{{ asset('travel-website/images/logotpn.png') }}" alt="logo"
+                    ><img src="{{ asset('travel-website/images/logo2.png') }}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
@@ -277,7 +277,7 @@
             <div class="footer-item">
               <div class="footer-logo padding-bottom-30px">
                 <a href="index.html" class="foot__logo"
-                  ><img src="{{ asset('travel-website/images/logotpn.png') }}" alt="logo"
+                  ><img src="{{ asset('travel-website/images/logo2.png') }}" alt="logo"
                 /></a>
               </div>
               <!-- end logo -->
