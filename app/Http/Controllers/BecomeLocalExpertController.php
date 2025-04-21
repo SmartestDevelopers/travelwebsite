@@ -21,18 +21,10 @@ class BecomeLocalExpertController extends Controller
 
     public function storeFAQ(Request $request)
 {
-    // $request->validate([
-    //     'name' => 'required|string|max:255',
-    //     'email' => 'required|email|max:255',
-    //     'message' => 'required|string',
-    // ]);
 
     DB::table('faq')->insert([
-        'name' => $request->name,
-        'email' => $request->email,
-        'message' => $request->message,
-        'created_at' => now(),
-        'updated_at' => now(),
+        'title' => $request->title,
+        'detail' => $request->detail
     ]);
 
     return redirect()->back()->with('success', 'Your question has been submitted successfully!');

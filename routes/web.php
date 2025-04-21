@@ -41,6 +41,10 @@ Route::get('/contact-us', 'FrontController@contactUs');
 
 Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
 
+//Route::post('/insert-contact-record-from-local-expert', 'FrontController@insertContactRecordFromLocalExpert');
+
+
+
 Route::post('/register', 'FrontController@register');
 
 Route::resource('gallery', 'GalleryController');

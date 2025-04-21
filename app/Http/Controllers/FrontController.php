@@ -94,7 +94,8 @@ class FrontController extends Controller
 
     public function becomeLocalExpert(){
 
-        return view('becomeLocalExpert');
+        $faqlists = DB::table('faq')->get();
+        return view('becomeLocalExpert', compact('faqlists'));
 
     }
     
@@ -212,7 +213,6 @@ class FrontController extends Controller
         $record = $request->all();
         $name = $record['name'];
         $email = $record['email'];
-       
         $message = $record['message'];
         // Insert the record into the database
         DB::table('contact_us')->insert(

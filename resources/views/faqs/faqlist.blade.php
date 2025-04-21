@@ -85,9 +85,45 @@
     <div class="dashboard-main-content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-12">
+        <div class="col-md-6">
             <div class="form-box">
               <div class="form-title-wrap">
+                <h3 class="title">FAQs Form</h3>
+              </div>
+              <div class="form-content pb-2">
+                <div class="table-responsive">
+                  <form action="{{url('local-expert/faq')}}" method="POST">
+                    @csrf
+                    <div class="form-group">
+                      <label for="name">Title</label>
+                      <input type="text" class="form-control" id="title" name="title" required>
+                      <small class="form-text text-muted">Please enter your name.</small>
+                      <div class="invalid-feedback">Please provide a valid name.</div>
+                      </div>
+                      
+                        <div class="form-group">
+                        <label for="message">Detail</label>
+                        <textarea class="form-control" id="detail" name="detail" rows="4" required></textarea>
+                        <small class="form-text text-muted">Please enter your message.</small>
+                        <div class="invalid-feedback">Please provide a valid message.</div> 
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <!-- end form-box -->
+          </div>
+
+          <div class="col-md-6">
+            <div class="form-box">
+              <div class="form-title-wrap">
+                 <!-- Success Message -->
+    @if (session('success'))
+        <div class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
+
                 <h3 class="title">FAQs List</h3>
               </div>
               <div class="form-content pb-2">
@@ -96,30 +132,22 @@
                     <thead>
                       <tr>
                         <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Message</th>
+                        <th>Title</th>
+                        <th>Detail</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>John Doe</td>
-                        <td>john.doe@example.com</td>
-                        <td>What is the refund policy?</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Jane Smith</td>
-                        <td>jane.smith@example.com</td>
-                        <td>How can I change my booking?</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>David Martin</td>
-                        <td>david.martin@example.com</td>
-                        <td>Are there any discounts available?</td>
-                      </tr>
+
+                    @foreach ($faqlists as $faq)
+                        <tr>
+                            <td>{{ $faq->id }}</td>
+                            <td>{{ $faq->title }}</td>
+                            <td>{{ $faq->detail }}</td>
+                            <td>Edit | Delete</td>
+                        </tr>
+                    @endforeach
+                      
                     </tbody>
                   </table>
                 </div>
@@ -145,43 +173,5 @@
   <!-- end dashboard-content-wrap -->
 </section>
 
-<div class="container-fluid">
-    <h1 class="mb-4">FAQs List</h1>
 
-    <!-- Success Message -->
-    @if (session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-
-    <div class="form-content pb-2">
-        <div class="table-responsive">
-            <table class="table table-bordered table-striped">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Message</th>
-                        <th>Created At</th>
-                        <th>Updated At</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach ($faqlists as $faq)
-                        <tr>
-                            <td>{{ $faq->id }}</td>
-                            <td>{{ $faq->name }}</td>
-                            <td>{{ $faq->email }}</td>
-                            <td>{{ $faq->message }}</td>
-                            <td>{{ $faq->created_at }}</td>
-                            <td>{{ $faq->updated_at }}</td>
-                        </tr>
-                    @endforeach
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
 @endsection

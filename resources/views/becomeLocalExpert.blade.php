@@ -302,175 +302,49 @@
         <div class="row padding-top-40px">
           <div class="col-lg-7">
             <div class="accordion accordion-item" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="faqHeadingOne">
+             
+
+
+         
+
+
+          @foreach($faqlists as $row )
+
+          <div class="card">
+                <div class="card-header" id="faqHeadingOne{{$row->id}}">
                   <h2 class="mb-0">
                     <button
                       class="btn btn-link d-flex align-items-center justify-content-between"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#faqCollapseOne"
+                      data-bs-target="#faqCollapseOne{{$row->id}}"
                       aria-expanded="true"
-                      aria-controls="faqCollapseOne"
+                      aria-controls="faqCollapseOne{{$row->id}}"
                     >
-                      <span>How will I open a account?</span>
+                      <span>{{$row->title}}</span>
                       <i class="la la-minus"></i>
                       <i class="la la-plus"></i>
                     </button>
                   </h2>
                 </div>
                 <div
-                  id="faqCollapseOne"
+                  id="faqCollapseOne{{$row->id}}"
                   class="collapse show"
-                  aria-labelledby="faqHeadingOne"
+                  aria-labelledby="faqHeadingOne{{$row->id}}"
                   data-bs-parent="#accordionExample"
                 >
                   <div class="card-body">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable.
+                    {{$row->detail}}
                     </p>
                   </div>
                 </div>
               </div>
-              <!-- end card -->
-              <div class="card">
-                <div class="card-header" id="faqHeadingTwo">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link d-flex align-items-center justify-content-between"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faqCollapseTwo"
-                      aria-expanded="false"
-                      aria-controls="faqCollapseTwo"
-                    >
-                      <span>How do I update or extend my availabilities?</span>
-                      <i class="la la-minus"></i>
-                      <i class="la la-plus"></i>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="faqCollapseTwo"
-                  class="collapse"
-                  aria-labelledby="faqHeadingTwo"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- end card -->
-              <div class="card">
-                <div class="card-header" id="faqHeadingThree">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link d-flex align-items-center justify-content-between"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faqCollapseThree"
-                      aria-expanded="false"
-                      aria-controls="faqCollapseThree"
-                    >
-                      <span> How do I increase conversion rate?</span>
-                      <i class="la la-minus"></i>
-                      <i class="la la-plus"></i>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="faqCollapseThree"
-                  class="collapse"
-                  aria-labelledby="faqHeadingThree"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- end card -->
-              <div class="card">
-                <div class="card-header" id="faqHeadingFour">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link d-flex align-items-center justify-content-between"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faqCollapseFour"
-                      aria-expanded="false"
-                      aria-controls="faqCollapseFour"
-                    >
-                      <span> How do I upload products?</span>
-                      <i class="la la-minus"></i>
-                      <i class="la la-plus"></i>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="faqCollapseFour"
-                  class="collapse"
-                  aria-labelledby="faqHeadingFour"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- end card -->
-              <div class="card">
-                <div class="card-header" id="faqHeadingFive">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link d-flex align-items-center justify-content-between"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faqCollapseFive"
-                      aria-expanded="false"
-                      aria-controls="faqCollapseFive"
-                    >
-                      <span>How will I receive my payment?</span>
-                      <i class="la la-minus"></i>
-                      <i class="la la-plus"></i>
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="faqCollapseFive"
-                  class="collapse"
-                  aria-labelledby="faqHeadingFive"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="card-body">
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable.
-                    </p>
-                  </div>
-                </div>
-              </div>
+
+
+
+          @endforeach
+
               <!-- end card -->
             </div>
             <div class="accordion-help-text pt-2">
@@ -491,7 +365,7 @@
                 <!-- form-title-wrap -->
                 <div class="form-content">
                   <div class="contact-form-action">
-                    <form method="post" action="{{ url('/local-expert/faq') }}">
+                    <form method="post" action="{{ url('/insert-contact-record') }}">
                     @csrf
                       <div class="input-box">
                         <label class="label-text">Your Name</label>
