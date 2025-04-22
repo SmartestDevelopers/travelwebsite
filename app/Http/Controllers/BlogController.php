@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class BlogController extends Controller
 {
@@ -16,6 +17,21 @@ class BlogController extends Controller
         //
         return view('blog');
     }
+
+public function storeBlog(Request $request)
+{
+       // Handle the image upload
+    $imagePath = $request->file('image')->store('blogs', 'public');
+
+    // Insert the blog data into the database
+    DB::table('blog')->insert([
+        'title' => $request->title,
+        'image' => $imagePath,
+        'description' => $request->description,
+    ]);
+
+    return redirect()->back()->with('success', 'Blog has been submitted successfully!');
+}
 
     /**
      * Show the form for creating a new resource.

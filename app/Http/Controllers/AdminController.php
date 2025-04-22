@@ -117,4 +117,10 @@ class AdminController extends Controller
         
         return view('faqs.faqlist', compact('faqlists'));
     }
+
+    public function blogList(){
+        $bloglists = DB::table('blog')->get();
+        
+        return view('blog.blogshow', compact('bloglists'));
+    }
 }

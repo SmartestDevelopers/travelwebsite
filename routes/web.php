@@ -65,6 +65,7 @@ Route::get('/admin-contact-list', 'AdminController@contactList');
 Route::get('/admin-booking-list', 'AdminController@bookingList');
 Route::get('/admin-local-list', 'AdminController@localList');
 Route::get('/admin-faq-list', 'AdminController@faqList');
+Route::get('/admin-blog-list', 'AdminController@blogList');
 
 Route::get('/faq', 'FAQController@showFAQ');
 Route::get('/about', 'AboutController@showAbout');
@@ -73,3 +74,4 @@ Route::get('/gallery', 'GalleryController@showGallery');
 Route::get('/blog', 'BlogController@showBlog');
 
 Route::post('/local-expert/faq', 'BecomeLocalExpertController@storeFAQ');
+Route::post('/store-blog', 'BlogController@storeBlog');
