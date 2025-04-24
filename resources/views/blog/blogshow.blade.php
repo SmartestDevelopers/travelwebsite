@@ -60,7 +60,7 @@
           <div class="col-lg-6">
             <div class="breadcrumb-content">
               <div class="section-heading">
-                <h2 class="sec__title font-size-30 text-white">FAQs</h2>
+                <h2 class="sec__title font-size-30 text-white">Blogs</h2>
               </div>
             </div>
             <!-- end breadcrumb-content -->
@@ -71,7 +71,7 @@
               <ul class="list-items">
                 <li><a href="index.html" class="text-white">Home</a></li>
                 <li>Dashboard</li>
-                <li>FAQs</li>
+                <li>Blogs</li>
               </ul>
             </div>
             <!-- end breadcrumb-list -->
@@ -85,46 +85,54 @@
     <div class="dashboard-main-content">
       <div class="container-fluid">
         <div class="row">
-        <div class="col-md-6">
+          <!-- Blog Form -->
+          <div class="col-md-6">
             <div class="form-box">
               <div class="form-title-wrap">
-                <h3 class="title">FAQs Form</h3>
+                <h3 class="title">Blog Form</h3>
               </div>
               <div class="form-content pb-2">
                 <div class="table-responsive">
-                  <form action="{{url('local-expert/faq')}}" method="POST">
+                  <form action="{{ url('store-blog') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                      <label for="name">Title</label>
+                      <label for="title">Title</label>
                       <input type="text" class="form-control" id="title" name="title" required>
-                      <small class="form-text text-muted">Please enter your name.</small>
-                      <div class="invalid-feedback">Please provide a valid name.</div>
-                      </div>
-                      
-                        <div class="form-group">
-                        <label for="message">Detail</label>
-                        <textarea class="form-control" id="detail" name="detail" rows="4" required></textarea>
-                        <small class="form-text text-muted">Please enter your message.</small>
-                        <div class="invalid-feedback">Please provide a valid message.</div> 
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </div>
+                      <small class="form-text text-muted">Enter the blog title.</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="image">Image</label>
+                      <input type="file" class="form-control" id="image" name="image" required>
+                      <small class="form-text text-muted">Upload a blog image.</small>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="description">Description</label>
+                      <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+                      <small class="form-text text-muted">Enter the blog description.</small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
                 </div>
               </div>
             </div>
             <!-- end form-box -->
           </div>
 
+          <!-- Blog List -->
           <div class="col-md-6">
             <div class="form-box">
               <div class="form-title-wrap">
-                 <!-- Success Message -->
-    @if (session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
+                <!-- Success Message -->
+                @if (session('success'))
+                  <div class="alert alert-success">
+                    {{ session('success') }}
+                  </div>
+                @endif
 
-                <h3 class="title">FAQs List</h3>
+                <h3 class="title">Blog List</h3>
               </div>
               <div class="form-content pb-2">
                 <div class="table-responsive">
@@ -133,21 +141,26 @@
                       <tr>
                         <th>ID</th>
                         <th>Title</th>
-                        <th>Detail</th>
+                        <th>Image</th>
+                        <th>Description</th>
                         <th>Action</th>
                       </tr>
                     </thead>
                     <tbody>
-
-                    @foreach ($faqlists as $faq)
+                      @foreach ($bloglists as $blog)
                         <tr>
-                            <td>{{ $faq->id }}</td>
-                            <td>{{ $faq->title }}</td>
-                            <td>{{ $faq->detail }}</td>
-                            <td>Edit | Delete</td>
+                          <td>{{ $blog->id }}</td>
+                          <td>{{ $blog->title }}</td>
+                          <td>
+                            <img src="{{ asset('storage/' . $blog->image) }}" alt="Blog Image" width="50">
+                          </td>
+                          <td>{{ Str::limit($blog->description, 50, '...') }}</td>
+                          <td>
+                            <a href="{{ url('edit-blog/' . $blog->id) }}" class="btn btn-sm btn-warning">Edit</a>
+                            <a href="{{ url('delete-blog/' . $blog->id) }}" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
+                          </td>
                         </tr>
-                    @endforeach
-                      
+                      @endforeach
                     </tbody>
                   </table>
                 </div>
@@ -155,10 +168,9 @@
             </div>
             <!-- end form-box -->
           </div>
-          <!-- end col-lg-12 -->
+          <!-- end col-md-6 -->
         </div>
         <!-- end row -->
-          <!-- end row align-items-center -->
       </div>
       <!-- end container-fluid -->
     </div>
@@ -166,6 +178,5 @@
   </div>
   <!-- end dashboard-content-wrap -->
 </section>
-
 
 @endsection
