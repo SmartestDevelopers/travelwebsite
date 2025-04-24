@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning javascript</title>
+
+    <style>
+        h1#main-heading{
+            color: blue;
+            text-align: center;
+            border:5px solid green;
+            
+            padding:10px 20px 30px 40px; /* top, right, bottom, left */
+            margin:100px;
+        }
+        h1#second-heading{
+            color: red;
+            text-align: center;
+            border:5px solid orange;
+            padding:10px 20px 30px 40px; /* top, right, bottom, left */
+        }
+
+        #myTypedName{
+            border:1px solid red;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="main-heading">Learning HTML</h1>
+
+    <h1 class="main-heading">Second heading</h1>
+
+    <input type="text" class="name" id="name" name="MyName" value="" placeholder="Enter your name">
+    <button onclick="myNewFunction()">Submit</button>
+    <hr/>
+    here what i have type:
+    <div id="myTypedName"> </div>
+
+    <hr/>
+    
+    
+
+
+    <script>
+        
+        
+        function myNewFunction() {
+            console.log('line 39');
+            var name                                        =   document.getElementById('name').value;
+            console.log(name);
+
+            document.getElementById('myTypedName').innerHTML = name; // Fixed variable name
+            console.log('line 43');
+
+        }
+        
+    </script>
+    
+</body>
+</html>
