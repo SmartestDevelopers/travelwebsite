@@ -304,4 +304,68 @@ class FrontController extends Controller
             // Redirect back to the tourList page with a success message
             return redirect('/tour-list')->with('success', 'Tour list submitted successfully!');
         }
+
+        public function tourBooking(){
+            return view('booking');
+        }
+
+
+        public function insertBookingRecord(Request $request)
+        {
+
+            $request->validate([
+    'firstname' => 'required|string|max:255',
+    'lastname' => 'required|string|max:255',
+    'email' => 'required|email|max:255',
+    'phone' => 'required|string|max:20',
+    'address' => 'required|string|max:255',
+    'country' => 'required|string|max:255',
+    'tour' => 'required|string|max:255',
+    'date_from' => 'required|date',
+    'date_to' => 'required|date|after_or_equal:date_from',
+    'adults' => 'required|integer|min:1',
+    'kids' => 'nullable|integer|min:0',
+    'promotional_offers' => 'nullable|boolean', // Optional field
+]);
+            $record = $request->all();
+            $firstname = $record['firstname'];
+            $lastname = $record['lastname'];
+            $email = $record['email'];
+            $phone = $record['phone'];
+            $address = $record['address'];
+            $country = $record['country'];
+            $tour = $record['tour'];
+            $date_from = $record['date_from'];
+            $date_to = $record['date_to'];
+            $adults = $record['adults'];
+            $kids = $record['kids'];
+            $promotional_offers = $record['promotional_offers'];
+    
+
+    // Insert the booking record into the database
+    DB::table('bookings')->insert([
+        'firstname' => $request->input('firstname'),
+        'lastname' => $request->input('lastname'),
+        'email' => $request->input('email'),
+        'phone' => $request->input('phone'),
+        'address' => $request->input('address'),
+        'country' => $request->input('country'),
+        'tour' => $request->input('tour'),
+        'date_from' => $request->input('date_from'),
+        'date_to' => $request->input('date_to'),
+        'adults' => $request->input('adults'),
+        'kids' => $request->input('kids', 0), // Default to 0 if not provided
+        'promotional_offers' => $request->has('promotional_offers') ? 1 : 0, // Save 1 if checked, 0 otherwise
+        'created_at' => now(),
+        'updated_at' => now(),
+    ]);
+
+    // Redirect back with a success message
+    return redirect()->back()->with('success', 'Booking record inserted successfully!');
+}
+        
+
+
+
+
     }

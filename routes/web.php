@@ -36,7 +36,7 @@ Route::post('/local-expert/register', 'FrontController@registerLocalExpert');
 
 Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/tour-details', 'FrontController@tourDetails');
-Route::get('/tour-booking', 'FrontController@tourBooking');
+Route::get('/booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
 
 Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
@@ -77,4 +77,16 @@ Route::get('/blog', 'BlogController@showBlog');
 Route::post('/local-expert/faq', 'BecomeLocalExpertController@storeFAQ');
 Route::post('/store-blog', 'BlogController@storeBlog');
 Route::post('/submit-tour-list', 'FrontController@submitTourList');
+Route::post('/insert-booking-record', 'FrontController@insertBookingRecord');
+
+Route::get('/buddhist-tour', 'TourDetailsController@tourBuddhistDetails');
+Route::get('/sikh-nature-tour', 'TourDetailsController@sikhNatureTour');
+Route::get('/sikh-site-tour', 'TourDetailsController@sikhSiteTour');
+Route::get('/sikh-religious-tour', 'TourDetailsController@sikhReligiousTour');
+Route::get('/skardu-tour', 'TourDetailsController@skarduTour');
+Route::get('/skardu-waterfall-tour', 'TourDetailsController@skarduWaterfallTour');
+Route::get('/hunza-tour', 'TourDetailsController@hunzaValley');
+
+
+
 

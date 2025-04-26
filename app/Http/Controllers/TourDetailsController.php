@@ -3,18 +3,54 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class AdminController extends Controller
+class TourDetailsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function tourBuddhistDetails()
     {
         //
+        return view('buddhisttour');
+    }
+
+    public function sikhNatureTour()
+    {
+        //
+        return view('sikhnaturetour');
+    }
+
+    public function sikhSiteTour()
+    {
+        //
+        return view('siksitetour');
+    }
+    public function sikhReligiousTour()
+    {
+        //
+        return view('sikhreligioustour');
+    }
+
+
+    public function skarduTour()
+    {
+        //
+        return view('skardutour');
+    }
+
+    public function skarduWaterfallTour()
+    {
+        //
+        return view('skarduwaterfall');
+    }
+
+    public function hunzaValley()
+    {
+        //
+        return view('hunzavalley');
     }
 
     /**
@@ -81,54 +117,5 @@ class AdminController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-
-
-
-
-    public function contactList(){
-        $contacts = DB::table('contact_us')->get();
-        
-        return view('contact.view', compact('contacts'));
-    }
-
-    public function bookingList(){
-        
-        $bookings = DB::table('bookings')->get();
-
-        // echo "<pre>";
-        // echo "<h1>Booking List</h1>";
-        // print_r($bookings);
-        // echo "</pre>";
-        // die();
-
-        return view('booking.show', compact('bookings'));
-    }
-
-    public function localList(){
-        $locallists = DB::table('local_experts')->get();
-        
-        return view('becomelocalexpert.local', compact('locallists'));
-    }
-
-    public function faqList(){
-        $faqlists = DB::table('faq')->get();
-        
-        return view('faqs.faqlist', compact('faqlists'));
-    }
-
-    public function blogList(){
-        $bloglists = DB::table('blog')->get();
-        
-        return view('blog.blogshow', compact('bloglists'));
-    }
-    public function adminSubmitTourList()
-    {
-        // Fetch data from the submit_tour_list table
-        $toursearchlists = DB::table('submit_tour_list')->get();
-    
-        // Pass the data to the view
-        return view('Tourlistsearch.toursearch', compact('toursearchlists'));
     }
 }

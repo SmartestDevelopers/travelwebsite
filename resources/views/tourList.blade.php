@@ -65,7 +65,7 @@
                 class="filter-top d-flex align-items-center justify-content-between pb-4"
               >
                 <div>
-                  <h3 class="title font-size-24">2292 Tours found</h3>
+                  <h3 class="title font-size-24">7 Tours found</h3>
                   <p class="font-size-14 line-height-20 pt-1">
                     Book with confidence: No tour booking fees
                   </p>
@@ -749,90 +749,7 @@
           <div class="col-lg-8">
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
-                  <img src="{{url('travel-website/images/img9.jpg')}}" alt="Destination-img" />
-                </a>
-                <div
-                  class="add-to-wishlist icon-element"
-                  data-bs-toggle="tooltip"
-                  data-placement="top"
-                  title="Save for Later"
-                >
-                  <i class="la la-heart-o"></i>
-                </div>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="tour-details.html"
-                    >Empire State Building Admission</a
-                  >
-                </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>Full day</span
-                  >
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-            <div class="card-item card-item-list">
-              <div class="card-img">
-                <a href="tour-details.html" class="d-block">
-                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
-                </a>
-                <div
-                  class="add-to-wishlist icon-element"
-                  data-bs-toggle="tooltip"
-                  data-placement="top"
-                  title="Save for Later"
-                >
-                  <i class="la la-heart-o"></i>
-                </div>
-                <span class="badge">Bestseller</span>
-                <span class="badge badge-ribbon">24% Save</span>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="tour-details.html">Hut on Blue Water Beach Tour</a>
-                </h3>
-                <p class="card-meta">124 Nevada, Las Vegas</p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                    <span class="price__num before-price color-text-3"
-                      >$124.00</span
-                    >
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-            <div class="card-item card-item-list">
-              <div class="card-img">
-                <a href="tour-details.html" class="d-block">
+                <a href="{{url('/buddhist-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -846,14 +763,14 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html"
-                    >Empire State Building Admission</a
+                  <a href="{{url('/buddhist-tour')}}"
+                    >Dharmarajika Stupa, Jaggu Temple, Other Buddhist Sites And Nature Tour </a
                   >
                 </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
+                <p class="card-meta">Taxila, Mingora, Haripur, Lahore Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
+                  <span class="badge text-white">4.9/5</span>
+                  <span class="review__text">Best</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
@@ -864,7 +781,7 @@
                     <span class="price__num">$124.00</span>
                   </p>
                   <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>Full day</span
+                    ><i class="la la-clock-o me-1"></i>10 Days 9 Nights</span
                   >
                 </div>
               </div>
@@ -872,7 +789,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
+                <a href="{{url('/sikh-nature-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -888,12 +805,13 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Hut on Blue Water Beach Tour</a>
+                  <a href="{{url('/sikh-nature-tour')}}">Sikh Religious and Nature Tour
+                  </a>
                 </h3>
-                <p class="card-meta">124 Nevada, Las Vegas</p>
+                <p class="card-meta">Lahore, Haripur, Peshawar, Murree Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
+                  <span class="badge text-white">4.8/5</span>
+                  <span class="review__text">Best</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
@@ -907,7 +825,7 @@
                     >
                   </p>
                   <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
+                    ><i class="la la-clock-o me-1"></i>12 Days 11 Nights</span
                   >
                 </div>
               </div>
@@ -915,7 +833,88 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
+                <a href="{{url('/sikh-site-tour')}}" class="d-block">
+                  <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
+                </a>
+                <div
+                  class="add-to-wishlist icon-element"
+                  data-bs-toggle="tooltip"
+                  data-placement="top"
+                  title="Save for Later"
+                >
+                  <i class="la la-heart-o"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="{{url('/sikh-site-tour')}}">Sikh Religious Sites Tour</a>
+                </h3>
+                <p class="card-meta">Lahore, Nowshera, Hasan Abdal, Peshawar, Haripur Pakistan</p>
+                <div class="card-rating">
+                  <span class="badge text-white">4.7/5</span>
+                  <span class="review__text">Good</span>
+                  <span class="rating__text">(30 Reviews)</span>
+                </div>
+                <div
+                  class="card-price d-flex align-items-center justify-content-between"
+                >
+                  <p>
+                    <span class="price__from">From</span>
+                    <span class="price__num">$124.00</span>
+                  </p>
+                  <span class="tour-hour"
+                    ><i class="la la-clock-o me-1"></i>10 Days 9 Nights</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end card-item -->
+            <div class="card-item card-item-list">
+              <div class="card-img">
+                <a href="{{url('/sikh-religious-tour')}}" class="d-block">
+                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
+                </a>
+                <div
+                  class="add-to-wishlist icon-element"
+                  data-bs-toggle="tooltip"
+                  data-placement="top"
+                  title="Save for Later"
+                >
+                  <i class="la la-heart-o"></i>
+                </div>
+                <span class="badge">Bestseller</span>
+                <span class="badge badge-ribbon">24% Save</span>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">
+                  <a href="{{url('/sikh-religious-tour')}}">Sikh Religious Tour</a>
+                </h3>
+                <p class="card-meta">Lahore, Peshawar, Hasan Abdal Pakistan</p>
+                <div class="card-rating">
+                  <span class="badge text-white">4.7/5</span>
+                  <span class="review__text">Good</span>
+                  <span class="rating__text">(30 Reviews)</span>
+                </div>
+                <div
+                  class="card-price d-flex align-items-center justify-content-between"
+                >
+                  <p>
+                    <span class="price__from">From</span>
+                    <span class="price__num">$100.00</span>
+                    <span class="price__num before-price color-text-3"
+                      >$124.00</span
+                    >
+                  </p>
+                  <span class="tour-hour"
+                    ><i class="la la-clock-o me-1"></i>8 Days 7 Nights</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- end card-item -->
+             <div class="card-item card-item-list">
+              <div class="card-img">
+                <a href="{{url('/skardu-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img11.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -929,9 +928,9 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Golden Gate Seaplane Tour</a>
+                  <a href="{{url('/skardu-tour')}}">Skardu Tour by Road</a>
                 </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
+                <p class="card-meta">Gilgit Baltistan, Skardu, Pakistan</p>
                 <div class="card-rating">
                   <span class="badge text-white">4.4/5</span>
                   <span class="review__text">Average</span>
@@ -945,7 +944,7 @@
                     <span class="price__num">$124.00</span>
                   </p>
                   <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>8 Hours</span
+                    ><i class="la la-clock-o me-1"></i>7 Days 6 Nights</span
                   >
                 </div>
               </div>
@@ -953,7 +952,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
+                <a href="{{url('/skardu-waterfall-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img12.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -968,11 +967,11 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html"
-                    >Two Hours Guided Horseback Tour</a
+                  <a href="{{url('/skardu-waterfall-tour')}}"
+                    >Skardu, Shangrila, Manthoka Waterfall Tour</a
                   >
                 </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
+                <p class="card-meta">Skardu, Shigar Pakistan</p>
                 <div class="card-rating">
                   <span class="badge text-white">4.4/5</span>
                   <span class="review__text">Average</span>
@@ -986,7 +985,7 @@
                     <span class="price__num">$124.00</span>
                   </p>
                   <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>3 days</span
+                    ><i class="la la-clock-o me-1"></i>6 Days</span
                   >
                 </div>
               </div>
@@ -994,7 +993,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="tour-details.html" class="d-block">
+                <a href="{{url('/hunza-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img13.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -1008,9 +1007,9 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Scuba Diving in Boyton Beach</a>
+                  <a href="{{url('/hunza-tour')}}">Hunza Valley By Road</a>
                 </h3>
-                <p class="card-meta">124 Nevada, New Jersey</p>
+                <p class="card-meta">Chilas, Karimabad, Hunza Pakistan</p>
                 <div class="card-rating">
                   <span class="badge text-white">4.4/5</span>
                   <span class="review__text">Average</span>
@@ -1024,13 +1023,13 @@
                     <span class="price__num">$124.00</span>
                   </p>
                   <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>3-5 hours</span
+                    ><i class="la la-clock-o me-1"></i>5 Days</span
                   >
                 </div>
               </div>
             </div>
             <!-- end card-item -->
-            <div class="card-item card-item-list">
+            <!-- <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="tour-details.html" class="d-block">
                   <img src="{{asset('travel-website/images/img14.jpg')}}" alt="Destination-img" />
@@ -1067,20 +1066,20 @@
                   >
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- end card-item -->
           </div>
           <!-- end col-lg-8 -->
-        </div>
+        </div> 
         <!-- end row -->
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-12">
             <div class="btn-box mt-3 text-center">
               <button type="button" class="theme-btn">
                 <i class="la la-refresh me-1"></i>Load More
               </button>
               <p class="font-size-13 pt-2">Showing 1 - 8 of 2292 Tours</p>
-            </div>
+            </div> -->
             <!-- end btn-box -->
           </div>
           <!-- end col-lg-12 -->

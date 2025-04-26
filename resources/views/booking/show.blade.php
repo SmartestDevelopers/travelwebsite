@@ -12,8 +12,8 @@
             <div class="col-lg-12">
               <div class="menu-wrapper">
                 <div class="logo me-5">
-                  <a href="index.html"
-                    ><img src="images/logo2.png" alt="logo"
+                  <a href="{{ url('/welcome') }}"
+                    ><img src="{{ asset('travel-website/images/logo2.png')}}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
@@ -451,24 +451,38 @@
         <thead>
             <tr>
                 <th>id</th>
-                <th>destination</th>
-                <th>duration</th>
-                <th>guest_adults</th>
-                <th>guest_children</th>
-                <th>price</th>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>email</th>
+                <th>phone</th>
+                <th>address</th>
+                <th>country</th>
+                <th>tour</th>
+                <th>date_from</th>
+                <th>date_to</th>
+                <th>adults</th>
+                <th>kids</th>
+                <th>promotional_offers</th>
                 <th>status</th>
-                <th>action</th>
+                <!-- <th>action</th> -->
                 </tr>
         </thead>
         <tbody>
             @foreach($bookings as $booking)
             <tr>
                 <td>{{ $booking->id }}</td>
-                <td>{{ $booking->destination }}</td>
-                <td>{{ $booking->duration }}</td>
-                <td>{{ $booking->guest_adults }}</td>
-                <td>{{ $booking->guest_children }}</td>
-                <td>{{ $booking->price }}</td>
+                <td>{{ $booking->firstname }}</td>
+                <td>{{ $booking->lastname }}</td>
+                <td>{{ $booking->email }}</td>
+                <td>{{ $booking->phone }}</td>
+                <td>{{ $booking->address }}</td>
+                <td>{{ $booking->country }}</td>
+                <td>{{ $booking->tour }}</td>
+                <td>{{ $booking->date_from }}</td>
+                <td>{{ $booking->date_to }}</td>
+                <td>{{ $booking->adults }}</td>
+                <td>{{ $booking->kids }}</td>
+                <td>{{ $booking->promotional_offers }}</td>
                 <td>{{ $booking->status }}</td>
                 
                 <td>
@@ -480,363 +494,16 @@
         </tbody>
         </table>
 
-                      <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Customer Email</th>
-                            <th scope="col">Customer Name</th>
-                            <th scope="col">Package Name</th>
-                            <th scope="col">Total Cost</th>
-                            <th scope="col">Payment Method</th>
-                            <th scope="col">Status</th>
-                            <th scope="col">Action</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">alexsmith@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Alex Smith</h3>
-                              </div>
-                            </td>
-                            <td>Trip of New York – Discover America</td>
-                            <td>$399</td>
-                            <td>PayPal</td>
-                            <td>
-                              <span class="badge text-bg-success py-1 px-2"
-                                >Completed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">markhardson@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Mark Hardson</h3>
-                              </div>
-                            </td>
-                            <td>America’s National Parks with Denver</td>
-                            <td>$399</td>
-                            <td>Payoneer</td>
-                            <td>
-                              <span
-                                class="badge text-bg-warning text-white py-1 px-2"
-                                >Pending</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">davidmartin@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">David Martin</h3>
-                              </div>
-                            </td>
-                            <td>Eastern Discovery Start New Orleans</td>
-                            <td>$399</td>
-                            <td>Skrill</td>
-                            <td>
-                              <span class="badge text-bg-info py-1 px-2"
-                                >On Hold</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">johndoe@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">John Doe</h3>
-                              </div>
-                            </td>
-                            <td>New york to Beijing</td>
-                            <td>$399</td>
-                            <td>PayPal</td>
-                            <td>
-                              <span class="badge text-bg-danger py-1 px-2"
-                                >Delayed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
 
-                          <tr>
-                            <th scope="row">joshpurdil@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Josh Purdila</h3>
-                              </div>
-                            </td>
-                            <td>Los Angeles to San Francisco Express</td>
-                            <td>$399</td>
-                            <td>PayPal</td>
-                            <td>
-                              <span class="badge text-bg-success py-1 px-2"
-                                >Completed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">kamranadi@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Kamran Adi</h3>
-                              </div>
-                            </td>
-                            <td>Istanbul to Dhaka</td>
-                            <td>$399</td>
-                            <td>PayPal</td>
-                            <td>
-                              <span class="badge text-bg-success py-1 px-2"
-                                >Completed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">markdoe@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Mark Doe</h3>
-                              </div>
-                            </td>
-                            <td>London to Dubai</td>
-                            <td>$399</td>
-                            <td>Neteller</td>
-                            <td>
-                              <span class="badge text-bg-success py-1 px-2"
-                                >Completed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                          <tr>
-                            <th scope="row">brendoneich@gmail.com</th>
-                            <td>
-                              <div class="table-content">
-                                <h3 class="title">Brendon Eich</h3>
-                              </div>
-                            </td>
-                            <td>New York: Museum of Modern Art</td>
-                            <td>$399</td>
-                            <td>Stripe</td>
-                            <td>
-                              <span class="badge text-bg-success py-1 px-2"
-                                >Completed</span
-                              >
-                            </td>
-                            <td>
-                              <div class="table-content">
-                                <a
-                                  href="admin-dashboard-orders-details.html"
-                                  class="theme-btn theme-btn-small me-2"
-                                  data-bs-toggle="tooltip"
-                                  data-placement="top"
-                                  title="View details"
-                                  ><i class="la la-eye"></i
-                                ></a>
-                                <a
-                                  href="#"
-                                  class="theme-btn theme-btn-small"
-                                  data-bs-toggle="modal"
-                                  data-bs-target="#modalPopup"
-                                  ><i class="la la-envelope"></i
-                                ></a>
-                              </div>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-                <!-- end form-box -->
-              </div>
-              <!-- end col-lg-12 -->
-            </div>
-            <!-- end row -->
-            <div class="row">
-              <div class="col-lg-12">
-                <nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item">
-                      <a
-                        class="page-link page-link-nav"
-                        href="#"
-                        aria-label="Previous"
-                      >
-                        <span aria-hidden="true"
-                          ><i class="la la-angle-left"></i
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link page-link-nav" href="#">1</a>
-                    </li>
-                    <li class="page-item active">
-                      <a class="page-link page-link-nav" href="#"
-                        >2 <span class="sr-only">(current)</span></a
-                      >
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link page-link-nav" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a
-                        class="page-link page-link-nav"
-                        href="#"
-                        aria-label="Next"
-                      >
-                        <span aria-hidden="true"
-                          ><i class="la la-angle-right"></i
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
             <div class="border-top mt-5"></div>
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="copy-right padding-top-30px">
                   <p class="copy__desc">
-                    &copy; Copyright Trizen <span id="get-year"></span> . Made
+                    &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made
                     with <span class="la la-heart"></span> by
                     <a href="https://themeforest.net/user/techydevs/portfolio"
-                      >TechyDevs</a
+                      >Smartest Developers</a
                     >
                   </p>
                 </div>

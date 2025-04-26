@@ -203,7 +203,7 @@
                   <a href="#" class="list-group-item list-group-item-action">
                     <div class="msg-body d-flex align-items-center">
                       <div class="avatar flex-shrink-0 me-3">
-                        <img src="images/team8.jpg" alt="" />
+                        <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="" />
                       </div>
                       <div class="msg-content w-100">
                         <div
@@ -222,7 +222,7 @@
                   <a href="#" class="list-group-item list-group-item-action">
                     <div class="msg-body d-flex align-items-center">
                       <div class="avatar flex-shrink-0 me-3">
-                        <img src="images/team9.jpg" alt="" />
+                        <img src="{{ asset('travel-website/images/team9.jpg')}}" alt="" />
                       </div>
                       <div class="msg-content w-100">
                         <div
@@ -241,7 +241,7 @@
                   <a href="#" class="list-group-item list-group-item-action">
                     <div class="msg-body d-flex align-items-center">
                       <div class="avatar flex-shrink-0 me-3">
-                        <img src="images/team10.jpg" alt="" />
+                        <img src="{{ asset('travel-website/images/team10.jpg')}}" alt="" />
                       </div>
                       <div class="msg-content w-100">
                         <div
@@ -521,7 +521,7 @@
               >
             </li>
             <li>
-              <a href="index.html"
+              <a href="{{ url('/welcome') }}"
                 ><i class="la la-power-off me-2 text-color-11"></i>Logout</a
               >
             </li>

@@ -41,14 +41,6 @@
                 <div class="btn-box">
                   <a
                     class="theme-btn"
-                    data-fancybox="video"
-                    data-src="https://www.youtube.com/watch?v=0GZSfBuhf6Y"
-                    data-speed="700"
-                  >
-                    <i class="la la-video-camera me-2"></i>Video
-                  </a>
-                  <a
-                    class="theme-btn"
                     data-src="{{asset('travel-website/images/destination-img.jpg')}}"
                     data-fancybox="gallery"
                     data-caption="Showing image - 01"
@@ -97,7 +89,7 @@
     <!-- ================================
     START TOUR DETAIL AREA
 ================================= -->
-    <section class="tour-detail-area padding-bottom-90px">
+<section class="tour-detail-area padding-bottom-90px">
       <div
         class="single-content-navbar-wrap menu section-bg"
         id="single-content-navbar"
@@ -447,7 +439,7 @@
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
                               <img
-                                src="{{asset('travel-website/images/small-img.jpg')}}"
+                                src="images/small-img.jpg"
                                 alt="destination-img"
                               />
                             </div>
@@ -527,7 +519,7 @@
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
                               <img
-                                src="{{asset('travel-website/images/small-img3.jpg')}}"
+                                src="images/small-img3.jpg"
                                 alt="destination-img"
                               />
                             </div>
@@ -560,7 +552,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="{{asset('travel-website/images/destination-img2.jpg')}}"
+                            src="images/destination-img2.jpg"
                             alt="Destination-img"
                           />
                         </div>
@@ -569,7 +561,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="{{asset('travel-website/images/destination-img3.jpg')}}"
+                            src="images/destination-img3.jpg"
                             alt="Destination-img"
                           />
                         </div>
@@ -578,7 +570,7 @@
                       <div class="card-item mb-0">
                         <div class="card-img">
                           <img
-                            src="{asset('travel-website/images/destination-img4.jpg')}}"
+                            src="images/destination-img4.jpg"
                             alt="Destination-img"
                           />
                         </div>
@@ -935,7 +927,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="{{asset(travel-website/images/team8.jpg')}}"
+                            src="images/team8.jpg"
                           />
                         </div>
                         <div class="comment-body">
@@ -991,7 +983,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="{{asset('travel-website/images/team9.jpg')}}"
+                            src="images/team9.jpg"
                           />
                         </div>
                         <div class="comment-body">
@@ -1047,7 +1039,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="{{url('travel-website/images/team10.jpg')}}"
+                            src="images/team10.jpg"
                           />
                         </div>
                         <div class="comment-body">
@@ -1485,15 +1477,10 @@
                   <!-- end sidebar-widget-item -->
                   <div class="btn-box pt-2">
                     <a
-                      href="{{url('tour-booking')}}"
+                       href="{{url('/booking')}}"
                       class="theme-btn text-center w-100 mb-2"
                       ><i class="la la-shopping-cart me-2 font-size-18"></i>Book
                       Now</a
-                    >
-                    <a
-                      href="#"
-                      class="theme-btn text-center w-100 theme-btn-transparent"
-                      ><i class="la la-heart-o me-2"></i>Add to Wishlist</a
                     >
                     <div
                       class="d-flex align-items-center justify-content-between pt-2"
@@ -1638,7 +1625,7 @@
                   <div class="author-content d-flex">
                     <div class="author-img">
                       <a href="#"
-                        ><img src="{{asset('travel-website/images/team8.jpg')}}" alt="testimonial image"
+                        ><img src="images/team8.jpg" alt="testimonial image"
                       /></a>
                     </div>
                     <div class="author-bio">
@@ -1680,7 +1667,6 @@
     <!-- ================================
     END TOUR DETAIL AREA
 ================================= -->
-
     <div class="section-block"></div>
 
     <!-- ================================

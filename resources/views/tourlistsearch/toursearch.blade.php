@@ -12,7 +12,7 @@
               <div class="menu-wrapper">
                 <div class="logo me-5">
                   <a href="index.html"
-                    ><img src="images/logo2.png" alt="logo"
+                    ><img src="{{ asset('travel-website/images/logo2.png')}}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
