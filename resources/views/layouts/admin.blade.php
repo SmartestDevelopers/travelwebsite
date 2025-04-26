@@ -445,6 +445,14 @@
             <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
+                <li>
+              <a href="{{url('admin-submit-tour-list')}}"
+                ><i class="la la-users me-2 text-color"></i>Tour Search List</a
+              >
+            </li>
+            <li>
+              <span class="side-menu-icon toggle-menu-icon">
+                <i class="la la-angle-down"></i>
               </span>
               <a href="admin-dashboard-travellers.html"
                 ><i class="la la-users me-2 text-color-3"></i>Travellers</a

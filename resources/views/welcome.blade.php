@@ -17,179 +17,179 @@
         </div>
         <!-- End background slider -->
         <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="hero-content pb-5 text-center">
-                <div class="section-heading">
-                  <h2 class="sec__title font-size-70 pb-3">Are You Ready...</h2>
-                  <p class="sec__desc font-size-30 font-weight-medium">
-                    To explore new things?
-                  </p>
-                </div>
-              </div>
-              <!-- end hero-content -->
-              <div class="search-fields-container">
-                <div class="contact-form-action">
-                <form method="POST" action="{{url('/formSubmitFirstStep')}}" class="row">
-                    @csrf
-                    <div class="col-lg-3 pe-0">
-                      <div class="input-box">
-                        <label class="label-text">Destination</label>
-                        <div class="form-group">
-                          <span class="la la-map-marker form-icon"></span>
-                          <input
-                            class="form-control"
-                            type="text"
-                            name="destination"
-                            placeholder="Where are you going?"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end col-lg-3 -->
-                    <div class="col-lg-3 pe-0">
-                      <div class="input-box">
-                        <label class="label-text">When</label>
-                        <div class="form-group">
-                          <span class="la la-calendar form-icon"></span>
-                          <input
-                            class="date-range form-control"
-                            type="text"
-                            name="daterange"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end col-lg-3 -->
-                    <div class="col-lg-3 pe-0">
-                      <div class="input-box">
-                        <label class="label-text">Guests</label>
-                        <div class="form-group">
-                          <div class="dropdown dropdown-contain gty-container">
-                            <a
-                              class="dropdown-toggle dropdown-btn"
-                              href="#"
-                              role="button"
-                              data-bs-toggle="dropdown"
-                              aria-expanded="false"
-                              data-bs-auto-close="outside"
-                            >
-                              <span
-                                class="adult"
-                                data-text="Adult"
-                                data-text-multi="Adults"
-                                >0 Adult</span
-                              >
-                              -
-                              <span
-                                class="children"
-                                data-text="Child"
-                                data-text-multi="Children"
-                                >0 Child</span
-                              >
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-wrap">
-                              <div class="dropdown-item">
-                                <div
-                                  class="qty-box d-flex align-items-center justify-content-between"
-                                >
-                                  <label>Adults</label>
-                                  <div class="qtyBtn d-flex align-items-center">
-                                    <div class="qtyDec">
-                                      <i class="la la-minus"></i>
-                                    </div>
-                                    <input
-                                      type="text"
-                                      name="adult_number"
-                                      value="0"
-                                    />
-                                    <div class="qtyInc">
-                                      <i class="la la-plus"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="dropdown-item">
-                                <div
-                                  class="qty-box d-flex align-items-center justify-content-between"
-                                >
-                                  <label>Children</label>
-                                  <div class="qtyBtn d-flex align-items-center">
-                                    <div class="qtyDec">
-                                      <i class="la la-minus"></i>
-                                    </div>
-                                    <input
-                                      type="text"
-                                      name="child_number"
-                                      value="0"
-                                    />
-                                    <div class="qtyInc">
-                                      <i class="la la-plus"></i>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end col-lg-3 -->
-                    <div class="col-lg-3">
-                      <div class="input-box">
-                        <label class="label-text">Price</label>
-                        <div class="form-group">
-                          <div class="dropdown dropdown-contain">
-                            <a
-                              class="dropdown-toggle dropdown-btn"
-                              href="#"
-                              role="button"
-                              data-bs-toggle="dropdown"
-                              aria-expanded="false"
-                              data-bs-auto-close="outside"
-                            >
-                              <div class="price-slider-amount">
-                                <input
-                                  type="text"
-                                  id="amount"
-                                  name="price"
-                                  class="amounts py-0"
-                                  readonly
-                                />
-                              </div>
-                              <!-- end price-slider-amount -->
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-wrap py-4">
-                              <div class="dropdown-item py-0">
-                                <label class="filter__label mb-2"
-                                  >Filter Price</label
-                                >
-                                <div id="slider-range"></div>
-                                <!-- end slider-range -->
-                              </div>
-                            </div>
-                          </div>
-                          <!-- end panel-dropdown -->
-                        </div>
-                      </div>
-                    </div>
-                    <!-- end col-lg-3 -->
-                  
-                  <div class="btn-box pt-2">
-                    <input class="theme-btn" type="submit" value="Search Now"/>
-                 
-
-                  </div>
-                  </form>
-                  
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="hero-content pb-5 text-center">
+        <div class="section-heading">
+          <h2 class="sec__title font-size-70 pb-3">Are You Ready...</h2>
+          <p class="sec__desc font-size-30 font-weight-medium">
+            To explore new things?
+          </p>
+        </div>
+      </div>
+      <!-- end hero-content -->
+      <div class="search-fields-container">
+        <div class="contact-form-action">
+          <form method="POST" action="{{ url('/submit-tour-list') }}" class="row">
+            @csrf
+            <div class="col-lg-3 pe-0">
+              <div class="input-box">
+                <label class="label-text">Destination</label>
+                <div class="form-group">
+                  <span class="la la-map-marker form-icon"></span>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="destination"
+                    placeholder="Where are you going?"
+                    value="{{ session('destination', '') }}"
+                  />
                 </div>
               </div>
             </div>
-            <!-- end col-lg-12 -->
-          </div>
-          <!-- end row -->
+            <!-- end col-lg-3 -->
+            <div class="col-lg-3 pe-0">
+              <div class="input-box">
+                <label class="label-text">When</label>
+                <div class="form-group">
+                  <span class="la la-calendar form-icon"></span>
+                  <input
+                    class="date-range form-control"
+                    type="text"
+                    name="daterange"
+                    value="{{ session('daterange', '') }}"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- end col-lg-3 -->
+            <div class="col-lg-3 pe-0">
+              <div class="input-box">
+                <label class="label-text">Guests</label>
+                <div class="form-group">
+                  <div class="dropdown dropdown-contain gty-container">
+                    <a
+                      class="dropdown-toggle dropdown-btn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      data-bs-auto-close="outside"
+                    >
+                      <span
+                        class="adult"
+                        data-text="Adult"
+                        data-text-multi="Adults"
+                        >{{ session('adult_number', '0') }} Adult</span
+                      >
+                      -
+                      <span
+                        class="children"
+                        data-text="Child"
+                        data-text-multi="Children"
+                        >{{ session('child_number', '0') }} Child</span
+                      >
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-wrap">
+                      <div class="dropdown-item">
+                        <div
+                          class="qty-box d-flex align-items-center justify-content-between"
+                        >
+                          <label>Adults</label>
+                          <div class="qtyBtn d-flex align-items-center">
+                            <div class="qtyDec">
+                              <i class="la la-minus"></i>
+                            </div>
+                            <input
+                              type="text"
+                              name="adult_number"
+                              value="{{ session('adult_number', '0') }}"
+                            />
+                            <div class="qtyInc">
+                              <i class="la la-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="dropdown-item">
+                        <div
+                          class="qty-box d-flex align-items-center justify-content-between"
+                        >
+                          <label>Children</label>
+                          <div class="qtyBtn d-flex align-items-center">
+                            <div class="qtyDec">
+                              <i class="la la-minus"></i>
+                            </div>
+                            <input
+                              type="text"
+                              name="child_number"
+                              value="{{ session('child_number', '0') }}"
+                            />
+                            <div class="qtyInc">
+                              <i class="la la-plus"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end col-lg-3 -->
+            <div class="col-lg-3">
+              <div class="input-box">
+                <label class="label-text">Price</label>
+                <div class="form-group">
+                  <div class="dropdown dropdown-contain">
+                    <a
+                      class="dropdown-toggle dropdown-btn"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      data-bs-auto-close="outside"
+                    >
+                      <div class="price-slider-amount">
+                        <input
+                          type="text"
+                          id="amount"
+                          name="price"
+                          class="amounts py-0"
+                          readonly
+                          value="{{ session('price', '') }}"
+                        />
+                      </div>
+                      <!-- end price-slider-amount -->
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-wrap py-4">
+                      <div class="dropdown-item py-0">
+                        <label class="filter__label mb-2"
+                          >Filter Price</label
+                        >
+                        <div id="slider-range"></div>
+                        <!-- end slider-range -->
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end panel-dropdown -->
+                </div>
+              </div>
+            </div>
+            <!-- end col-lg-3 -->
+
+            <div class="btn-box pt-2">
+              <input class="theme-btn" type="submit" value="Search Now" />
+            </div>
+          </form>
         </div>
-        <!-- end container -->
+      </div>
+    </div>
+    <!-- end col-lg-12 -->
+  </div>
+  <!-- end row -->
+</div>
+<!-- end container -->
       </div>
     </section>
     <!-- end hero-wrapper -->

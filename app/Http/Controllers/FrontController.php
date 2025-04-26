@@ -262,5 +262,46 @@ class FrontController extends Controller
             // Redirect with a success message
             return redirect()->back()->with('Success','You have successfully registered!');
         }
-      
-}
+   
+        public function submitTourList(Request $request)
+        {
+            // Validate the incoming request data
+            $request->validate([
+                'destination' => 'required|string|max:255',
+                'daterange' => 'required|string',
+                'adult_number' => 'required|integer|min:0',
+                'child_number' => 'required|integer|min:0',
+                'price' => 'nullable|string',
+            ]);
+        
+            // Parse the daterange into start_date and end_date
+            $dates = explode(' - ', $request->input('daterange'));
+            $start_date = \Carbon\Carbon::createFromFormat('d/m/Y', trim($dates[0]))->format('Y-m-d');
+            $end_date = \Carbon\Carbon::createFromFormat('d/m/Y', trim($dates[1]))->format('Y-m-d');
+        
+            // Store the data in the session
+            session([
+                'destination' => $request->input('destination'),
+                'start_date' => $start_date,
+                'end_date' => $end_date,
+                'adult_number' => $request->input('adult_number'),
+                'child_number' => $request->input('child_number'),
+                'price' => $request->input('price'),
+            ]);
+        
+            // Insert data into the submit_tour_list table
+            DB::table('submit_tour_list')->insert([
+                'destination' => $request->input('destination'),
+                'start_date' => $start_date,
+                'end_date' => $end_date,
+                'adult_number' => $request->input('adult_number'),
+                'child_number' => $request->input('child_number'),
+                'price' => $request->input('price'),
+                'created_at' => now(),
+                'updated_at' => now(),
+            ]);
+        
+            // Redirect back to the tourList page with a success message
+            return redirect('/tour-list')->with('success', 'Tour list submitted successfully!');
+        }
+    }

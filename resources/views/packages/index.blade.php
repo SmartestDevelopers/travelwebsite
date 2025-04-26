@@ -1,5 +1,8 @@
-<html>
-<head>
+@extends('layouts.admin')
+
+@section('content')
+
+@endsection
     <title>Packages</title>
 </head>
 <body>

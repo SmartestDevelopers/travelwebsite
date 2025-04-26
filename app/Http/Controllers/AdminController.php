@@ -123,4 +123,12 @@ class AdminController extends Controller
         
         return view('blog.blogshow', compact('bloglists'));
     }
+    public function adminSubmitTourList()
+    {
+        // Fetch data from the submit_tour_list table
+        $toursearchlists = DB::table('submit_tour_list')->get();
+    
+        // Pass the data to the view
+        return view('Tourlistsearch.toursearch', compact('toursearchlists'));
+    }
 }
