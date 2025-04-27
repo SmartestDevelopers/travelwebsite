@@ -1,7 +1,54 @@
 @extends('layouts.front')
 
 @section('content')
-
+    <!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+<section class="breadcrumb-area bread-bg">
+      <div class="breadcrumb-wrap">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="breadcrumb-content">
+                <div class="section-heading">
+                  <h2 class="sec__title text-white">Tour Booking</h2>
+                </div>
+              </div>
+              <!-- end breadcrumb-content -->
+            </div>
+            <!-- end col-lg-6 -->
+            <div class="col-lg-6">
+              <div class="breadcrumb-list text-end">
+                <ul class="list-items">
+                  <li><a href="index.html">Home</a></li>
+                  <li>Tour Booking</li>
+                </ul>
+              </div>
+              <!-- end breadcrumb-list -->
+            </div>
+            <!-- end col-lg-6 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end breadcrumb-wrap -->
+      <div class="bread-svg-box">
+        <svg
+          class="bread-svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 10"
+          preserveAspectRatio="none"
+        >
+          <polygon points="100 0 50 10 0 0 0 10 100 10"></polygon>
+        </svg>
+      </div>
+      <!-- end bread-svg -->
+    </section>
+    <!-- end breadcrumb-area -->
+    <!-- ================================
+    END BREADCRUMB AREA
+================================= -->
     <!-- ================================
     START BOOKING AREA
 ================================= -->
@@ -223,7 +270,7 @@
                                                         />
                                                         <label for="agreechb">
                                                             By continuing, you agree to the
-                                                            <a href="#">Terms and Conditions</a>.
+                                                            <a href="{{ url('/terms-and-conditions') }}">Terms and Conditions</a>.
                                                         </label>
                                                     </div>
                                                 </div>
@@ -247,11 +294,136 @@
                     <!-- end form-box -->
                 </div>
                 <!-- end col-lg-8 -->
+                <div class="col-lg-4">
+            <div class="form-box">
+              <div class="form-title-wrap">
+                <h3 class="title">Contact Us</h3>
+              </div>
+              <!-- form-title-wrap -->
+              <div class="form-content">
+                <div class="address-book">
+                  <ul class="list-items contact-address">
+                    <li>
+                      <i class="la la-map-marker icon-element"></i>
+                      <h5 class="title font-size-16 pb-1">Address</h5>
+                      <p class="map__desc">
+                      53/2, SIRIRAT ROAD, PATONG, KATHU, PHUKET, THAILAND, PHUKET 83150
+                      </p>
+                    </li>
+                    <li>
+                      <i class="la la-phone icon-element"></i>
+                      <h5 class="title font-size-16 pb-1">Phone</h5>
+                      <!-- <p class="map__desc">Telephone: 2800 256 508</p> -->
+                      <p class="map__desc">+66 82 586 6889</p>
+                    </li>
+                    <li>
+                      <i class="la la-envelope-o icon-element"></i>
+                      <h5 class="title font-size-16 pb-1">Email</h5>
+                      <p class="map__desc">travelphuketwithuf@gmail.com</p>
+                      <!-- <p class="map__desc">inquiry@trizen.com</p> -->
+                    </li>
+                  </ul>
+                  <ul class="social-profile text-center">
+                    <li>
+                      <a href="https://web.facebook.com/profile.php?id=61568604338068"><i class="lab la-facebook-f"></i></a>
+                    </li>
+                    <!-- <li>
+                      <a href="#"><i class="lab la-twitter"></i></a>
+                    </li> -->
+                    <li>
+                      <a href="https://www.instagram.com/travelpakistannow"><i class="lab la-instagram"></i></a>
+                    </li>
+                    <li>
+                      <!-- <a href="#"><i class="lab la-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lab la-youtube"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+              <!-- end form-content -->
+            </div>
+            <!-- end form-box -->
+          </div>
+          <!-- end col-lg-4 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end contact-area -->
+    <!-- ================================
+    END CONTACT AREA
+================================= -->
             </div>
             <!-- end row -->
         </div>
         <!-- end container -->
     </section>
     <!-- end booking-area -->
+
+      <!-- ================================
+    START CTA AREA
+================================= -->
+<section
+      class="cta-area subscriber-area section-bg-2 padding-top-60px padding-bottom-60px"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="section-heading">
+              <h2 class="sec__title font-size-30 text-white">
+                Subscribe to see Secret Deals
+              </h2>
+            </div>
+            <!-- end section-heading -->
+          </div>
+          <!-- end col-lg-7 -->
+          <div class="col-lg-5">
+            <div class="subscriber-box">
+              <div class="contact-form-action">
+                <form action="{{ url('/subscribe') }}" method="post">
+                  @csrf
+                  <div class="input-box">
+                    <label class="label-text text-white"
+                      >Enter email address</label
+                    >
+                    <div class="form-group mb-0">
+                      <span class="la la-envelope form-icon"></span>
+                      <input
+                        class="form-control"
+                        type="email"
+                        name="email"
+                        placeholder="Email address"
+                      />
+                      <button
+                        class="theme-btn theme-btn-small submit-btn"
+                        type="submit"
+                      >
+                        Subscribe
+                      </button>
+                      <span class="font-size-14 pt-1 text-white-50"
+                        ><i class="la la-lock me-1"></i>Don't worry your
+                        information is safe with us.</span
+                      >
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- end section-heading -->
+          </div>
+          <!-- end col-lg-5 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- end cta-area -->
+    <!-- ================================
+    END CTA AREA
+================================= -->
+
 
 @endsection

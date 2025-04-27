@@ -236,10 +236,18 @@ class FrontController extends Controller
         return view('blog');
     }
 
-    public function gallery(){
-        return view('gallery');
+    // public function gallery(){
+    //     return view('gallery');
+    // }
+
+    public function termsAndConditions(){
+        return view('termsandconditions');
     }
 
+    public function privacyPolicy(){
+        return view('privacypolicy');
+    }
+    
     public function register(Request $request){
 
 

@@ -277,7 +277,7 @@
           <div class="col-lg-3 responsive-column">
             <div class="footer-item">
               <div class="footer-logo padding-bottom-30px">
-                <a href="index.html" class="foot__logo"
+                <a href="{{ url('/')}}" class="foot__logo"
                   ><img src="{{ asset('travel-website/images/logo2.png') }}" alt="logo"
                 /></a>
               </div>
@@ -291,7 +291,7 @@
                 PHUKET, THAILAND, PHUKET 83150
                 </li>
                 <li>+66 82 586 6889</li>
-                <li><a href="#">travelphuketwithuf@gmail.com</a></li>
+                <li><a href="mailto:travelphuketwithuf@gmail.com">travelphuketwithuf@gmail.com</a></li>
               </ul>
             </div>
             <!-- end footer-item -->
@@ -385,9 +385,9 @@
           <div class="col-lg-8">
             <div class="term-box footer-item">
               <ul class="list-items list--items d-flex align-items-center">
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Help Center</a></li>
+                <li><a href="{{ url('/terms-and-conditions')}}">Terms & Conditions</a></li>
+                <li><a href="{{ url('/privacy-policy')}}">Privacy Policy</a></li>
+                <li><a href="{{ url('/contact-us')}}">Help Center</a></li>
               </ul>
             </div>
           </div>
@@ -398,9 +398,9 @@
                 <li>
                   <a href="https://web.facebook.com/profile.php?id=61568604338068"><i class="lab la-facebook-f"></i></a>
                 </li>
-                <li>
+                <!-- <li>
                   <a href="https://www.tiktok.com/@travel_pakistannow?_t=ZS-8vUwz53JFq6&_r=1"><i class="lab la-tiktok"></i></a>
-                </li>
+                </li> -->
                 <li>
                   <a href="https://www.instagram.com/travelpakistannow"><i class="lab la-instagram"></i></a>
                 </li>

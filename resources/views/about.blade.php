@@ -325,9 +325,7 @@
               <div class="testimonial-card">
                 <div class="testi-desc-box">
                   <p class="testi__desc">
-                    Excepteur sint occaecat cupidatat non proident sunt in culpa
-                    officia deserunt mollit anim laborum sint occaecat cupidatat
-                    non proident. Occaecat cupidatat non proident des.
+                  Exploring the ancient Buddhist ruins of Taxila was a profound experience. The guides provided insightful details about the history and significance of the sites. Travel Pakistan Now made the entire trip smooth and memorable. I felt a deep connection to the spiritual heritage of the region. Highly recommended for all travelers!
                   </p>
                 </div>
                 <div class="author-content d-flex align-items-center">
@@ -335,8 +333,8 @@
                     <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
-                    <h4 class="author__title">Leroy Bell</h4>
-                    <span class="author__meta">United States</span>
+                    <h4 class="author__title">Wang Hui</h4>
+                    <span class="author__meta">China</span>
                     <span class="ratings d-flex align-items-center">
                       <i class="la la-star"></i>
                       <i class="la la-star"></i>
@@ -351,9 +349,7 @@
               <div class="testimonial-card">
                 <div class="testi-desc-box">
                   <p class="testi__desc">
-                    Excepteur sint occaecat cupidatat non proident sunt in culpa
-                    officia deserunt mollit anim laborum sint occaecat cupidatat
-                    non proident. Occaecat cupidatat non proident des.
+                  My trip to Pakistan with Travel Pakistan Now was unforgettable! From breathtaking landscapes to cultural experiences, everything was perfectly organized. The team’s attention to detail and hospitality made me feel at home. I highly recommend their services to anyone looking for a unique travel adventure filled with joy and discovery
                   </p>
                 </div>
                 <div class="author-content d-flex align-items-center">
@@ -361,33 +357,7 @@
                     <img src="{{ asset('travel-website/images/team9.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
-                    <h4 class="author__title">Richard Pam</h4>
-                    <span class="author__meta">Canada</span>
-                    <span class="ratings d-flex align-items-center">
-                      <i class="la la-star"></i>
-                      <i class="la la-star"></i>
-                      <i class="la la-star"></i>
-                      <i class="la la-star"></i>
-                      <i class="la la-star"></i>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <!-- end testimonial-card -->
-              <div class="testimonial-card">
-                <div class="testi-desc-box">
-                  <p class="testi__desc">
-                    Excepteur sint occaecat cupidatat non proident sunt in culpa
-                    officia deserunt mollit anim laborum sint occaecat cupidatat
-                    non proident. Occaecat cupidatat non proident des.
-                  </p>
-                </div>
-                <div class="author-content d-flex align-items-center">
-                  <div class="author-img">
-                    <img src="{{ asset('travel-website/images/team10.jpg')}}" alt="testimonial image" />
-                  </div>
-                  <div class="author-bio">
-                    <h4 class="author__title">Luke Jacobs</h4>
+                    <h4 class="author__title">Kathy David</h4>
                     <span class="author__meta">Australia</span>
                     <span class="ratings d-flex align-items-center">
                       <i class="la la-star"></i>
@@ -403,9 +373,31 @@
               <div class="testimonial-card">
                 <div class="testi-desc-box">
                   <p class="testi__desc">
-                    Excepteur sint occaecat cupidatat non proident sunt in culpa
-                    officia deserunt mollit anim laborum sint occaecat cupidatat
-                    non proident. Occaecat cupidatat non proident des.
+                  Visiting the Gurdwara Darbar Sahib in Kartarpur was a deeply spiritual experience. Travel Pakistan Now ensured a seamless journey, allowing me to connect with my roots and faith. The arrangements were excellent, and the team was incredibly supportive throughout the trip. Highly recommended for Sikh pilgrims!
+                  </p>
+                </div>
+                <div class="author-content d-flex align-items-center">
+                  <div class="author-img">
+                    <img src="{{ asset('travel-website/images/team10.jpg')}}" alt="testimonial image" />
+                  </div>
+                  <div class="author-bio">
+                    <h4 class="author__title">Jaswinder Singh</h4>
+                    <span class="author__meta">Canada</span>
+                    <span class="ratings d-flex align-items-center">
+                      <i class="la la-star"></i>
+                      <i class="la la-star"></i>
+                      <i class="la la-star"></i>
+                      <i class="la la-star"></i>
+                      <i class="la la-star"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- end testimonial-card -->
+              <div class="testimonial-card">
+                <div class="testi-desc-box">
+                  <p class="testi__desc">
+                  Visiting the Dharmarajika Stupa and other Buddhist sites was a once-in-a-lifetime experience. Travel Pakistan Now provided excellent service, ensuring every detail was taken care of. The spiritual energy of these places was incredible, and I left with a deeper appreciation for the region’s history and cultural significance.
                   </p>
                 </div>
                 <div class="author-content d-flex align-items-center">
@@ -413,8 +405,8 @@
                     <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
-                    <h4 class="author__title">Chulbul Panday</h4>
-                    <span class="author__meta">Italy</span>
+                    <h4 class="author__title">Tenzin Dorjee</h4>
+                    <span class="author__meta">Tibet</span>
                     <span class="ratings d-flex align-items-center">
                       <i class="la la-star"></i>
                       <i class="la la-star"></i>
@@ -440,125 +432,6 @@
        START TESTIMONIAL AREA
 ================================= -->
 
-    <!-- ================================
-    START INFO AREA
-================================= -->
-    <section
-      class="info-area padding-top-100px padding-bottom-60px text-center"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-heading">
-              <h2 class="sec__title">Our Dedicated Team</h2>
-            </div>
-            <!-- end section-heading -->
-          </div>
-          <!-- end col-lg-12 -->
-        </div>
-        <!-- end row -->
-        <div class="row padding-top-100px">
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/team1.jpg')}}" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">David Roberts</h3>
-                <p class="card-meta">Founder & Director</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/umar.jpg')}}" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Augusta Silva</h3>
-                <p class="card-meta">Chief Operating Officer</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-
-          <!-- end col-lg-4 -->
-           <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/umar.jpg')}}" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Augusta Silva</h3>
-                <p class="card-meta">Chief Operating Officer</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          
-          <!-- end col-lg-4 -->
- 
-         <!-- end col-lg-4 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
-    <!-- end info-area -->
-    <!-- ================================
-    END INFO AREA
-================================= -->
 
 
 @endsection

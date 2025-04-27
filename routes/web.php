@@ -37,6 +37,8 @@ Route::post('/local-expert/register', 'FrontController@registerLocalExpert');
 Route::get('/tour-list', 'FrontController@tourList');
 Route::get('/booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
+Route::get('/terms-and-conditions', 'FrontController@termsAndConditions');
+Route::get('/privacy-policy', 'FrontController@privacyPolicy');
 
 Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
 

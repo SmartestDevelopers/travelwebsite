@@ -223,7 +223,7 @@
               <p class="font-size-15">
                 Do not hesitate to contact us for better help and service.
               </p>
-              <a href="contact.html" class="btn-text font-size-15"
+              <a href="{{ url('contact-us')}}" class="btn-text font-size-15"
                 >Contact us <i class="la la-arrow-right ms-1"></i
               ></a>
             </div>
@@ -500,7 +500,8 @@
           <div class="col-lg-5">
             <div class="subscriber-box">
               <div class="contact-form-action">
-                <form action="#">
+                <form action="{{ url('/subscribe')}}" method="post">
+                  @csrf
                   <div class="input-box">
                     <label class="label-text text-white"
                       >Enter email address</label

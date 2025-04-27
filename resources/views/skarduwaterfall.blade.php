@@ -542,47 +542,7 @@
                   <div class="section-block"></div>
                 </div>
                 <!-- end itinerary -->
-                <div id="photo" class="page-scroll">
-                  <div
-                    class="single-content-item padding-top-40px padding-bottom-40px"
-                  >
-                    <h3 class="title font-size-20">Photo</h3>
-                    <div
-                      class="gallery-carousel carousel-action padding-top-30px"
-                    >
-                      <div class="card-item mb-0">
-                        <div class="card-img">
-                          <img
-                            src="images/destination-img2.jpg"
-                            alt="Destination-img"
-                          />
-                        </div>
-                      </div>
-                      <!-- end card-item -->
-                      <div class="card-item mb-0">
-                        <div class="card-img">
-                          <img
-                            src="images/destination-img3.jpg"
-                            alt="Destination-img"
-                          />
-                        </div>
-                      </div>
-                      <!-- end card-item -->
-                      <div class="card-item mb-0">
-                        <div class="card-img">
-                          <img
-                            src="images/destination-img4.jpg"
-                            alt="Destination-img"
-                          />
-                        </div>
-                      </div>
-                      <!-- end card-item -->
-                    </div>
-                    <!-- end gallery-carousel -->
-                  </div>
-                  <!-- end single-content-item -->
-                  <div class="section-block"></div>
-                </div>
+ 
                 <!-- end photo -->
                 <div id="faq" class="page-scroll">
                   <div
@@ -1508,7 +1468,8 @@
                     <div class="form-box">
                       <div class="form-content">
                         <div class="contact-form-action">
-                          <form method="post">
+                          <form method="post" action="{{ url('/contact-us') }}">
+                            @csrf
                             <div class="input-box">
                               <label class="label-text">Your Name</label>
                               <div class="form-group">
@@ -1554,8 +1515,8 @@
                                   />
                                   <label for="agreeChb"
                                     >I agree with
-                                    <a href="#">Terms of Service</a> and
-                                    <a href="#">Privacy Statement</a>
+                                    <a href="{{ url('/terms-and-conditions') }}">Terms of Service</a> and
+                                    <a href="{{ url('/privacy-policy') }}">Privacy Statement</a>
                                   </label>
                                 </div>
                               </div>
@@ -1602,7 +1563,7 @@
                 </div>
                 <!-- end sidebar-widget -->
                 <div class="sidebar-widget single-content-widget">
-                  <h3 class="title stroke-shape">Get a Question?</h3>
+                  <h3 class="title stroke-shape">Got a Question?</h3>
                   <p class="font-size-14 line-height-24">
                     Do not hesitate to give us a call. We are an expert team and
                     we are happy to talk to you.
@@ -1611,11 +1572,11 @@
                     <ul class="list-items">
                       <li>
                         <i class="la la-phone icon-element me-2"></i
-                        ><a href="#">+ 61 23 8093 3400</a>
+                        ><a href="#">+66 82 586 6889</a>
                       </li>
                       <li>
                         <i class="la la-envelope icon-element me-2"></i
-                        ><a href="mailto:info@trizen.com">info@trizen.com</a>
+                        ><a href="mailto:travelphuketwithuf@gmail.com">travelphuketwithuf@gmail.com</a>
                       </li>
                     </ul>
                   </div>
