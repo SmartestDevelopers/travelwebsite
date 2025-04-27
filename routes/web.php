@@ -35,7 +35,6 @@ Route::post('/local-expert/register', 'FrontController@registerLocalExpert');
 
 
 Route::get('/tour-list', 'FrontController@tourList');
-Route::get('/tour-details', 'FrontController@tourDetails');
 Route::get('/booking', 'FrontController@tourBooking');
 Route::get('/contact-us', 'FrontController@contactUs');
 
