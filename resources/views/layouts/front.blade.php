@@ -190,11 +190,11 @@
                     </div>
                   </div>
                   <div class="header-right-action">
-                    <a
+                    <!-- <a
                       href="{{url('/signup')}}"
                       class="theme-btn theme-btn-small theme-btn-transparent me-1"
                       >Sign Up</a
-                    >
+                    > -->
                     <a
                       href="{{url('/login')}}"
                       class="theme-btn theme-btn-small"
@@ -241,10 +241,10 @@
                   </nav>
                 </div>
                 <!-- end main-menu-content -->
-                <div class="nav-btn">
+                <!-- <div class="nav-btn">
                   <a href="{{url('become-local-expert')}}" class="theme-btn"
                     >Become Local Expert</a
-                  >
+                  > -->
                 </div>
                 <!-- end nav-btn -->
               </div>
@@ -308,10 +308,10 @@
               <ul class="list-items list--items">
                 <li><a href="{{url('about')}}">About us</a></li>
                 <li><a href="{{url('services')}}">Services</a></li>
-                <li><a href="#">Jobs</a></li>
+                <!-- <li><a href="#">Jobs</a></li> -->
                 <li><a href="{{url('blog')}}">News</a></li>
                 <li><a href="{{url('contact-us')}}">Support</a></li>
-                <li><a href="#">Advertising</a></li>
+                <!-- <li><a href="#">Advertising</a></li> -->
               </ul>
             </div>
             <!-- end footer-item -->
@@ -326,12 +326,12 @@
                 Other Links
               </h4>
               <ul class="list-items list--items">
-                <li><a href="#">USA Vacation Packages</a></li>
-                <li><a href="#">USA Flights</a></li>
+                <li><a href="{{ url('/tour-list') }}">Tour Packages</a></li>
+                <!-- <li><a href="#">USA Flights</a></li>
                 <li><a href="#">USA Hotels</a></li>
                 <li><a href="#">USA Car Hire</a></li>
                 <li><a href="#">Create an Account</a></li>
-                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Reviews</a></li> -->
               </ul>
             </div>
             <!-- end footer-item -->
@@ -349,7 +349,8 @@
                 Subscribe for latest updates & promotions
               </p>
               <div class="contact-form-action">
-                <form action="#">
+                <form action="{{ url('/subscribe') }}" method="post">
+                  @csrf
                   <div class="input-box">
                     <label class="label-text">Enter email address</label>
                     <div class="form-group mb-0">

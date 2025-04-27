@@ -260,7 +260,7 @@
                   <a href="#" class="list-group-item list-group-item-action">
                     <div class="msg-body d-flex align-items-center">
                       <div class="avatar flex-shrink-0 me-3">
-                        <img src="images/team11.jpg" alt="" />
+                        <img src="{{ asset('travel-website/images/team11.jpg')}}" alt="" />
                       </div>
                       <div class="msg-content w-100">
                         <div
@@ -292,9 +292,9 @@
                 <a href="user-dashboard-profile.html" class="dropdown-item">
                   <div class="d-flex align-items-center">
                     <div class="avatar avatar-sm flex-shrink-0 me-2">
-                      <img src="images/team8.jpg" alt="team-img" />
+                      <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="team-img" />
                     </div>
-                    <span class="font-size-14 font-weight-bold">Ali Tufan</span>
+                    <span class="font-size-14 font-weight-bold">Admin</span>
                   </div>
                 </a>
                 <div class="list-group drop-reveal-list user-drop-reveal-list">
@@ -324,7 +324,7 @@
                     </div>
                     <!-- end msg-body -->
                   </a>
-                  <a
+                  <!-- <a
                     href="user-dashboard-reviews.html"
                     class="list-group-item list-group-item-action"
                   >
@@ -334,10 +334,10 @@
                           <i class="la la-heart me-2"></i>My Reviews
                         </h3>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- end msg-body -->
-                  </a>
-                  <a
+                  <!-- </a> -->
+                  <!-- <a
                     href="user-dashboard-settings.html"
                     class="list-group-item list-group-item-action"
                   >
@@ -347,12 +347,12 @@
                           <i class="la la-gear me-2"></i>Settings
                         </h3>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- end msg-body -->
                   </a>
                   <div class="section-block"></div>
                   <a
-                    href="index.html"
+                    href="{{ url('/') }}"
                     class="list-group-item list-group-item-action"
                   >
                     <div class="msg-body">
@@ -389,7 +389,7 @@
         <div class="author-content">
           <div class="d-flex align-items-center">
             <div class="author-img avatar-sm">
-              <img src="{{ asset('travel-website/images/logotpn.png') }}" alt="testimonial image" />
+              <img src="{{ asset('travel-website/images/umar.jpg') }}" alt="testimonial image" />
             </div>
             <div class="author-bio">
               <h4 class="author__title">Travel Pakistan Now</h4>
@@ -406,51 +406,56 @@
             </li>
             <li>
               <a href="{{url('admin-contact-list')}}"
-                ><i class="la la-users me-2 text-color"></i>Contact List</a
+                ><i class="la la-list me-2 text-color"></i>Contact List</a
               >
             </li>
             <li>
               <a href="{{url('admin-booking-list')}}"
-                ><i class="la la-shopping-cart me-2 text-color-2"></i>Booking</a
+                ><i class="la la-list me-2 text-color-2"></i>Booking</a
               >
             </li>
-            <li class="page-active">
+            <li>
+              <a href="{{url('admin-subscription-list')}}"
+                ><i class="la la-list me-2 text-color-2"></i>Subscription List</a
+              >
+            </li>
+            <!-- <li class="page-active">
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
               </span>
               <a href="admin-dashboard-orders.html"
                 ><i class="la la-list me-2"></i>Orders</a
-              >
-              <ul class="toggle-drop-menu">
+              > -->
+              <!-- <ul class="toggle-drop-menu">
                 <li>
                   <a href="admin-dashboard-orders-details.html"
                     >Order Details</a
                   >
                 </li>
-              </ul>
-            </li>
+              </ul> -->
+            <!-- </li>
             <li>
               <a href="{{url('admin-faq-list')}}"
                 ><i class="la la-users me-2 text-color"></i>FAQs List</a
               >
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
                 <li>
               <a href="{{url('admin-blog-list')}}"
                 ><i class="la la-users me-2 text-color"></i>Blog</a
               >
-            </li>
+            </li> -->
             <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
                 <li>
               <a href="{{url('admin-submit-tour-list')}}"
-                ><i class="la la-users me-2 text-color"></i>Tour Search List</a
+                ><i class="la la-list me-2 text-color"></i>Tour Search List</a
               >
             </li>
-            <li>
+            <!-- <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
               </span>
@@ -463,9 +468,9 @@
                     >Traveller Details</a
                   >
                 </li>
-              </ul>
-            </li>
-            <li>
+              </ul> 
+            </li> -->
+            <!-- <li>
               <a href="admin-dashboard-visa.html"
                 ><i class="la la-plane me-2 text-color-4"></i>Visa
                 Application</a
@@ -486,9 +491,9 @@
                 ><i class="la la-text-width me-2 text-color-7"></i>Travel
                 Agents</a
               >
-            </li>
+            </li> -->
             <li>
-              <span class="side-menu-icon toggle-menu-icon">
+              <!-- <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
               </span>
               <a href="#"
@@ -502,8 +507,8 @@
                   <a href="admin-dashboard-subscribers.html">Subscribers</a>
                 </li>
               </ul>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <span class="side-menu-icon toggle-menu-icon">
                 <i class="la la-angle-down"></i>
               </span>
@@ -514,14 +519,14 @@
                 <li><a href="admin-countries.html">Countries</a></li>
                 <li><a href="admin-airlines.html">Airlines</a></li>
               </ul>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="admin-dashboard-settings.html"
                 ><i class="la la-cog me-2 text-color-10"></i>Settings</a
               >
-            </li>
+            </li> -->
             <li>
-              <a href="{{ url('/welcome') }}"
+              <a href="{{ url('/') }}"
                 ><i class="la la-power-off me-2 text-color-11"></i>Logout</a
               >
             </li>

@@ -39,7 +39,7 @@
               <div class="breadcrumb-content">
                 <div class="section-heading">
                   <h2 class="sec__title line-height-50 text-white">
-                    Trizen.com is Your Trusted <br />
+                    Travel Pakistan Now is Your Trusted <br />
                     Travel Companion.
                   </h2>
                 </div>
@@ -79,13 +79,12 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item">
               <div class="card-img">
-                <img src="images/img21.jpg" alt="about-img" />
+                <img src="{{ asset('travel-website/images/img21.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
                 <h3 class="card-title mb-2">Who We Are?</h3>
                 <p class="card-text">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper donec luctus.
+                We are committed to showcasing the rich cultural heritage, breathtaking natural landscapes, and deep spiritual sites of Pakistan, offering journeys that are as enriching as they are awe-inspiring.
                 </p>
               </div>
             </div>
@@ -95,13 +94,12 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item">
               <div class="card-img">
-                <img src="images/img22.jpg" alt="about-img" />
+                <img src="{{ asset('travel-website/images/img22.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
                 <h3 class="card-title mb-2">What We Do?</h3>
                 <p class="card-text">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper donec luctus.
+                We pride ourselves on crafting customized itineraries that cater to your specific travel interests. We ensure seamless travel arrangements and exceptional service throughout your journey.
                 </p>
               </div>
             </div>
@@ -111,13 +109,12 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item">
               <div class="card-img">
-                <img src="images/img23.jpg" alt="about-img" />
+                <img src="{{ asset('travel-website/images/img23.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
                 <h3 class="card-title mb-2">Our Mission</h3>
                 <p class="card-text">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper donec luctus.
+                With years of experience and a genuine passion for promoting the beauty and culture of Pakistan, we are dedicated to making your travel experience truly unforgettable.
                 </p>
               </div>
             </div>
@@ -144,25 +141,17 @@
             <div class="section-heading margin-bottom-40px">
               <h2 class="sec__title">About Us</h2>
               <h4 class="title font-size-16 line-height-26 pt-4 pb-2">
-                Since 2002, TRIZEN has been revolutionising the travel industry.
-                Metasearch for travel? No one was doing it. Until we did.
+              Welcome to <strong>Travel Pakistan Now</strong>, your premier travel partner for unforgettable tourism experiences in Pakistan.
               </h4>
               <p class="sec__desc font-size-16 pb-3">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+              We specialize in providing a variety of exceptional travel services designed to meet the needs of every type of traveler:
               </p>
+              <p class="sec__desc font-size-16 pb-3"><strong>Nature Sightseeing:</strong> Immerse yourself in the diverse beauty of Pakistan’s natural wonders. Nature sightseeing tours offer you a chance to explore the country’s most stunning and untouched landscapes.</p>
               <p class="sec__desc font-size-16 pb-3">
-                Many desktop publishing packages and web page editors now use
-                Lorem Ipsum as their default model text, and a search for 'lorem
-                ipsum' will uncover many web sites still in their infancy.
+              <strong>Religious Tourism:</strong>Our religious tourism services take you to sacred sites that reflect the diverse faiths that have shaped the country, from historic mosques and shrines to significant spiritual landmarks that connect you with the soul of Pakistan.
               </p>
               <p class="sec__desc font-size-16">
-                Vivamus a mauris vel nunc tristique volutpat. Aenean eu faucibus
-                enim. Aenean blandit arcu lectus, in cursus elit porttitor non.
-                Curabitur risus eros,
+              <strong>Trekking Adventures:</strong> Whether it’s hiking through the rugged terrains of the Karakoram or the grandeur of the Himalayas, our trekking tours promise unforgettable experiences in the heart of Pakistan’s northern highlands.
               </p>
             </div>
             <!-- end section-heading -->
@@ -171,12 +160,12 @@
           <div class="col-lg-5 ms-auto">
             <div class="image-box about-img-box">
               <img
-                src="images/img24.jpg"
+                src="{{ asset('travel-website/images/img24.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-1"
               />
               <img
-                src="images/img25.jpg"
+                src="{{ asset('travel-website/images/img25.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-2"
               />
@@ -325,8 +314,7 @@
                 What our customers are saying us?
               </h2>
               <p class="sec__desc padding-top-30px">
-                Morbi convallis bibendum urna ut viverra. Maecenas quis
-                consequat libero
+              Our customers provide valuable feedback that helps us improve our services and ensure a memorable travel experience. We take pride in our commitment to customer satisfaction and strive to exceed expectations with every journey.
               </p>
             </div>
             <!-- end section-heading -->
@@ -344,7 +332,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team8.jpg" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Leroy Bell</h4>
@@ -370,7 +358,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team9.jpg" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team9.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Richard Pam</h4>
@@ -396,7 +384,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team10.jpg" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team10.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Luke Jacobs</h4>
@@ -422,7 +410,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="images/team8.jpg" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Chulbul Panday</h4>
@@ -473,7 +461,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item team-card">
               <div class="card-img">
-                <img src="images/team1.jpg" alt="team-img" />
+                <img src="{{ asset('travel-website/images/team1.jpg')}}" alt="team-img" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">David Roberts</h3>
@@ -487,13 +475,7 @@
                     <a href="#"><i class="lab la-facebook-f"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
                     <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
                   </li>
                 </ul>
               </div>
@@ -504,7 +486,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item team-card">
               <div class="card-img">
-                <img src="images/team2.jpg" alt="team-img" />
+                <img src="{{ asset('travel-website/images/umar.jpg')}}" alt="team-img" />
               </div>
               <div class="card-body">
                 <h3 class="card-title">Augusta Silva</h3>
@@ -531,15 +513,17 @@
             </div>
             <!-- end card-item -->
           </div>
+
           <!-- end col-lg-4 -->
+           <!-- end col-lg-4 -->
           <div class="col-lg-4 responsive-column">
             <div class="card-item team-card">
               <div class="card-img">
-                <img src="images/team3.jpg" alt="team-img" />
+                <img src="{{ asset('travel-website/images/umar.jpg')}}" alt="team-img" />
               </div>
               <div class="card-body">
-                <h3 class="card-title">Bernice Lucas</h3>
-                <p class="card-meta">Account Manager</p>
+                <h3 class="card-title">Augusta Silva</h3>
+                <p class="card-meta">Chief Operating Officer</p>
                 <p class="card-text font-size-15 pt-2">
                   Ligula vehicula enenatis semper, magna lorem aliquet lacusin
                   ante dapibus dictum fugats vitaes nemo minima.
@@ -562,100 +546,10 @@
             </div>
             <!-- end card-item -->
           </div>
+          
           <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="images/team4.jpg" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">David Jackson</h3>
-                <p class="card-meta">Sales Support</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="images/team5.jpg" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Kyle Martin</h3>
-                <p class="card-meta">Order Manager</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item team-card">
-              <div class="card-img">
-                <img src="images/team6.jpg" alt="team-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Evan Porter</h3>
-                <p class="card-meta">Head of Design</p>
-                <p class="card-text font-size-15 pt-2">
-                  Ligula vehicula enenatis semper, magna lorem aliquet lacusin
-                  ante dapibus dictum fugats vitaes nemo minima.
-                </p>
-                <ul class="social-profile padding-top-20px pb-2">
-                  <li>
-                    <a href="#"><i class="lab la-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-instagram"></i></a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="lab la-linkedin-in"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
+ 
+         <!-- end col-lg-4 -->
         </div>
         <!-- end row -->
       </div>
@@ -665,40 +559,6 @@
     <!-- ================================
     END INFO AREA
 ================================= -->
-
-    <!-- ================================
-    START CTA AREA
-================================= -->
-    <section class="cta-area cta-bg-2 bg-fixed section-padding text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-heading">
-              <h2 class="sec__title mb-3 text-white">
-                Interested in a career <br />
-                at Trizen.
-              </h2>
-              <p class="sec__desc text-white">
-                We’re always looking for talented individuals and <br />
-                people who are hungry to do great work.
-              </p>
-            </div>
-            <!-- end section-heading -->
-            <div class="btn-box padding-top-35px">
-              <a href="#" class="theme-btn border-0">Join Our Team</a>
-            </div>
-          </div>
-          <!-- end col-lg-12 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
-    <!-- end cta-area -->
-    <!-- ================================
-    END CTA AREA
-================================= -->
-
 
 
 @endsection

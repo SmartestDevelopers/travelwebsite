@@ -131,4 +131,13 @@ class AdminController extends Controller
         // Pass the data to the view
         return view('Tourlistsearch.toursearch', compact('toursearchlists'));
     }
+
+    public function adminSubscriptionList()
+    {
+        // Fetch data from the subscription table
+        $subscriptions = DB::table('subscription_list')->get();
+    
+        // Pass the data to the view
+        return view('subs.subscribeemail', compact('subscriptions'));
+    }
 }

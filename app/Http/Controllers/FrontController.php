@@ -263,6 +263,64 @@ class FrontController extends Controller
             return redirect()->back()->with('Success','You have successfully registered!');
         }
    
+
+    //     public function signupDataInsert(Request $request){
+
+
+    //         $record = $request->all();
+    
+    //         $username = $record['username'];
+    //         $email = $record['email'];
+    //         $password = $record['password'];
+    
+    //         // Insert the record into the database
+    //         DB::table('sign_up')->insert(
+    //             ['username' => $username, 
+    //             'email' => $email, 
+    //             'created_at' => now(),
+    //             'updated_at' => now(), 
+    //             'password'=> Hash::make($password)
+                
+    //             ]);
+                
+    //             // Redirect with a success message
+    //             return redirect()->back()->with('Success','You have successfully registered!');
+    //         }
+
+
+    //         public function userLogin(Request $request){
+    //             $record = $request->all();
+    //     $email = $record['email'];
+    //     $password = $record['password'];
+
+        
+    //     $loggedInDetail = DB::table('sign_up')->where('email', $email)->first();
+
+
+    //     if($loggedInDetail){
+    //         if (Hash::check($password, $loggedInDetail->password)) {
+    //             // Password matches
+               
+    //         //    echo "matches success";
+    //             //return redirect()->back()->with('Success', 'Login successful!');
+    //             return redirect('userdashboard');
+    //         } else {
+    //             // Invalid email or password
+    
+    //             echo "matches Failed";
+    //             //return redirect()->back()->with('Error', 'Invalid credentials');
+    //         }
+    //     }else{
+    //         echo "Email not exists";
+    //     }
+    //     //print_r($loggedInDetail);
+
+
+    //    // die();
+
+    // }
+
+       
         public function submitTourList(Request $request)
         {
             // Validate the incoming request data
@@ -363,9 +421,22 @@ class FrontController extends Controller
     // Redirect back with a success message
     return redirect()->back()->with('success', 'Booking record inserted successfully!');
 }
-        
 
 
-
-
+    public function subscriptionList(Request $request)
+    {
+        $record = $request->all();
+        $email = $record['email'];
+        // Insert the record into the database
+        DB::table('subscription_list')->insert(
+            ['email' => $email, 
+            'created_at' => now(),
+            'updated_at' => now()
+            
+            ]);
+            
+            // Redirect with a success message
+            return redirect()->back()->with('Success','You have successfully subscribed!');
     }
+    
+}

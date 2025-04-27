@@ -23,7 +23,7 @@
     @endif
             <div class="modal-body">
               <div class="contact-form-action">
-                <form method="post" action="{{ url('/register') }}">
+                <form method="post" action="{{ url('/signup-data-insert') }}">
                 @csrf
                   <div class="input-box">
                     <label class="label-text">Username</label>

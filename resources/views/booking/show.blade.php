@@ -12,7 +12,7 @@
             <div class="col-lg-12">
               <div class="menu-wrapper">
                 <div class="logo me-5">
-                  <a href="{{ url('/welcome') }}"
+                  <a href="{{ url('/') }}"
                     ><img src="{{ asset('travel-website/images/logo2.png')}}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
@@ -184,7 +184,7 @@
                             >
                               <div class="msg-body d-flex align-items-center">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="images/team8.jpg" alt="" />
+                                  <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="" />
                                 </div>
                                 <div class="msg-content w-100">
                                   <div
@@ -289,10 +289,10 @@
                         >
                           <div class="d-flex align-items-center">
                             <div class="avatar avatar-sm flex-shrink-0 me-2">
-                              <img src="images/team8.jpg" alt="team-img" />
+                              <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="team-img" />
                             </div>
                             <span class="font-size-14 font-weight-bold"
-                              >Royel Admin</span
+                              > Admin</span
                             >
                           </div>
                         </a>
@@ -409,9 +409,8 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-list text-end">
                   <ul class="list-items">
-                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="{{ url('/home')}}" class="text-white">Home</a></li>
                     <li>Dashboard</li>
-                    <li>Orders</li>
                   </ul>
                 </div>
                 <!-- end breadcrumb-list -->
@@ -463,8 +462,7 @@
                 <th>adults</th>
                 <th>kids</th>
                 <th>promotional_offers</th>
-                <th>status</th>
-                <!-- <th>action</th> -->
+                <th>action</th>
                 </tr>
         </thead>
         <tbody>
@@ -483,7 +481,6 @@
                 <td>{{ $booking->adults }}</td>
                 <td>{{ $booking->kids }}</td>
                 <td>{{ $booking->promotional_offers }}</td>
-                <td>{{ $booking->status }}</td>
                 
                 <td>
                     <a href="{{ url('booking.edit', $booking->id) }}">Edit</a>
@@ -502,7 +499,7 @@
                   <p class="copy__desc">
                     &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made
                     with <span class="la la-heart"></span> by
-                    <a href="https://themeforest.net/user/techydevs/portfolio"
+                    <a href="https://smartestdevelopers.com/"
                       >Smartest Developers</a
                     >
                   </p>
@@ -515,9 +512,6 @@
                   <ul class="social-profile">
                     <li>
                       <a href="#"><i class="lab la-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lab la-twitter"></i></a>
                     </li>
                     <li>
                       <a href="#"><i class="lab la-instagram"></i></a>

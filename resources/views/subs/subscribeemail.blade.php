@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-
   <!-- ================================
     START DASHBOARD AREA
 ================================= -->
@@ -15,7 +13,7 @@
               <div class="menu-wrapper">
                 <div class="logo me-5">
                   <a href="{{ url('/') }}"
-                    ><img src="{{ asset('travel-website/images/logo2.png') }}" alt="logo"
+                    ><img src="{{ asset('travel-website/images/logo2.png')}}" alt="logo"
                   /></a>
                   <div class="menu-toggler">
                     <i class="la la-bars"></i>
@@ -230,7 +228,7 @@
                             >
                               <div class="msg-body d-flex align-items-center">
                                 <div class="avatar flex-shrink-0 me-3">
-                                  <img src="images/team10.jpg" alt="" />
+                                  <img src="{{ asset('travel-website/images/team10.jpg')}}" alt="" />
                                 </div>
                                 <div class="msg-content w-100">
                                   <div
@@ -364,7 +362,7 @@
                             </a>
                             <div class="section-block"></div>
                             <a
-                              href="{{ url('/') }}"
+                              href="index.html"
                               class="list-group-item list-group-item-action"
                             >
                               <div class="msg-body">
@@ -402,7 +400,7 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-content">
                   <div class="section-heading">
-                    <h2 class="sec__title font-size-30 text-white">Contact List</h2>
+                    <h2 class="sec__title font-size-30 text-white">Subscription</h2>
                   </div>
                 </div>
                 <!-- end breadcrumb-content -->
@@ -411,9 +409,8 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-list text-end">
                   <ul class="list-items">
-                    <li><a href="{{url('/home')}}" class="text-white">Home</a></li>
+                    <li><a href="{{ url('/home')}}" class="text-white">Home</a></li>
                     <li>Dashboard</li>
-                    <li>Contact List</li>
                   </ul>
                 </div>
                 <!-- end breadcrumb-list -->
@@ -434,7 +431,7 @@
                       class="d-flex align-items-center justify-content-between"
                     >
                       <div>
-                        <h3 class="title">Contact Lists</h3>
+                        <h3 class="title">Subscription Lists</h3>
                         <p class="font-size-14">Showing 1 to 8 of 20 results</p>
                       </div>
                       <div class="select-contain select2-container-wrapper">
@@ -449,78 +446,32 @@
                   <div class="form-content">
                     <div class="table-form table-responsive">
 
-                    <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Message</th>
-                    <th>Created At</th>
+                    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>email</th>
+                <!-- <th>status</th> -->
+                <th>action</th>
                 </tr>
-            </thead>
-            <tbody>
-                @foreach($contacts as $contact)
-                    <tr>
-                        <td>{{ $contact->id }}</td>
-                        <td>{{ $contact->name }}</td>
-                        <td>{{ $contact->email }}</td>
-                        <td>{{ $contact->message }}</td>
-                        <td>{{ $contact->created_at }}</td>
-                    </tr>
-                @endforeach
-            </tbody>
-        </table>  
+        </thead>
+        <tbody>
+            @foreach($subscriptions as $subscription)
+            <tr>
+                <td>{{ $subscription->id }}</td>
+                <td>{{ $subscription->email }}</td>
 
-        
-                <!-- end form-box -->
-              </div>
-              <!-- end col-lg-12 -->
-            </div>
-            <!-- end row -->
-            <div class="row">
-              <div class="col-lg-12">
-                <nav aria-label="Page navigation example">
-                  <ul class="pagination">
-                    <li class="page-item">
-                      <a
-                        class="page-link page-link-nav"
-                        href="#"
-                        aria-label="Previous"
-                      >
-                        <span aria-hidden="true"
-                          ><i class="la la-angle-left"></i
-                        ></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link page-link-nav" href="#">1</a>
-                    </li>
-                    <li class="page-item active">
-                      <a class="page-link page-link-nav" href="#"
-                        >2 <span class="sr-only">(current)</span></a
-                      >
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link page-link-nav" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a
-                        class="page-link page-link-nav"
-                        href="#"
-                        aria-label="Next"
-                      >
-                        <span aria-hidden="true"
-                          ><i class="la la-angle-right"></i
-                        ></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
+                
+                <td>
+                    <a href="{{ url('subs.edit', $subscription->id) }}">Edit</a>
+                    <a href="{{ url('subs.destroy', $subscription->id) }}">Delete</a>
+                    </td>
+                    </tr>
+            @endforeach
+        </tbody>
+        </table>
+
+
             <div class="border-top mt-5"></div>
             <div class="row align-items-center">
               <div class="col-lg-7">
@@ -528,7 +479,7 @@
                   <p class="copy__desc">
                     &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made
                     with <span class="la la-heart"></span> by
-                    <a href="https://smartestdevelopers.com/" target="_blank"
+                    <a href="https://smartestdevelopers.com/"
                       >Smartest Developers</a
                     >
                   </p>
@@ -566,5 +517,7 @@
     <!-- ================================
     END DASHBOARD AREA
 ================================= -->
+
+
 
 @endsection

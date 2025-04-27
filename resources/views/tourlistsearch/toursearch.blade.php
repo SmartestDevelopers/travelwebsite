@@ -288,10 +288,10 @@
                         >
                           <div class="d-flex align-items-center">
                             <div class="avatar avatar-sm flex-shrink-0 me-2">
-                              <img src="images/team8.jpg" alt="team-img" />
+                              <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="team-img" />
                             </div>
                             <span class="font-size-14 font-weight-bold"
-                              >Super Admin</span
+                              >Admin</span
                             >
                           </div>
                         </a>
@@ -399,7 +399,7 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-content">
                   <div class="section-heading">
-                    <h2 class="sec__title font-size-30 text-white">Orders</h2>
+                    <h2 class="sec__title font-size-30 text-white">Tour Searches</h2>
                   </div>
                 </div>
                 <!-- end breadcrumb-content -->
@@ -408,9 +408,9 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-list text-end">
                   <ul class="list-items">
-                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="{{ url('/')}}" class="text-white">Home</a></li>
                     <li>Dashboard</li>
-                    <li>Orders</li>
+                    <li>Tour Searches</li>
                   </ul>
                 </div>
                 <!-- end breadcrumb-list -->
@@ -430,10 +430,10 @@
                     <div
                       class="d-flex align-items-center justify-content-between"
                     >
-                      <div>
+                      <!-- <div>
                         <h3 class="title">Order Lists</h3>
                         <p class="font-size-14">Showing 1 to 8 of 20 results</p>
-                      </div>
+                      </div> -->
                       <div class="select-contain select2-container-wrapper">
                         <select class="select-contain-select">
                           <option value="1">Any Time</option>
@@ -456,8 +456,8 @@
                 <th>guest_adults</th>
                 <th>guest_children</th>
                 <th>price</th>
-                <th>status</th>
-                <th>action</th>
+                <!-- <th>status</th>
+                <th>action</th> -->
                 </tr>
         </thead>
         <tbody>

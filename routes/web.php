@@ -65,6 +65,7 @@ Route::get('/admin-booking-list', 'AdminController@bookingList');
 Route::get('/admin-local-list', 'AdminController@localList');
 Route::get('/admin-faq-list', 'AdminController@faqList');
 Route::get('/admin-blog-list', 'AdminController@blogList');
+Route::get('/admin-subscription-list',  'AdminController@adminSubscriptionList');
 Route::get('/admin-submit-tour-list',  'AdminController@adminSubmitTourList');
 
 Route::get('/faq', 'FAQController@showFAQ');
@@ -76,6 +77,7 @@ Route::get('/blog', 'BlogController@showBlog');
 Route::post('/local-expert/faq', 'BecomeLocalExpertController@storeFAQ');
 Route::post('/store-blog', 'BlogController@storeBlog');
 Route::post('/submit-tour-list', 'FrontController@submitTourList');
+Route::post('/subscribe', 'FrontController@subscriptionList');
 Route::post('/insert-booking-record', 'FrontController@insertBookingRecord');
 
 Route::get('/buddhist-tour', 'TourDetailsController@tourBuddhistDetails');
