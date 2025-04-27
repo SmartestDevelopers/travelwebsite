@@ -720,8 +720,9 @@
                   >
                     <h3 class="title font-size-20">Location</h3>
                     <div class="gmaps padding-top-30px">
+                   
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3220582.101712651!2d111.72032468736893!3d37.974802328116944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e4!4m5!1s0x3676dd556edbe6e9%3A0x12fdd98581592320!2sLinfen%2C%20Shanxi%2C%20China!3m2!1d36.088004999999995!2d111.518975!4m5!1s0x35f05296e7142cb9%3A0xb9625620af0fa98a!2sBeijing%2C%20China!3m2!1d39.904199899999995!2d116.40739629999999!5e0!3m2!1sen!2sin!4v1589443024919!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7115970.846126678!2d65.71685509199756!3d29.440627148271922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391bfd095aa4b3d7%3A0xadc48e7645079fdd!2sGurdwara%20Sri%20Darbar%20Sahib!5e0!3m2!1sen!2s!4v1745775563151!5m2!1sen!2s"
                         allowfullscreen=""
                         aria-hidden="false"
                         tabindex="0"
@@ -1632,134 +1633,5 @@
 ================================= -->
     <div class="section-block"></div>
 
-    <!-- ================================
-    START RELATE TOUR AREA
-================================= -->
-    <section class="related-tour-area section--padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-heading text-center">
-              <h2 class="sec__title">You might also like</h2>
-            </div>
-            <!-- end section-heading -->
-          </div>
-          <!-- end col-lg-12 -->
-        </div>
-        <!-- end row -->
-        <div class="row padding-top-50px">
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item trending-card">
-              <div class="card-img">
-                <a href="{{url('tour-details')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
-                </a>
-                <span class="badge">Bestseller</span>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{url('tour-details')}}"
-                    >Empire State Building Admission</a
-                  >
-                </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__num">$124.00</span>
-                  </p>
-                  <a href="{{url('tour-details')}}" class="btn-text"
-                    >View details<i class="la la-angle-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item trending-card">
-              <div class="card-img">
-                <a href="{{url('tour-details')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
-                  <span class="badge badge-ribbon">Save 24%</span>
-                </a>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{url('tour-details')}}">Hut on Blue Water Beach Tour</a>
-                </h3>
-                <p class="card-meta">124 Nevada, Las Vegas</p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Superb</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__num">$100.00</span>
-                    <span class="price__num before-price color-text-3"
-                      >$124.00</span
-                    >
-                  </p>
-                  <a href="{{url('tour-details')}}" class="btn-text"
-                    >View details<i class="la la-angle-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item trending-card">
-              <div class="card-img">
-                <a href="{{url('tour-details')}}" class="d-block">
-                  <img src="{{asset('travel-website/images//img11.jpg')}}" alt="Destination-img" />
-                </a>
-                <span class="badge">Featured</span>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">
-                  <a href="{{url('tour-details')}}">Golden Gate Seaplane Tour</a>
-                </h3>
-                <p class="card-meta">124 E Huron St, New york</p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Good</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__num">$124.00</span>
-                  </p>
-                  <a href="{{url('tour-details')}}" class="btn-text"
-                    >View details<i class="la la-angle-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
-    <!-- end related-tour-area -->
-    <!-- ================================
-    END RELATE TOUR AREA
-================================= -->
 
 @endsection

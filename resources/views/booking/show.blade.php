@@ -400,7 +400,7 @@
               <div class="col-lg-6">
                 <div class="breadcrumb-content">
                   <div class="section-heading">
-                    <h2 class="sec__title font-size-30 text-white">Orders</h2>
+                    <h2 class="sec__title font-size-30 text-white">Bookings</h2>
                   </div>
                 </div>
                 <!-- end breadcrumb-content -->
@@ -431,7 +431,7 @@
                       class="d-flex align-items-center justify-content-between"
                     >
                       <div>
-                        <h3 class="title">Order Lists</h3>
+                        <h3 class="title">Booking Lists</h3>
                         <p class="font-size-14">Showing 1 to 8 of 20 results</p>
                       </div>
                       <div class="select-contain select2-container-wrapper">
@@ -462,7 +462,7 @@
                 <th>adults</th>
                 <th>kids</th>
                 <th>promotional_offers</th>
-                <th>action</th>
+                <!-- <th>action</th> -->
                 </tr>
         </thead>
         <tbody>
@@ -482,10 +482,10 @@
                 <td>{{ $booking->kids }}</td>
                 <td>{{ $booking->promotional_offers }}</td>
                 
-                <td>
+                <!-- <td>
                     <a href="{{ url('booking.edit', $booking->id) }}">Edit</a>
                     <a href="{{ url('booking.destroy', $booking->id) }}">Delete</a>
-                    </td>
+                    </td> -->
                     </tr>
             @endforeach
         </tbody>
