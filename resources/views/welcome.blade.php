@@ -214,8 +214,7 @@
               <div class="info-content">
                 <h4 class="info__title">You'll never roam alone</h4>
                 <p class="info__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                Embark on a journey where you're never alone – Travel Pakistan Now ensures every step of your adventure is guided with care.
                 </p>
               </div>
               <!-- end info-content -->
@@ -234,8 +233,7 @@
                   A world of choice – anytime, anywhere
                 </h4>
                 <p class="info__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                Discover a world of endless choices – anytime, anywhere, with Travel Pakistan Now, your gateway to unforgettable adventures
                 </p>
               </div>
               <!-- end info-content -->
@@ -252,8 +250,7 @@
               <div class="info-content">
                 <h4 class="info__title">Peace of mind, wherever you wander</h4>
                 <p class="info__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                Find peace of mind wherever you wander – Travel Pakistan Now ensures your journey is safe, seamless, and filled with unforgettable moments
                 </p>
               </div>
               <!-- end info-content -->
@@ -282,7 +279,7 @@
             <div class="section-heading">
               <h2 class="sec__title">Top Visited Places</h2>
               <p class="sec__desc pt-3">
-                Morbi convallis bibendum urna ut viverra Maecenas quis
+              Discover the world's most captivating destinations – where every journey becomes a story worth telling.
               </p>
             </div>
 
@@ -291,7 +288,7 @@
           <!-- end col-lg-8 -->
           <div class="col-lg-4">
             <div class="btn-box btn--box text-end">
-              <a href="tour-grid.html" class="theme-btn">Discover More</a>
+              <a href="{{ url('/tour-list')}}" class="theme-btn">Discover More</a>
             </div>
           </div>
         </div>
@@ -301,11 +298,11 @@
             <div class="card-item destination-card">
               <div class="card-img">
                 <img src="{{asset('travel-website/images/destination-img2.jpg')}}" alt="destination-img" />
-                <span class="badge">new york</span>
+                <span class="badge">Skardu</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Main Street Park</a>
+                  <a href="{{ url('/skardu-waterfall-tour')}}">Manthoka Waterall</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -323,7 +320,7 @@
                   <p class="tour__text">50 Tours</p>
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$58.00</span>
+                    <span class="price__num">$1200.00</span>
                   </p>
                 </div>
               </div>
