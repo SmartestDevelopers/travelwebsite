@@ -311,7 +311,7 @@
           <div class="col-lg-4">
             <div class="section-heading">
               <h2 class="sec__title line-height-50">
-                What our customers are saying us?
+                What our customers are saying about us?
               </h2>
               <p class="sec__desc padding-top-30px">
               Our customers provide valuable feedback that helps us improve our services and ensure a memorable travel experience. We take pride in our commitment to customer satisfaction and strive to exceed expectations with every journey.
@@ -330,7 +330,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team0.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Wang Hui</h4>

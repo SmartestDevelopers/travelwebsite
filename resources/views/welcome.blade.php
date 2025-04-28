@@ -312,15 +312,15 @@
                     <i class="la la-star-o"></i>
                     <i class="la la-star-o"></i>
                   </span>
-                  <span class="rating__text">(70694 Reviews)</span>
+                  <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
                   class="card-price d-flex align-items-center justify-content-between"
                 >
-                  <p class="tour__text">50 Tours</p>
+                  <!-- <p class="tour__text">50 Tours</p> -->
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$1200.00</span>
+                    <span class="price__num">$600.00</span>
                   </p>
                 </div>
               </div>
@@ -329,11 +329,11 @@
             <div class="card-item destination-card">
               <div class="card-img">
                 <img src="{{asset('travel-website/images/destination-img3.jpg')}}" alt="destination-img" />
-                <span class="badge">chicago</span>
+                <span class="badge">Gurdwara</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('tour-details')}}">Chicago Cultural Center</a>
+                  <a href="{{ url('/sikh-nature-tour')}}">Sikh Sacred Gurdwaras Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -343,15 +343,15 @@
                     <i class="la la-star"></i>
                     <i class="la la-star-o"></i>
                   </span>
-                  <span class="rating__text">(70694 Reviews)</span>
+                  <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
                   class="card-price d-flex align-items-center justify-content-between"
                 >
-                  <p class="tour__text">50 Tours</p>
+                  <!-- <p class="tour__text">50 Tours</p> -->
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$68.00</span>
+                    <span class="price__num">$1200.00</span>
                   </p>
                 </div>
               </div>
@@ -363,11 +363,11 @@
             <div class="card-item destination-card">
               <div class="card-img">
                 <img src="{{asset('travel-website/images/destination-img4.jpg')}}" alt="destination-img" />
-                <span class="badge">Hong Kong</span>
+                <span class="badge">Sikh Yatra</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Lugard Road Lookout</a>
+                  <a href="{{ url('/sikh-religious-tour')}}">Sikh Religious Sites</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -377,16 +377,16 @@
                     <i class="la la-star-o"></i>
                     <i class="la la-star-o"></i>
                   </span>
-                  <span class="rating__text">(70694 Reviews)</span>
+                  <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
                   class="card-price d-flex align-items-center justify-content-between"
                 >
-                  <p class="tour__text">150 Tours</p>
+                  <!-- <p class="tour__text">150 Tours</p> -->
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$79.00</span>
-                    <span class="price__num before-price">$89.00</span>
+                    <span class="price__num">$1200.00</span>
+                    <span class="price__num before-price">$2400.00</span>
                   </p>
                 </div>
               </div>
@@ -395,11 +395,11 @@
             <div class="card-item destination-card">
               <div class="card-img">
                 <img src="{{asset('travel-website/images/destination-img5.jpg')}}" alt="destination-img" />
-                <span class="badge">Las Vegas</span>
+                <span class="badge">Buddhist Temples</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Planet Hollywood Resort</a>
+                  <a href="{{ url('/buddhist-tour')}}">Buddhist and Nature Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -409,15 +409,15 @@
                     <i class="la la-star"></i>
                     <i class="la la-star-o"></i>
                   </span>
-                  <span class="rating__text">(70694 Reviews)</span>
+                  <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
                   class="card-price d-flex align-items-center justify-content-between"
                 >
-                  <p class="tour__text">50 Tours</p>
+                  <!-- <p class="tour__text">50 Tours</p> -->
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$88.00</span>
+                    <span class="price__num">$1200.00</span>
                   </p>
                 </div>
               </div>
@@ -429,11 +429,11 @@
             <div class="card-item destination-card">
               <div class="card-img">
                 <img src="{{asset('travel-website/images/destination-img.jpg')}}" alt="destination-img" />
-                <span class="badge">Shanghai</span>
+                <span class="badge">Hunza</span>
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="tour-details.html">Oriental Pearl TV Tower</a>
+                  <a href="{{ url('/hunza-tour')}}">Hunza Valley Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -443,15 +443,15 @@
                     <i class="la la-star"></i>
                     <i class="la la-star"></i>
                   </span>
-                  <span class="rating__text">(70694 Reviews)</span>
+                  <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
                   class="card-price d-flex align-items-center justify-content-between"
                 >
-                  <p class="tour__text">50 Tours</p>
+                  <!-- <p class="tour__text">50 Tours</p> -->
                   <p>
                     <span class="price__from">Price</span>
-                    <span class="price__num">$58.00</span>
+                    <span class="price__num">$600.00</span>
                   </p>
                 </div>
               </div>
@@ -478,7 +478,7 @@
           <div class="col-lg-4">
             <div class="section-heading">
               <h2 class="sec__title line-height-50">
-                What our customers are saying us?
+                What our customers are saying about us?
               </h2>
               <p class="sec__desc padding-top-30px">
               Our customers provide valuable feedback that helps us improve our services and ensure a memorable travel experience. We take pride in our commitment to customer satisfaction and strive to exceed expectations with every journey.
@@ -497,7 +497,7 @@
                 </div>
                 <div class="author-content d-flex align-items-center">
                   <div class="author-img">
-                    <img src="{{ asset('travel-website/images/team8.jpg')}}" alt="testimonial image" />
+                    <img src="{{ asset('travel-website/images/team0.jpg')}}" alt="testimonial image" />
                   </div>
                   <div class="author-bio">
                     <h4 class="author__title">Wang Hui</h4>
@@ -618,7 +618,8 @@
           <div class="col-lg-5">
             <div class="subscriber-box">
               <div class="contact-form-action">
-                <form action="#">
+                <form action="{{ url('/subscribe') }}" method="POST">
+                  @csrf
                   <div class="input-box">
                     <label class="label-text text-white"
                       >Enter email address</label
