@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-heading text-center">
-              <h2 class="sec__title">Services We Provide</h2>
+              <h2 class="sec__title">Services We Offer</h2>
             </div>
             <!-- end section-heading -->
           </div>
@@ -76,10 +76,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Flight Deals</a></h4>
+                <h4 class="info__title"><a href="#">Tour Packages</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Explore customized tour packages tailored to your preferences, covering cultural, historical, and adventure destinations.
                 </p>
               </div>
               <!-- end info-content -->
@@ -94,10 +93,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Amazing Tour</a></h4>
+                <h4 class="info__title"><a href="#">Hotel Bookings</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Enjoy seamless hotel booking services with a wide range of accommodations to suit every budget.
                 </p>
               </div>
               <!-- end info-content -->
@@ -112,10 +110,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Support Cases</a></h4>
+                <h4 class="info__title"><a href="#">Transportation Services</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Travel comfortably with our reliable transportation options, including private cars, buses, and airport transfers.
                 </p>
               </div>
               <!-- end info-content -->
@@ -130,10 +127,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">In Business</a></h4>
+                <h4 class="info__title"><a href="#">Religious Tourism</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Visit sacred sites, including Gurdwaras and Buddhist landmarks, for a spiritual and enriching experience.
                 </p>
               </div>
               <!-- end info-content -->
@@ -148,10 +144,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Handpicked Hotels</a></h4>
+                <h4 class="info__title"><a href="#">Adventure Tours</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Embark on thrilling adventures like trekking, hiking, and exploring Pakistan’s breathtaking landscapes.
                 </p>
               </div>
               <!-- end info-content -->
@@ -166,10 +161,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Private Guide</a></h4>
+                <h4 class="info__title"><a href="#">Guided Tours</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Discover destinations with expert guides who provide insightful details about history and culture.
                 </p>
               </div>
               <!-- end info-content -->
@@ -184,10 +178,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Location Manager</a></h4>
+                <h4 class="info__title"><a href="#">Event Planning</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Let us organize your events, from corporate retreats to destination weddings, with precision and care.
                 </p>
               </div>
               <!-- end info-content -->
@@ -202,10 +195,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Best Travel Agent</a></h4>
+                <h4 class="info__title"><a href="#">Travel Assistance</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Get 24/7 travel support to ensure a hassle-free and enjoyable journey throughout your trip.
                 </p>
               </div>
               <!-- end info-content -->
@@ -238,249 +230,7 @@
     END SERVICE AREA
 ================================= -->
 
-    <!-- ================================
-    START SERVICE AREA
-================================= -->
-    <section class="service-area section-bg section--padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-heading text-center">
-              <h2 class="sec__title">Services Also We Offer</h2>
-            </div>
-            <!-- end section-heading -->
-          </div>
-          <!-- end col-lg-12 -->
-        </div>
-        <!-- end row -->
-        <div class="row padding-top-50px">
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img9.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Mountains Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img10.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Honeymoons Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                    <span class="price__num before-price color-text-3"
-                      >$124.00</span
-                    >
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img11.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Sea Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img12.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Cruises Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img13.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Safari Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                    <span class="price__num before-price color-text-3"
-                      >$124.00</span
-                    >
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-          <div class="col-lg-4 responsive-column">
-            <div class="card-item">
-              <div class="card-img">
-                <img src="{{ asset('travel-website/images/img14.jpg')}}" alt="about-img" />
-              </div>
-              <div class="card-body">
-                <h3 class="card-title mb-2">Jungle Tours</h3>
-                <p class="card-meta">
-                  Duis cursus lectus sed dui imperdiet, id pharetra nunc
-                  ullamcorper.
-                </p>
-                <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
-                  <span class="rating__text">(30 Reviews)</span>
-                </div>
-                <div
-                  class="card-price d-flex align-items-center justify-content-between"
-                >
-                  <p>
-                    <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
-                  </p>
-                  <span class="tour-hour"
-                    ><i class="la la-clock-o me-1"></i>7 days</span
-                  >
-                </div>
-                <div class="btn-box pt-3">
-                  <a href="#" class="theme-btn theme-btn-small">I want this</a>
-                </div>
-              </div>
-            </div>
-            <!-- end card-item -->
-          </div>
-          <!-- end col-lg-4 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
-    <!-- end service-area -->
-    <!-- ================================
-    END SERVICE AREA
-================================= -->
-
-    <!-- ================================
+     <!-- ================================
     START CTA AREA
 ================================= -->
     <section

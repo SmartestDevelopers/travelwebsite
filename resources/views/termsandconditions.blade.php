@@ -13,7 +13,7 @@
             <div class="col-lg-6">
               <div class="breadcrumb-content">
                 <div class="section-heading">
-                  <h2 class="sec__title text-white">Tour List</h2>
+                  <h2 class="sec__title text-white">Terms & Conditions</h2>
                 </div>
               </div>
               <!-- end breadcrumb-content -->
@@ -23,8 +23,8 @@
               <div class="breadcrumb-list text-end">
                 <ul class="list-items">
                   <li><a href="{{ url('/')}}">Home</a></li>
-                  <li>Tour</li>
-                  <li>Tour List</li>
+                  <li>Terms & Conditions</li>
+                  <!-- <li>Tour List</li> -->
                 </ul>
               </div>
               <!-- end breadcrumb-list -->
@@ -60,7 +60,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="section-heading text-center">
-              <h2 class="sec__title">Services We Provide</h2>
+              <h2 class="sec__title">Our Terms and Conditions</h2>
             </div>
             <!-- end section-heading -->
           </div>
@@ -75,10 +75,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Flight Deals</a></h4>
+                <h4 class="info__title"><a href="#">Booking and Payments</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                All bookings are subject to availability and confirmation. Full payment must be made at the time of booking unless otherwise specified. Prices may vary due to currency fluctuations or other factors. Ensure accurate details during booking to avoid delays or issues with your travel arrangements.
                 </p>
               </div>
               <!-- end info-content -->
@@ -93,10 +92,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Amazing Tour</a></h4>
+                <h4 class="info__title"><a href="#">Cancellations, Refunds, and Changes</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Cancellation requests must be submitted in writing via email. Refunds will be processed according to our cancellation policy, which may vary depending on the tour package. Travel Pakistan Now reserves the right to modify or cancel itineraries due to weather, political instability, or unforeseen circumstances. Alternative arrangements will be made where possible.
                 </p>
               </div>
               <!-- end info-content -->
@@ -111,10 +109,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Support Cases</a></h4>
+                <h4 class="info__title"><a href="#">Travel Documents and Health</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                It is the traveler’s responsibility to ensure they have valid passports, visas, and other required travel documents. Travelers must also ensure they are physically fit to participate in selected tours. Travel Pakistan Now is not liable for delays, cancellations, or denied entry caused by incomplete documentation or health issues.
                 </p>
               </div>
               <!-- end info-content -->
@@ -129,10 +126,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">In Business</a></h4>
+                <h4 class="info__title"><a href="#">Liability and Insurance</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Travel Pakistan Now acts as an agent for third-party service providers, such as hotels and transport companies. We are not liable for issues arising from their services. Travelers are responsible for their belongings, and we recommend purchasing travel insurance to cover medical emergencies, cancellations, or other unforeseen events.
                 </p>
               </div>
               <!-- end info-content -->
@@ -147,10 +143,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Handpicked Hotels</a></h4>
+                <h4 class="info__title"><a href="#">Promotional Offers and Discounts</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                  Promotional offers are subject to specific terms and conditions. Discounts cannot be combined with other offers unless explicitly stated. Travel Pakistan Now reserves the right to modify or withdraw promotional offers at any time without prior notice.
                 </p>
               </div>
               <!-- end info-content -->
@@ -165,10 +160,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Private Guide</a></h4>
+                <h4 class="info__title"><a href="#">Privacy and Data Usage</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Your personal information is collected to process bookings and improve services. We do not share your data with third parties without consent, except as required by law. For more details, refer to our Privacy Policy available on our website.
                 </p>
               </div>
               <!-- end info-content -->
@@ -183,10 +177,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Location Manager</a></h4>
+                <h4 class="info__title"><a href="#"> Third-Party Links and Services</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                Our website may contain links to third-party websites. We are not responsible for their privacy practices or content. Please review their privacy policies before providing any personal information. Additionally, we are not liable for issues arising from third-party services used during your trip.
                 </p>
               </div>
               <!-- end info-content -->
@@ -201,10 +194,9 @@
               </div>
               <!-- end info-icon-->
               <div class="info-content">
-                <h4 class="info__title"><a href="#">Best Travel Agent</a></h4>
+                <h4 class="info__title"><a href="#"> Governing Law and Acceptance</a></h4>
                 <p class="info__desc">
-                  Pellentesque ac turpis egestas, varius justo et, condimentum
-                  augue nerrowe.
+                These terms and conditions are governed by the laws of Pakistan. Any disputes arising from the use of our services will be resolved in the courts of Pakistan. By booking with Travel Pakistan Now, you acknowledge that you have read, understood, and agreed to these terms.
                 </p>
               </div>
               <!-- end info-content -->
