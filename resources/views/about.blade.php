@@ -39,8 +39,7 @@
               <div class="breadcrumb-content">
                 <div class="section-heading">
                   <h2 class="sec__title line-height-50 text-white">
-                    Travel Pakistan Now is Your Trusted <br />
-                    Travel Companion.
+                    {{__('about.main_heading')}}
                   </h2>
                 </div>
               </div>
@@ -82,9 +81,9 @@
                 <img src="{{ asset('travel-website/images/img21.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
-                <h3 class="card-title mb-2">Who We Are?</h3>
+                <h3 class="card-title mb-2">{{__('about.heading_one')}}</h3>
                 <p class="card-text">
-                We are committed to showcasing the rich cultural heritage, breathtaking natural landscapes, and deep spiritual sites of Pakistan, offering journeys that are as enriching as they are awe-inspiring.
+                {{__('about.para_one')}}
                 </p>
               </div>
             </div>
@@ -97,9 +96,9 @@
                 <img src="{{ asset('travel-website/images/img22.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
-                <h3 class="card-title mb-2">What We Do?</h3>
+                <h3 class="card-title mb-2">{{__('about.heading_two')}}</h3>
                 <p class="card-text">
-                We pride ourselves on crafting customized itineraries that cater to your specific travel interests. We ensure seamless travel arrangements and exceptional service throughout your journey.
+                {{__('about.para_two')}}
                 </p>
               </div>
             </div>
@@ -112,9 +111,9 @@
                 <img src="{{ asset('travel-website/images/img23.jpg')}}" alt="about-img" />
               </div>
               <div class="card-body">
-                <h3 class="card-title mb-2">Our Mission</h3>
+                <h3 class="card-title mb-2">{{__('about.heading_three')}}</h3>
                 <p class="card-text">
-                With years of experience and a genuine passion for promoting the beauty and culture of Pakistan, we are dedicated to making your travel experience truly unforgettable.
+                {{__('about.para_three')}}
                 </p>
               </div>
             </div>

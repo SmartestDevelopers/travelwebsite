@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App;
 
 class AboutController extends Controller
 {
@@ -11,12 +12,21 @@ class AboutController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     public function index()
+    {
+        
+    }
+
+
+    
     public function showAbout()
     {
-
+        //App::setLocale($locale);
         //
         return view('about');
     }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -24,6 +34,11 @@ class AboutController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
+    {
+        //
+    }
+
+    public function createAnotherForm()
     {
         //
     }
@@ -38,6 +53,9 @@ class AboutController extends Controller
     {
         //
     }
+
+
+    
 
     /**
      * Display the specified resource.

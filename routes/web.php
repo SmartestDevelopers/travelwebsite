@@ -82,20 +82,27 @@ Route::post('/submit-tour-list', 'FrontController@submitTourList');
 Route::post('/subscribe', 'FrontController@subscriptionList');
 Route::post('/insert-booking-record', 'FrontController@insertBookingRecord');
 
-Route::get('/buddhist-tour', 'TourDetailsController@tourBuddhistDetails');
-Route::get('/sikh-nature-tour', 'TourDetailsController@sikhNatureTour');
-Route::get('/sikh-site-tour', 'TourDetailsController@sikhSiteTour');
-Route::get('/sikh-religious-tour', 'TourDetailsController@sikhReligiousTour');
-Route::get('/skardu-tour', 'TourDetailsController@skarduTour');
-Route::get('/skardu-waterfall-tour', 'TourDetailsController@skarduWaterfallTour');
-Route::get('/hunza-tour', 'TourDetailsController@hunzaValley');
+Route::get('/tour/buddhist-tour', 'TourDetailsController@tourBuddhistDetails');
+Route::get('/tour/sikh-nature-tour', 'TourDetailsController@sikhNatureTour');
+Route::get('/tour/sikh-site-tour', 'TourDetailsController@sikhSiteTour');
+Route::get('/tour/sikh-religious-tour', 'TourDetailsController@sikhReligiousTour');
+Route::get('/tour/skardu-tour', 'TourDetailsController@skarduTour');
+Route::get('/tour/skardu-waterfall-tour', 'TourDetailsController@skarduWaterfallTour');
+Route::get('/tour/hunza-tour', 'TourDetailsController@hunzaValley');
 
-Route::get('/buddhist-blog', 'BlogController@buddhistBlog');
-Route::get('/honeymoon-blog', 'BlogController@honeymoonBlog');
-Route::get('/skardu-blog', 'BlogController@skarduBlog');
-Route::get('/sikh-sites-blog', 'BlogController@sikhSitesBlog');
+
+
+
+Route::get('/blog/buddhist-blog', 'BlogController@buddhistBlog');
+Route::get('/blog/honeymoon-blog', 'BlogController@honeymoonBlog');
+Route::get('/blog/skardu-blog', 'BlogController@skarduBlog');
+Route::get('/blog/sikh-sites-blog', 'BlogController@sikhSitesBlog');
 Route::get('/sikh-gurdwara-blog', 'BlogController@sikhGurdwaraBlog');
 Route::get('/hunza-blog', 'BlogController@hunzaBlog');
+
+
+Route::get('/team/{locale}', 'HomeController@team');
+
 
 
 
