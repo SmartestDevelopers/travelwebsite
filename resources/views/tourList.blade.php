@@ -778,7 +778,7 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
+                    <span class="price__num">$1200.00</span>
                   </p>
                   <span class="tour-hour"
                     ><i class="la la-clock-o me-1"></i>10 Days 9 Nights</span
@@ -801,7 +801,7 @@
                   <i class="la la-heart-o"></i>
                 </div>
                 <span class="badge">Bestseller</span>
-                <span class="badge badge-ribbon">24% Save</span>
+                <!-- <span class="badge badge-ribbon">24% Save</span> -->
               </div>
               <div class="card-body">
                 <h3 class="card-title">
@@ -810,7 +810,7 @@
                 </h3>
                 <p class="card-meta">Lahore, Haripur, Peshawar, Murree Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.8/5</span>
+                  <span class="badge text-white">4.9/5</span>
                   <span class="review__text">Best</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
@@ -819,9 +819,9 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
+                    <span class="price__num">$1200.00</span>
                     <span class="price__num before-price color-text-3"
-                      >$124.00</span
+                      >$2400.00</span
                     >
                   </p>
                   <span class="tour-hour"
@@ -851,8 +851,8 @@
                 </h3>
                 <p class="card-meta">Lahore, Nowshera, Hasan Abdal, Peshawar, Haripur Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.7/5</span>
-                  <span class="review__text">Good</span>
+                  <span class="badge text-white">4.9/5</span>
+                  <span class="review__text">Best</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
@@ -860,7 +860,7 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
+                    <span class="price__num">$1200.00</span>
                   </p>
                   <span class="tour-hour"
                     ><i class="la la-clock-o me-1"></i>10 Days 9 Nights</span
@@ -883,7 +883,7 @@
                   <i class="la la-heart-o"></i>
                 </div>
                 <span class="badge">Bestseller</span>
-                <span class="badge badge-ribbon">24% Save</span>
+                <!-- <span class="badge badge-ribbon">24% Save</span> -->
               </div>
               <div class="card-body">
                 <h3 class="card-title">
@@ -891,8 +891,8 @@
                 </h3>
                 <p class="card-meta">Lahore, Peshawar, Hasan Abdal Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.7/5</span>
-                  <span class="review__text">Good</span>
+                  <span class="badge text-white">4.9/5</span>
+                  <span class="review__text">Best</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
@@ -900,9 +900,9 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$100.00</span>
+                    <span class="price__num">$1200.00</span>
                     <span class="price__num before-price color-text-3"
-                      >$124.00</span
+                      >$2400.00</span
                     >
                   </p>
                   <span class="tour-hour"
@@ -941,7 +941,7 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
+                    <span class="price__num">$600.00</span>
                   </p>
                   <span class="tour-hour"
                     ><i class="la la-clock-o me-1"></i>7 Days 6 Nights</span
@@ -973,8 +973,8 @@
                 </h3>
                 <p class="card-meta">Skardu, Shigar Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
-                  <span class="review__text">Average</span>
+                  <span class="badge text-white">4.7/5</span>
+                  <span class="review__text">Good</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
                 <div
@@ -982,7 +982,7 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
+                    <span class="price__num">$600.00</span>
                   </p>
                   <span class="tour-hour"
                     ><i class="la la-clock-o me-1"></i>6 Days</span
@@ -1011,7 +1011,7 @@
                 </h3>
                 <p class="card-meta">Chilas, Karimabad, Hunza Pakistan</p>
                 <div class="card-rating">
-                  <span class="badge text-white">4.4/5</span>
+                  <span class="badge text-white">4.6/5</span>
                   <span class="review__text">Average</span>
                   <span class="rating__text">(30 Reviews)</span>
                 </div>
@@ -1020,7 +1020,7 @@
                 >
                   <p>
                     <span class="price__from">From</span>
-                    <span class="price__num">$124.00</span>
+                    <span class="price__num">$600.00</span>
                   </p>
                   <span class="tour-hour"
                     ><i class="la la-clock-o me-1"></i>5 Days</span

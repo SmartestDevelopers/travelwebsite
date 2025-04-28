@@ -12,8 +12,8 @@
             <div class="breadcrumb-list breadcrumb-top-list">
               <ul class="list-items bg-transparent radius-none p-0">
                 <li><a href="{{url('/')}}">Home</a></li>
-                <li>China</li>
-                <li>Great Wall of China, Tour</li>
+                <li>Buddhist Temples</li>
+                <li>Buddhist Temples and Nature Tour</li>
               </ul>
             </div>
             <!-- end breadcrumb-list -->
@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area bread-bg-2 py-0">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/destination-img3.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -118,16 +118,16 @@
                 <div id="description" class="page-scroll">
                   <div class="single-content-item pb-4">
                     <h3 class="title font-size-26">
-                      3 Days Tour: the Great Wall of China
+                      10 Days  9 Nights Tour: Buddhist Sites of Pakistan
                     </h3>
                     <div class="d-flex flex-wrap align-items-center pt-2">
-                      <p class="me-2">Huairou District, China</p>
+                      <p class="me-2">Taxila, Mingora, Haripur, Lahore Pakistan</p>
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.6</span
+                          >4.9</span
                         >
-                        <span>(4,209 Reviews)</span>
+                        <span>(30) Reviews</span>
                       </p>
                     </div>
                   </div>
@@ -148,7 +148,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Duration
                             </h3>
-                            <span class="font-size-13">3 Days</span>
+                            <span class="font-size-13">10 Days 09 Nights</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -186,7 +186,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Tour Type
                             </h3>
-                            <span class="font-size-13">Adventures Tour</span>
+                            <span class="font-size-13">Adventure & Religious Tour</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -203,9 +203,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Date
+                              Pickup From
                             </h3>
-                            <span class="font-size-13">Jan 19' - Dec 21'</span>
+                            <span class="font-size-13">Airport</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -222,9 +222,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Min Age
+                              Accomodation
                             </h3>
-                            <span class="font-size-13">10+</span>
+                            <span class="font-size-13">Hotels</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -241,9 +241,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Pickup From
+                              Tour Guides
                             </h3>
-                            <span class="font-size-13">Airport</span>
+                            <span class="font-size-13">Will be Provided</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -391,8 +391,7 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 01 - Arrival in Islamabad</span
                               >
                             </button>
                           </h2>
@@ -405,18 +404,12 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
-                            <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            <p>Arrive in Islamabad in the morning and transfer to your hotel for some rest. In the afternoon, visit the Pakistan Museum to explore the history of Buddhism in the region. Conclude your day by exploring the iconic Faisal Mosque and vibrant local markets, immersing yourself in the city's culture.
                             </p>
                           </div>
                         </div>
@@ -433,7 +426,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 02 - Taxila</span>
                             </button>
                           </h2>
                         </div>
@@ -445,18 +438,13 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
                             </p>
                           </div>
                         </div>
@@ -473,7 +461,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 03 - Haripur and Peshawar</span>
                             </button>
                           </h2>
                         </div>
@@ -485,18 +473,258 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Start your day with a scenic 2-hour drive to Peshawar via Haripur. Spend the afternoon exploring the Gandhara Art Galleries and Buddhist stupas, delving into the region's rich history. Conclude your day by visiting the vibrant Qissa Khawani Bazaar, immersing yourself in local culture and traditions.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 - Taxila</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
                             </p>
                           </div>
                         </div>
@@ -547,12 +775,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Yes, as a solo traveler, a single supplement may apply to cover the cost of single occupancy accommodations. This ensures you have a private room throughout the tour. Please contact us for specific details and pricing related to your booking.
                             </p>
                           </div>
                         </div>
@@ -586,12 +809,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Booking pre/post tour accommodation is recommended if you plan to arrive early or stay longer after the tour. It ensures you have a comfortable place to rest and explore the area at your own pace. Please contact us for assistance in arranging additional accommodations tailored to your needs.
                             </p>
                           </div>
                         </div>
@@ -624,12 +842,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Our cancellation policy varies depending on the tour package. Generally, cancellations made at least 14 days before the tour start date are eligible for a full refund. Cancellations made within 14 days may incur a fee. Please refer to the specific terms of your booking or contact us for detailed information.
                             </p>
                           </div>
                         </div>
@@ -663,12 +876,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            The tour accepts all major foreign currencies, including US Dollars (USD), Euros (EUR), British Pounds (GBP), Canadian Dollars (CAD), and Australian Dollars (AUD). For convenience, it is recommended to carry any of these currencies or exchange them at local currency exchange centers.
                             </p>
                           </div>
                         </div>
@@ -707,9 +915,9 @@
                       <div class="row align-items-center">
                         <div class="col-lg-4">
                           <div class="review-summary">
-                            <h2>4.5<span>/5</span></h2>
+                            <h2>4.9<span>/5</span></h2>
                             <p>Excellent</p>
-                            <span>Based on 4 reviews</span>
+                            <span>Based on 30 reviews</span>
                           </div>
                         </div>
                         <!-- end col-lg-4 -->
@@ -854,7 +1062,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team8.jpg"
+                            src="{{ asset('travel-website/images/team8.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
@@ -910,7 +1118,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team9.jpg"
+                            src="{{ asset('travel-website/images/team9.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
@@ -966,7 +1174,7 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team10.jpg"
+                            src="{{ asset('travel-website/images/team10.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">

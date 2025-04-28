@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area bread-bg-2 py-0">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/skardu.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -152,16 +152,16 @@
                 <div id="description" class="page-scroll">
                   <div class="single-content-item pb-4">
                     <h3 class="title font-size-26">
-                      3 Days Tour: the Great Wall of China
+                      5 Days Tour: Hunza Valley by Road Tour
                     </h3>
                     <div class="d-flex flex-wrap align-items-center pt-2">
-                      <p class="me-2">Huairou District, China</p>
+                      <p class="me-2">Hunza, Pakistan</p>
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.6</span
+                          >4.4</span
                         >
-                        <span>(4,209 Reviews)</span>
+                        <span>(30 Reviews)</span>
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Duration
                             </h3>
-                            <span class="font-size-13">3 Days</span>
+                            <span class="font-size-13">5 Days</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -237,9 +237,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Date
+                              Accomodation
                             </h3>
-                            <span class="font-size-13">Jan 19' - Dec 21'</span>
+                            <span class="font-size-13">Hotels</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -256,9 +256,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Min Age
+                              Tour Guides
                             </h3>
-                            <span class="font-size-13">10+</span>
+                            <span class="font-size-13">Will be Provided</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -581,12 +581,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Yes, as a solo traveler, a single supplement may apply to cover the cost of single occupancy accommodations. This ensures you have a private room throughout the tour. Please contact us for specific details and pricing related to your booking.
                             </p>
                           </div>
                         </div>
@@ -620,12 +615,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Booking pre/post tour accommodation is recommended if you plan to arrive early or stay longer after the tour. It ensures you have a comfortable place to rest and explore the area at your own pace. Please contact us for assistance in arranging additional accommodations tailored to your needs.
                             </p>
                           </div>
                         </div>
@@ -658,12 +648,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Our cancellation policy varies depending on the tour package. Generally, cancellations made at least 14 days before the tour start date are eligible for a full refund. Cancellations made within 14 days may incur a fee. Please refer to the specific terms of your booking or contact us for detailed information.
                             </p>
                           </div>
                         </div>
@@ -697,12 +682,7 @@
                         >
                           <div class="card-body d-flex">
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            The tour accepts all major foreign currencies, including US Dollars (USD), Euros (EUR), British Pounds (GBP), Canadian Dollars (CAD), and Australian Dollars (AUD). For convenience, it is recommended to carry any of these currencies or exchange them at local currency exchange centers.
                             </p>
                           </div>
                         </div>
@@ -888,12 +868,12 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team8.jpg"
+                            src="{{ asset('travel-website/images/team8.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Nathaniel Reed</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -904,14 +884,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">March 24, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          Visiting Hunza Valley was a dream come true. The scenic beauty and peaceful environment were beyond words. The itinerary was well-planned, and the team ensured a smooth and enjoyable trip. A must-visit destination for anyone seeking tranquility and natural beauty!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -944,12 +921,12 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team9.jpg"
+                            src="{{ asset('travel-website/images/team9.jpg"
                           />
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Ryan Carter</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -960,14 +937,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 1, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          Hunza Valley is a paradise on earth! The snow-capped mountains, lush green valleys, and crystal-clear rivers were mesmerizing. The tour guide was knowledgeable and shared fascinating stories about the region's culture and history. I can't wait to visit again!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1000,12 +974,12 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="images/team10.jpg"
+                            src="{{ asset('travel-website/images/team10.jpg"
                           />
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Sophia Taylor</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1016,14 +990,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 5, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          "My trip to Hunza Valley was absolutely breathtaking! The stunning landscapes, serene atmosphere, and warm hospitality made it an unforgettable experience. The guided tour was well-organized, and the accommodations were comfortable. Highly recommended for nature lovers and adventure seekers!"
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"

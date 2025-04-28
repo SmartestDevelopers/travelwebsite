@@ -90,6 +90,12 @@ Route::get('/skardu-tour', 'TourDetailsController@skarduTour');
 Route::get('/skardu-waterfall-tour', 'TourDetailsController@skarduWaterfallTour');
 Route::get('/hunza-tour', 'TourDetailsController@hunzaValley');
 
+Route::get('/buddhist-blog', 'BlogController@buddhistBlog');
+Route::get('/honeymoon-blog', 'BlogController@honeymoonBlog');
+Route::get('/skardu-blog', 'BlogController@skarduBlog');
+Route::get('/sikh-sites-blog', 'BlogController@sikhSitesBlog');
+Route::get('/sikh-gurdwara-blog', 'BlogController@sikhGurdwaraBlog');
+Route::get('/hunza-blog', 'BlogController@hunzaBlog');
 
 
 

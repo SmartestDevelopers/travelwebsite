@@ -1,6 +1,47 @@
 @extends('layouts.front')
 
 @section('content')
+
+ <!-- ================================
+    START BREADCRUMB AREA
+================================= -->
+<section class="breadcrumb-area bread-bg-9">
+      <div class="breadcrumb-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb-content">
+                <div class="section-heading">
+                  <h2 class="sec__title line-height-50 text-white">
+                    Blog <br />
+                  </h2>
+                </div>
+              </div>
+              <!-- end breadcrumb-content -->
+            </div>
+            <!-- end col-lg-12 -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end breadcrumb-wrap -->
+      <div class="bread-svg-box">
+        <svg
+          class="bread-svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 10"
+          preserveAspectRatio="none"
+        >
+          <polygon points="100 0 50 10 0 0 0 10 100 10"></polygon>
+        </svg>
+      </div>
+      <!-- end bread-svg -->
+    </section>
+    <!-- end breadcrumb-area -->
+    <!-- ================================
+    END BREADCRUMB AREA
+================================= -->
       <!-- ================================
     START CARD AREA
 ================================= -->
@@ -17,17 +58,17 @@
                 <div class="card-body">
                   <div class="post-categories">
                     <a href="#" class="badge">Travel</a>
-                    <a href="#" class="badge">lifestyle</a>
+                    <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="blog-single.html"
-                      >Top 10 Scenic Spots for Nature Lovers in Pakistan: A Traveler’s Guide</a
+                    <a href="{{ url('/hunza-blog')}}"
+                      >A Journey Through Hunza: The Hidden Gem of Northern Pakistan</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 January, 2020</span>
+                    <span class="post__date"> 15 January, 2025</span>
                     <span class="post-dot"></span>
-                    <span class="post__time">5 Mins read</span>
+                    <span class="post__time">3 Mins read</span>
                   </p>
                 </div>
               </div>
@@ -74,17 +115,17 @@
                 </div>
                 <div class="card-body">
                   <div class="post-categories">
-                    <a href="#" class="badge">Video</a>
+                    <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="blog-single.html"
-                      >Top Camping Destinations in Pakistan for Adventure Seekers</a
+                    <a href="{{ url('/sikh-gurdwara-blog')}}"
+                      >Top Gurdwaras in Pakistan: A Spiritual Journey Through Sikh Heritage</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 February, 2020</span>
+                    <span class="post__date"> 10 February, 2025</span>
                     <span class="post-dot"></span>
-                    <span class="post__time">4 Mins read</span>
+                    <span class="post__time">3 Mins read</span>
                   </p>
                 </div>
               </div>
@@ -131,15 +172,15 @@
                 </div>
                 <div class="card-body">
                   <div class="post-categories">
-                    <a href="#" class="badge">audio</a>
+                    <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="blog-single.html"
-                      >Discover the Majestic Sikh Temples and Sacred Sites Across Pakistan</a
+                    <a href="{{ url('/sikh-sites-blog')}}"
+                      >Top Sikh Religious Sites in Pakistan: Pilgrimage Destinations for Devotees</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 March, 2020</span>
+                    <span class="post__date"> 25 February, 2025</span>
                     <span class="post-dot"></span>
                     <span class="post__time">3 Mins read</span>
                   </p>
@@ -189,17 +230,17 @@
                 <div class="card-body">
                   <div class="post-categories">
                     <a href="#" class="badge">Travel</a>
-                    <a href="#" class="badge">lifestyle</a>
+                    <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{url('blog')}}"
-                      >Top 10 Must-Visit Spots in Skardu: Exploring the Land of High Mountains</a
+                    <a href="{{url('/skardu-blog')}}"
+                      >Skardu Travel Guide: Discovering the Majestic Beauty of Skardu Valley</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 January, 2020</span>
+                    <span class="post__date"> 9 March, 2025</span>
                     <span class="post-dot"></span>
-                    <span class="post__time">5 Mins read</span>
+                    <span class="post__time">3 Mins read</span>
                   </p>
                 </div>
               </div>
@@ -246,17 +287,17 @@
                 </div>
                 <div class="card-body">
                   <div class="post-categories">
-                    <a href="#" class="badge">Video</a>
+                    <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="blog-single.html"
-                      >Taobat, Kashmir: A Journey to One of Pakistan's Most Picturesque Villages</a
+                    <a href="{{ url('/buddhist-blog')}}"
+                      >Buddhist Sites of Pakistan: Exploring Ancient Temples and Monasteries</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 February, 2020</span>
+                    <span class="post__date"> 25 February, 2025</span>
                     <span class="post-dot"></span>
-                    <span class="post__time">4 Mins read</span>
+                    <span class="post__time">2 Mins read</span>
                   </p>
                 </div>
               </div>
@@ -306,12 +347,12 @@
                     <a href="#" class="badge">audio</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="blog-single.html"
-                      >The Beauty of Skardu's Deosai National Park: A High-altitude Plateau of Wonders</a
+                    <a href="{{ url('/honeymoon-blog')}}"
+                      >Top 10 Honeymoon Spots in Pakistan: Explore the Beauty of Love</a
                     >
                   </h3>
                   <p class="card-meta">
-                    <span class="post__date"> 1 March, 2020</span>
+                    <span class="post__date"> 21 March, 2025</span>
                     <span class="post-dot"></span>
                     <span class="post__time">3 Mins read</span>
                   </p>

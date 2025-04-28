@@ -18,6 +18,36 @@ class BlogController extends Controller
         return view('blog');
     }
 
+    public function buddhistBlog()
+    {
+        return view('buddhistblog');
+    }
+
+    public function honeymoonBlog()
+    {
+        return view('honeymoonblog');
+    }
+
+    public function skarduBlog()
+    {
+        return view('skardublog');
+    }
+
+    public function hunzaBlog()
+    {
+        return view('hunzablog');
+    }
+
+    public function sikhSitesBlog()
+    {
+        return view('sikhsitesblog');
+    }
+
+    public function sikhGurdwaraBlog()
+    {
+        return view('sikhgurdwara');
+    }
+
 public function storeBlog(Request $request)
 {
        // Handle the image upload

@@ -26,7 +26,7 @@ class TourDetailsController extends Controller
     public function sikhSiteTour()
     {
         //
-        return view('siksitetour');
+        return view('sikhsitetour');
     }
     public function sikhReligiousTour()
     {
