@@ -97,8 +97,8 @@ Route::get('/blog/buddhist-blog', 'BlogController@buddhistBlog');
 Route::get('/blog/honeymoon-blog', 'BlogController@honeymoonBlog');
 Route::get('/blog/skardu-blog', 'BlogController@skarduBlog');
 Route::get('/blog/sikh-sites-blog', 'BlogController@sikhSitesBlog');
-Route::get('/sikh-gurdwara-blog', 'BlogController@sikhGurdwaraBlog');
-Route::get('/hunza-blog', 'BlogController@hunzaBlog');
+Route::get('/blog/sikh-gurdwara-blog', 'BlogController@sikhGurdwaraBlog');
+Route::get('/blog/hunza-blog', 'BlogController@hunzaBlog');
 
 
 Route::get('/team/{locale}', 'HomeController@team');

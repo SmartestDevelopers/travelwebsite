@@ -763,7 +763,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/buddhist-tour')}}"
+                  <a href="{{url('/tour/buddhist-tour')}}"
                     >Dharmarajika Stupa, Jaggu Temple, Other Buddhist Sites And Nature Tour </a
                   >
                 </h3>
@@ -789,7 +789,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/sikh-nature-tour')}}" class="d-block">
+                <a href="{{url('/tour/sikh-nature-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -805,7 +805,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/sikh-nature-tour')}}">Sikh Religious and Nature Tour
+                  <a href="{{url('/tour/sikh-nature-tour')}}">Sikh Religious and Nature Tour
                   </a>
                 </h3>
                 <p class="card-meta">Lahore, Haripur, Peshawar, Murree Pakistan</p>
@@ -833,7 +833,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/sikh-site-tour')}}" class="d-block">
+                <a href="{{url('/tour/sikh-site-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -847,7 +847,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/sikh-site-tour')}}">Sikh Religious Sites Tour</a>
+                  <a href="{{url('/tour/sikh-site-tour')}}">Sikh Religious Sites Tour</a>
                 </h3>
                 <p class="card-meta">Lahore, Nowshera, Hasan Abdal, Peshawar, Haripur Pakistan</p>
                 <div class="card-rating">
@@ -871,7 +871,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/sikh-religious-tour')}}" class="d-block">
+                <a href="{{url('/tour/sikh-religious-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -887,7 +887,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/sikh-religious-tour')}}">Sikh Religious Tour</a>
+                  <a href="{{url('/tour/sikh-religious-tour')}}">Sikh Religious Tour</a>
                 </h3>
                 <p class="card-meta">Lahore, Peshawar, Hasan Abdal Pakistan</p>
                 <div class="card-rating">
@@ -914,7 +914,7 @@
             <!-- end card-item -->
              <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/skardu-tour')}}" class="d-block">
+                <a href="{{url('/tour/skardu-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img11.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -928,7 +928,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/skardu-tour')}}">Skardu Tour by Road</a>
+                  <a href="{{url('/tour/skardu-tour')}}">Skardu Tour by Road</a>
                 </h3>
                 <p class="card-meta">Gilgit Baltistan, Skardu, Pakistan</p>
                 <div class="card-rating">
@@ -952,7 +952,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/skardu-waterfall-tour')}}" class="d-block">
+                <a href="{{url('/tour/skardu-waterfall-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img12.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -967,7 +967,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/skardu-waterfall-tour')}}"
+                  <a href="{{url('/tour/skardu-waterfall-tour')}}"
                     >Skardu, Shangrila, Manthoka Waterfall Tour</a
                   >
                 </h3>
@@ -993,7 +993,7 @@
             <!-- end card-item -->
             <div class="card-item card-item-list">
               <div class="card-img">
-                <a href="{{url('/hunza-tour')}}" class="d-block">
+                <a href="{{url('/tour/hunza-tour')}}" class="d-block">
                   <img src="{{asset('travel-website/images/img13.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
@@ -1007,7 +1007,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{url('/hunza-tour')}}">Hunza Valley By Road</a>
+                  <a href="{{url('/tour/hunza-tour')}}">Hunza Valley By Road</a>
                 </h3>
                 <p class="card-meta">Chilas, Karimabad, Hunza Pakistan</p>
                 <div class="card-rating">

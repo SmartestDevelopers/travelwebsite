@@ -61,7 +61,7 @@
                     <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{ url('/hunza-blog')}}"
+                    <a href="{{ url('/blog/hunza-blog')}}"
                       >A Journey Through Hunza: The Hidden Gem of Northern Pakistan</a
                     >
                   </h3>
@@ -118,7 +118,7 @@
                     <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{ url('/sikh-gurdwara-blog')}}"
+                    <a href="{{ url('/blog/sikh-gurdwara-blog')}}"
                       >Top Gurdwaras in Pakistan: A Spiritual Journey Through Sikh Heritage</a
                     >
                   </h3>
@@ -175,7 +175,7 @@
                     <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{ url('/sikh-sites-blog')}}"
+                    <a href="{{ url('/blog/sikh-sites-blog')}}"
                       >Top Sikh Religious Sites in Pakistan: Pilgrimage Destinations for Devotees</a
                     >
                   </h3>
@@ -233,7 +233,7 @@
                     <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{url('/skardu-blog')}}"
+                    <a href="{{url('/blog/skardu-blog')}}"
                       >Skardu Travel Guide: Discovering the Majestic Beauty of Skardu Valley</a
                     >
                   </h3>
@@ -290,7 +290,7 @@
                     <a href="#" class="badge">Blog</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{ url('/buddhist-blog')}}"
+                    <a href="{{ url('/blog/buddhist-blog')}}"
                       >Buddhist Sites of Pakistan: Exploring Ancient Temples and Monasteries</a
                     >
                   </h3>
@@ -347,7 +347,7 @@
                     <a href="#" class="badge">audio</a>
                   </div>
                   <h3 class="card-title line-height-26">
-                    <a href="{{ url('/honeymoon-blog')}}"
+                    <a href="{{ url('/blog/honeymoon-blog')}}"
                       >Top 10 Honeymoon Spots in Pakistan: Explore the Beauty of Love</a
                     >
                   </h3>

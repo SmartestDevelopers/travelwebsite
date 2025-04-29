@@ -302,7 +302,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{ url('/skardu-waterfall-tour')}}">Manthoka Waterall</a>
+                  <a href="{{ url('/tour/skardu-waterfall-tour')}}">Manthoka Waterall</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -333,7 +333,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{ url('/sikh-nature-tour')}}">Sikh Sacred Gurdwaras Tour</a>
+                  <a href="{{ url('/tour/sikh-nature-tour')}}">Sikh Sacred Gurdwaras Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -367,7 +367,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{ url('/sikh-religious-tour')}}">Sikh Religious Sites</a>
+                  <a href="{{ url('/tour/sikh-religious-tour')}}">Sikh Religious Sites</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -399,7 +399,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{ url('/buddhist-tour')}}">Buddhist and Nature Tour</a>
+                  <a href="{{ url('/tour/buddhist-tour')}}">Buddhist and Nature Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">
@@ -433,7 +433,7 @@
               </div>
               <div class="card-body">
                 <h3 class="card-title">
-                  <a href="{{ url('/hunza-tour')}}">Hunza Valley Tour</a>
+                  <a href="{{ url('/tour/hunza-tour')}}">Hunza Valley Tour</a>
                 </h3>
                 <div class="card-rating d-flex align-items-center">
                   <span class="ratings d-flex align-items-center me-1">

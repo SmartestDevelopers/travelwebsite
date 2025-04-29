@@ -168,20 +168,21 @@
                       <i class="la la-map-marker icon-element"></i>
                       <h5 class="title font-size-16 pb-1">Address</h5>
                       <p class="map__desc">
-                        Melbourne, Australia, 105 South Park Avenue
+                      53/2, SIRIRAT ROAD, PATONG, KATHU, <br />
+                      PHUKET, THAILAND, PHUKET 83150
                       </p>
                     </li>
                     <li>
                       <i class="la la-phone icon-element"></i>
                       <h5 class="title font-size-16 pb-1">Phone</h5>
-                      <p class="map__desc">Telephone: 2800 256 508</p>
-                      <p class="map__desc">Mobile: 666 777 888</p>
+                      <!-- <p class="map__desc">Telephone: 2800 256 508</p> -->
+                      <p class="map__desc">Mobile:+66 82 586 6889</p>
                     </li>
                     <li>
                       <i class="la la-envelope-o icon-element"></i>
                       <h5 class="title font-size-16 pb-1">Email</h5>
-                      <p class="map__desc">needhelp@trizen.com</p>
-                      <p class="map__desc">inquiry@trizen.com</p>
+                      <p class="map__desc">travelphuketwithuf@gmail.com</p>
+                      <!-- <p class="map__desc">inquiry@trizen.com</p> -->
                     </li>
                   </ul>
                   <ul class="social-profile text-center">
