@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/skardu.jpg') }}');">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/hunza.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -293,19 +293,10 @@
                   >
                     <h3 class="title font-size-20">Description</h3>
                     <p class="py-3">
-                      Per consequat adolescens ex, cu nibh commune temporibus
-                      vim, ad sumo viris eloquentiam sed. Mea appareat
-                      omittantur eloquentiam ad, nam ei quas oportere
-                      democritum. Prima causae admodum id est, ei timeam
-                      inimicus sed. Sit an meis aliquam, cetero inermis vel ut.
-                      An sit illum euismod facilisis, tamquam vulputate
-                      pertinacia eum at.
+                    Embark on an unforgettable 5-day journey through the breathtaking Hunza Valley, nestled in the majestic Karakoram mountain range. This tour offers a perfect blend of adventure, culture, and natural beauty. Explore iconic landmarks such as Baltit and Altit Forts, marvel at the stunning Passu Cones, and immerse yourself in the serene landscapes of lush green valleys, snow-capped peaks, and crystal-clear rivers. Each day is carefully planned to ensure a seamless and enriching experience.
                     </p>
                     <p class="pb-4">
-                      Cum et probo menandri. Officiis consulatu pro et, ne sea
-                      sale invidunt, sed ut sint blandit efficiendi. Atomorum
-                      explicari eu qui, est enim quaerendum te. Quo harum viris
-                      id. Per ne quando dolore evertitur, pro ad cibo commune.
+                    Beyond its scenic beauty, Hunza Valley is a cultural treasure trove. Interact with the warm and hospitable locals, savor traditional Hunzai cuisine, and learn about the region's rich history and traditions. Whether you're trekking through picturesque trails or enjoying peaceful moments by the riverside, this 5-day tour promises to leave you with memories of a lifetime. Perfect for nature lovers, history enthusiasts, and adventure seekers alike!
                     </p>
                     <h3 class="title font-size-15 font-weight-medium pb-3">
                       Highlights
@@ -315,19 +306,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Baltit Fort
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Altit Fort
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Karimabad
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >Attabad Lake
                           </li>
                         </ul>
                       </div>
@@ -335,19 +325,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Passu Cones
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >3 Mountains' Junction Point
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Naltar Valley
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Satrangi Lake
                           </li>
                         </ul>
                       </div>
@@ -360,7 +350,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -390,10 +380,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Other Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -921,12 +911,12 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="{{ asset('travel-website/images/team9.jpg"
+                            src="{{ asset('travel-website/images/team9.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Ryan Carter</h3>
+                            <h3 class="comment__author">Sophia Taylor</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -974,12 +964,12 @@
                           <img
                             class="avatar__img"
                             alt=""
-                            src="{{ asset('travel-website/images/team10.jpg"
+                            src="{{ asset('travel-website/images/team10.jpg')}}"
                           />
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Sophia Taylor</h3>
+                            <h3 class="comment__author">Ryan Carter</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1448,7 +1438,7 @@
                                 <input
                                   class="form-control"
                                   type="text"
-                                  name="text"
+                                  name="name"
                                   placeholder="Your name"
                                 />
                               </div>

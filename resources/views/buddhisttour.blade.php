@@ -1078,14 +1078,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 5, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          This tour exceeded all my expectations! The itinerary was well-planned, covering iconic Buddhist sites and offering plenty of time to explore. The accommodations were comfortable, and the team ensured everything ran smoothly. A perfect blend of adventure and spirituality!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1134,14 +1131,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 15, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          The Buddhist tour was a life-changing experience! Visiting ancient sites like Taxila and Takht-i-Bahi was both spiritual and educational. The guides were knowledgeable, and the arrangements were seamless. I felt deeply connected to the history and culture of the region. Highly recommended for anyone seeking a meaningful journey!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1190,14 +1184,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 17, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          An unforgettable journey through Pakistan's Buddhist heritage! The serene atmosphere of the monasteries and stupas was truly inspiring. The guides provided fascinating insights into the history and significance of each site. I would definitely recommend this tour to history enthusiasts and spiritual seekers alike.
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
