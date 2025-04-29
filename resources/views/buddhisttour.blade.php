@@ -259,19 +259,10 @@
                   >
                     <h3 class="title font-size-20">Description</h3>
                     <p class="py-3">
-                      Per consequat adolescens ex, cu nibh commune temporibus
-                      vim, ad sumo viris eloquentiam sed. Mea appareat
-                      omittantur eloquentiam ad, nam ei quas oportere
-                      democritum. Prima causae admodum id est, ei timeam
-                      inimicus sed. Sit an meis aliquam, cetero inermis vel ut.
-                      An sit illum euismod facilisis, tamquam vulputate
-                      pertinacia eum at.
+                    Embark on a spiritual journey through Pakistan's rich Buddhist heritage with our exclusive Buddhist tour. This carefully curated experience takes you to iconic sites like the ancient Takht-i-Bahi Monastery and the historic ruins of Taxila, both UNESCO World Heritage Sites. Immerse yourself in the serene atmosphere of these sacred locations, where history and spirituality come together to tell the story of Buddhism's profound influence in the region. With breathtaking landscapes and well-preserved archaeological wonders, this tour offers a unique opportunity to connect with the past.
                     </p>
                     <p class="pb-4">
-                      Cum et probo menandri. Officiis consulatu pro et, ne sea
-                      sale invidunt, sed ut sint blandit efficiendi. Atomorum
-                      explicari eu qui, est enim quaerendum te. Quo harum viris
-                      id. Per ne quando dolore evertitur, pro ad cibo commune.
+                    Beyond the historical sites, this tour provides a chance to explore the vibrant culture and traditions of the local communities. Enjoy guided tours that delve into the significance of Buddhist art, architecture, and philosophy, while savoring the hospitality of the region. Whether you're a history enthusiast, a spiritual seeker, or simply looking for a peaceful retreat, the Buddhist tour promises an enriching and unforgettable experience that will leave you inspired and rejuvenated.
                     </p>
                     <h3 class="title font-size-15 font-weight-medium pb-3">
                       Highlights

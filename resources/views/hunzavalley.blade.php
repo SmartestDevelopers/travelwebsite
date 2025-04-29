@@ -40,7 +40,7 @@
               <div class="breadcrumb-btn">
                 <div class="btn-box">
                   
-                  <a
+                  <!-- <a
                     class="theme-btn"
                     data-src="{{asset('travel-website/images/destination-img.jpg')}}"
                     data-fancybox="gallery"
@@ -48,7 +48,7 @@
                     data-speed="700"
                   >
                     <i class="la la-photo me-2"></i>More Photos
-                  </a>
+                  </a> -->
                 </div>
                 <a
                   class="d-none"
@@ -116,11 +116,11 @@
                       >Itinerary</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a data-scroll="photo" href="#photo" class="scroll-link"
                       >Photo</a
                     >
-                  </li>
+                  </li> -->
                   <li>
                     <a data-scroll="faq" href="#faq" class="scroll-link">FAQ</a>
                   </li>
@@ -159,7 +159,7 @@
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.4</span
+                          >4.6</span
                         >
                         <span>(30 Reviews)</span>
                       </p>
@@ -415,8 +415,7 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 00</span
                               >
                             </button>
                           </h2>
@@ -429,18 +428,13 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                              Arrival at Lahore Airport and then departure from Lahore at 10:00pm    
                             </p>
                           </div>
                         </div>
@@ -457,7 +451,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 01 </span>
                             </button>
                           </h2>
                         </div>
@@ -469,18 +463,118 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Pick Participants from Islamabad 4 AM <br>Sightseeing (Hazara Motorway, Abbotabad Tunnels )<br>Short stay at Besham for Breakfast <br>Visit Dassu Waterfalls  <br>Dinner in Chilas <br> Overnight stay in Chilas
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 02 </span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                           Breakfast early morning <br> Departure for Hunza and visit different points like Nanga Parbat View Point and junction point of 3 highest mountain ranges (Karakoram, Himalaya, Hindukush) and convergence point of Indus River and Gilgit River <br> Visit Naltar Valley (Optional) <br> Visit Rakaposhi View Point <br> Dinner & Night stay in Hunza
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 03</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast in Hunza <br> Visit Attabad Lake <br> Enjoy Boating in Attabad Lake <br> Photo session at Passu Cones <br> Visit Husseni Suspension Bridge <br>Visit Khunjrab <br> Back to Hunza <br>Dinner & Night stay in Hunza
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 04</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast in Hunza <br> Visit Altit/Baltit Fort <br> Visit Karimabad Bazar <br>Move to Chilas <br> Night stay in Chilas
                             </p>
                           </div>
                         </div>
@@ -497,7 +591,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 05</span>
                             </button>
                           </h2>
                         </div>
@@ -509,18 +603,13 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Breakfast early morning <br>Sightseeing on the way <br> Reach back safely <br> End of our services with satisfied clients
                             </p>
                           </div>
                         </div>
@@ -711,7 +800,7 @@
                       <div class="row align-items-center">
                         <div class="col-lg-4">
                           <div class="review-summary">
-                            <h2>4.5<span>/5</span></h2>
+                            <h2>4.6<span>/5</span></h2>
                             <p>Excellent</p>
                             <span>Based on 4 reviews</span>
                           </div>

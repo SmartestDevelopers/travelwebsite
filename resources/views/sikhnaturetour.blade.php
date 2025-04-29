@@ -40,7 +40,7 @@
               <div class="breadcrumb-btn">
                 <div class="btn-box">
                   
-                  <a
+                  <!-- <a
                     class="theme-btn"
                     data-src="{{asset('travel-website/images/destination-img.jpg')}}"
                     data-fancybox="gallery"
@@ -48,7 +48,7 @@
                     data-speed="700"
                   >
                     <i class="la la-photo me-2"></i>More Photos
-                  </a>
+                  </a> -->
                 </div>
                 <a
                   class="d-none"
@@ -116,11 +116,11 @@
                       >Itinerary</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a data-scroll="photo" href="#photo" class="scroll-link"
                       >Photo</a
                     >
-                  </li>
+                  </li> -->
                   <li>
                     <a data-scroll="faq" href="#faq" class="scroll-link">FAQ</a>
                   </li>
@@ -152,16 +152,16 @@
                 <div id="description" class="page-scroll">
                   <div class="single-content-item pb-4">
                     <h3 class="title font-size-26">
-                      3 Days Tour: the Great Wall of China
+                      12 Days Tour: Sikh Religious and Nature Tour
                     </h3>
                     <div class="d-flex flex-wrap align-items-center pt-2">
-                      <p class="me-2">Huairou District, China</p>
+                      <p class="me-2">Lahore, Haripur, Peshawar, Murree, Pakistan</p>
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.6</span
+                          >4.9</span
                         >
-                        <span>(4,209 Reviews)</span>
+                        <span>(30 Reviews)</span>
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Duration
                             </h3>
-                            <span class="font-size-13">3 Days</span>
+                            <span class="font-size-13">12 Days 11 Nights</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -220,7 +220,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Tour Type
                             </h3>
-                            <span class="font-size-13">Adventures Tour</span>
+                            <span class="font-size-13">Religious & Nature Tour</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -237,9 +237,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Date
+                              Accomodation
                             </h3>
-                            <span class="font-size-13">Jan 19' - Dec 21'</span>
+                            <span class="font-size-13">Hotels</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -256,9 +256,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Min Age
+                              Guide
                             </h3>
-                            <span class="font-size-13">10+</span>
+                            <span class="font-size-13">Will be Provided</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -293,19 +293,10 @@
                   >
                     <h3 class="title font-size-20">Description</h3>
                     <p class="py-3">
-                      Per consequat adolescens ex, cu nibh commune temporibus
-                      vim, ad sumo viris eloquentiam sed. Mea appareat
-                      omittantur eloquentiam ad, nam ei quas oportere
-                      democritum. Prima causae admodum id est, ei timeam
-                      inimicus sed. Sit an meis aliquam, cetero inermis vel ut.
-                      An sit illum euismod facilisis, tamquam vulputate
-                      pertinacia eum at.
+                    Embark on a spiritual and cultural journey with our Sikh tours, exploring some of the most sacred and historically significant Gurdwaras in Pakistan. From the birthplace of Guru Nanak Dev Ji at Gurdwara Janam Asthan in Nankana Sahib to the serene Kartarpur Sahib, where Guru Nanak spent his final years, these tours offer a profound connection to Sikh heritage. Each site is steeped in history and spirituality, providing an enriching experience for devotees and history enthusiasts alike.
                     </p>
                     <p class="pb-4">
-                      Cum et probo menandri. Officiis consulatu pro et, ne sea
-                      sale invidunt, sed ut sint blandit efficiendi. Atomorum
-                      explicari eu qui, est enim quaerendum te. Quo harum viris
-                      id. Per ne quando dolore evertitur, pro ad cibo commune.
+                    Beyond the spiritual significance, these tours allow you to immerse yourself in the vibrant culture and traditions of the Sikh community. Experience the warm hospitality, savor traditional cuisine, and learn about the architectural marvels of Gurdwaras like Panja Sahib and Dera Sahib. Whether you're seeking a deeper understanding of Sikhism or simply looking to explore its rich history, these tours promise an unforgettable journey filled with inspiration and peace.
                     </p>
                     <h3 class="title font-size-15 font-weight-medium pb-3">
                       Highlights
@@ -315,19 +306,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Gurdwara Janam Asthan (Nankana Sahib)
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Gurdwara Darbar Sahib (Kartarpur)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Gurdwara Panja Sahib (Hassan Abdal)
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >Gurdwara Dera Sahib (Lahore)
                           </li>
                         </ul>
                       </div>
@@ -335,19 +325,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Gurdwara Rori Sahib (Eminabad)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >Gurdwara Bhai Joga Singh (Peshawar)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Gurdwara Choa Sahib (Jhelum)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Gurdwara Sacha Sauda (Farooqabad)
                           </li>
                         </ul>
                       </div>
@@ -360,7 +350,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -390,10 +380,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -425,8 +415,7 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 01 - Arrival in Lahor</span
                               >
                             </button>
                           </h2>
@@ -439,18 +428,13 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Arrive in Lahore. Transfer to your hotel. <br>- **Afternoon:** Visit **Gurdwara Dera Sahib**, where Guru Arjan Dev Ji was cremated. <br>- **Evening:** Explore local markets and try traditional Punjabi dishes.
                             </p>
                           </div>
                         </div>
@@ -467,7 +451,8 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 02 - Lahore Historical and Religious Sites
+                              </span>
                             </button>
                           </h2>
                         </div>
@@ -479,18 +464,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Visit **Gurdwara Janam Asthan**, the birthplace of Guru Ram Das Ji. <br>- **Afternoon:** Explore **Badshahi Mosque** and **Lahore Fort**. <br>- **Evening:** Attend prayers at a gurdwara and enjoy langar.
+
                             </p>
                           </div>
                         </div>
@@ -507,7 +488,8 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 03 - Nankana Sahib
+                              </span>
                             </button>
                           </h2>
                         </div>
@@ -519,18 +501,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Travel to Nankana Sahib (1.5 hours from Lahore). <br>- **Afternoon:** Visit **Gurdwara Janam Asthan** and **Gurdwara Patti Sahib**. <br>- **Evening:** Participate in community activities and enjoy local cuisine.
+
                             </p>
                           </div>
                         </div>
@@ -547,7 +525,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 04 - Kartarpur </span>
                             </button>
                           </h2>
                         </div>
@@ -565,7 +543,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Depart for **Kartarpur** (around 1 hour). <br>- **Afternoon:** Visit **Gurdwara Darbar Sahib Kartarpur**, the final resting place of Guru Nanak Dev Ji. <br>- **Evening:** Explore surrounding nature and enjoy the peaceful atmosphere.
+
                             </p>
                           </div>
                         </div>
@@ -582,7 +561,8 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 05 - Nature in Shivalik Hills
+                              </span>
                             </button>
                           </h2>
                         </div>
@@ -600,7 +580,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel from Kartarpur to **Murree** (about 3 hours). <br>- **Afternoon:** Relax in the scenic hills and visit **Mall Road**. <br>- **Evening:** Enjoy breathtaking views and spend the night in Murree.
                             </p>
                           </div>
                         </div>
@@ -617,7 +597,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 06 - More of Murree and Patriata</span>
                             </button>
                           </h2>
                         </div>
@@ -635,7 +615,9 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Visit **Patriata** (New Murree) for a cable car ride.
+                            <br>- **Afternoon:** Hike in the trails around the hills or enjoy a quiet day in nature. <br>- **Evening:** Return to Murree for dinner and overnight stay.
+
                             </p>
                           </div>
                         </div>
@@ -652,7 +634,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 07 - Nathiagali</span>
                             </button>
                           </h2>
                         </div>
@@ -670,7 +652,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Head to **Nathiagali** (about 1.5 hours from Murree). <br>- **Afternoon:** Explore nature trails and enjoy stunning views of the surrounding mountains. <br>- **Evening:** Stay overnight in Nathiagali.
+
                             </p>
                           </div>
                         </div>
@@ -687,7 +670,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 08 - Abbottabad and Haripur</span>
                             </button>
                           </h2>
                         </div>
@@ -705,7 +688,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel to **Abbottabad** (about 1 hour). <br>- **Afternoon:** Visit **Gurdwara Bhai Joga Singh** in Haripur (30 minutes from Abbottabad). <br>- **Evening:** Explore the scenic spots of Abbottabad and stay overnight.
                             </p>
                           </div>
                         </div>
@@ -722,7 +705,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 09 - Peshawar and Khyber Pass</span>
                             </button>
                           </h2>
                         </div>
@@ -740,7 +723,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Depart for **Peshawar** (about 2 hours). <br>- **Afternoon:** Visit **Gurdwara Bhai Joga Singh** and other local attractions. <br>- **Evening:** Explore the historic **Khyber Pass** and return to Peshawar for overnight stay.
+
                             </p>
                           </div>
                         </div>
@@ -757,7 +741,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 10 - Swat Valley</span>
                             </button>
                           </h2>
                         </div>
@@ -775,7 +759,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel to **Mingora** in Swat Valley (about 4 hours). <br>- **Afternoon:** Visit **Buddhist archaeological sites** and enjoy the beautiful valley. <br>- **Evening:** Stay overnight in Mingora.
+
                             </p>
                           </div>
                         </div>
@@ -792,7 +777,8 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 11 - Kalam Valley
+                              </span>
                             </button>
                           </h2>
                         </div>
@@ -810,7 +796,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Excursion to **Kalam Valley** (around 2 hours from Mingora). <br>- **Afternoon:** Enjoy the beauty of **Mahodand Lake** and indulge in nature activities. <br>- **Evening:** Return to Mingora for overnight stay.
+
                             </p>
                           </div>
                         </div>
@@ -827,7 +814,8 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 12 - Return to Lahore
+                              </span>
                             </button>
                           </h2>
                         </div>
@@ -845,7 +833,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel back to Lahore (approximately 6 hours). <br>- **Afternoon:** Last-minute shopping or exploring in Lahore. <br>- **Evening:** Departure to the airport for your flight
                             </p>
                           </div>
                         </div>
@@ -1188,7 +1176,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Diljeet Badhan</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1199,14 +1187,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">February 22, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          This tour was a perfect way to connect with my Sikh heritage. The serene atmosphere of Kartarpur Sahib and the historical significance of Gurdwara Panja Sahib left me in awe. The team did an excellent job of organizing everything."
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1244,7 +1229,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Simran Kaur</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1255,14 +1240,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">March 8, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          I absolutely loved the Sikh tour! The historical insights provided by the guides were fascinating, and the hospitality at each Gurdwara was heartwarming. The visit to Gurdwara Dera Sahib in Lahore was the highlight of my trip. A must-do for Sikh history enthusiasts!"
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1300,7 +1282,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Anil Singh</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1311,14 +1293,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 17, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          I thoroughly enjoyed the Sikh tour. The visits to the Gurdwaras were spiritually uplifting, and the guides were very knowledgeable. The trip was well-organized, and the hospitality at each location was exceptional. I would definitely recommend this tour to others!"
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"

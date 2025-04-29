@@ -40,7 +40,7 @@
               <div class="breadcrumb-btn">
                 <div class="btn-box">
                   
-                  <a
+                  <!-- <a
                     class="theme-btn"
                     data-src="{{asset('travel-website/images/skardu.jpg')}}"
                     data-fancybox="gallery"
@@ -48,7 +48,7 @@
                     data-speed="700"
                   >
                     <i class="la la-photo me-2"></i>More Photos
-                  </a>
+                  </a> -->
                 </div>
                 <a
                   class="d-none"
@@ -116,11 +116,11 @@
                       >Itinerary</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a data-scroll="photo" href="#photo" class="scroll-link"
                       >Photo</a
                     >
-                  </li>
+                  </li> -->
                   <li>
                     <a data-scroll="faq" href="#faq" class="scroll-link">FAQ</a>
                   </li>
@@ -152,16 +152,16 @@
                 <div id="description" class="page-scroll">
                   <div class="single-content-item pb-4">
                     <h3 class="title font-size-26">
-                      3 Days Tour: the Great Wall of China
+                      7 Days Tour: Skardu Tour by Road
                     </h3>
                     <div class="d-flex flex-wrap align-items-center pt-2">
-                      <p class="me-2">Huairou District, China</p>
+                      <p class="me-2">Skardu, Gilgit Baltistan, Pakistan</p>
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.6</span
+                          >4.4</span
                         >
-                        <span>(4,209 Reviews)</span>
+                        <span>(30 Reviews)</span>
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Duration
                             </h3>
-                            <span class="font-size-13">3 Days</span>
+                            <span class="font-size-13">7 Days 6 Nights</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -237,9 +237,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Date
+                              Guides
                             </h3>
-                            <span class="font-size-13">Jan 19' - Dec 21'</span>
+                            <span class="font-size-13">Will be Provided</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -256,9 +256,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Min Age
+                              Accomodation
                             </h3>
-                            <span class="font-size-13">10+</span>
+                            <span class="font-size-13">Hotels</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -293,19 +293,10 @@
                   >
                     <h3 class="title font-size-20">Description</h3>
                     <p class="py-3">
-                      Per consequat adolescens ex, cu nibh commune temporibus
-                      vim, ad sumo viris eloquentiam sed. Mea appareat
-                      omittantur eloquentiam ad, nam ei quas oportere
-                      democritum. Prima causae admodum id est, ei timeam
-                      inimicus sed. Sit an meis aliquam, cetero inermis vel ut.
-                      An sit illum euismod facilisis, tamquam vulputate
-                      pertinacia eum at.
+                    Embark on an enchanting journey to Skardu and experience the breathtaking beauty of Manthoka Waterfall, one of the most stunning natural wonders in Northern Pakistan. Surrounded by lush greenery and majestic mountains, the cascading waterfall offers a serene escape for nature lovers and adventure enthusiasts alike. This tour provides an opportunity to immerse yourself in the tranquil landscapes of Skardu, with its crystal-clear streams, vibrant flora, and awe-inspiring views.
                     </p>
                     <p class="pb-4">
-                      Cum et probo menandri. Officiis consulatu pro et, ne sea
-                      sale invidunt, sed ut sint blandit efficiendi. Atomorum
-                      explicari eu qui, est enim quaerendum te. Quo harum viris
-                      id. Per ne quando dolore evertitur, pro ad cibo commune.
+                    Beyond the natural beauty, this tour allows you to explore the rich culture and warm hospitality of the Skardu region. Enjoy local delicacies, interact with the friendly locals, and capture unforgettable moments amidst the picturesque scenery. Whether you're seeking adventure or a peaceful retreat, the Skardu Manthoka Waterfall tour promises an unforgettable experience that will leave you rejuvenated and inspired.
                     </p>
                     <h3 class="title font-size-15 font-weight-medium pb-3">
                       Highlights
@@ -315,19 +306,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Deosai Plain, Land of Giants
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Karakoram Highway
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Shangrilla Lake
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >Upper Kachura Lake
                           </li>
                         </ul>
                       </div>
@@ -335,19 +325,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Kharpocho
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >Shigar Fort
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Khaplu
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Sneaky views of Nanga Parbat
                           </li>
                         </ul>
                       </div>
@@ -360,7 +350,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -390,10 +380,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -425,8 +415,7 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 01 </span
                               >
                             </button>
                           </h2>
@@ -439,18 +428,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Departure from Lahore 9:00 PM and from. Islamabad at 2:00AM <br>* 30-45 Minutes Stay at Halka Interchange for Fuel - Rest Room <br>ightseeing on the way (Hazara Motorway,) <br>* Breakfast at Besham at 8:00 am <br>Departure for Chilas via Dasu at 9:15 am <br>* Reach Chilas at 4:00 pmbr
+                            Dinner at 6:00 pm <br>Night Stay at Grace Continental Chilas  / Equal Standard Hotel <br>Total Distance : Lahore to Chilas Hotel 810 Kms and its take 14- 16 Hours depends on Road Condition
                             </p>
                           </div>
                         </div>
@@ -467,7 +452,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 02</span>
                             </button>
                           </h2>
                         </div>
@@ -479,18 +464,153 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Breakfast : 7:30 Am <br>Departure from Chilas to Skardu at 8:10am <br>On the way 15-25 minutes  stop at (View of mighty Nanga Parbat at Thalichi,  meeting point of 3 greatest mountain ranges and Confluence of River Indus & River Gilgit) <br>Reach Skardu at 2:00 pm - 2:30pmbr
+                            Distance Between Chilas Hotel to Skardu Hotel around 270Kms & its take approx.5-6 Hours  <br>Hotel Transfer 1 hour rest . <br>3:00 pm Departure for Kachura Lake /Upper Kachura Lake <br>Boating in Upper Kachura Lake ( optional) <br>Visit of Shingrila Resort <br>Dinner at 7:00 pm <br>Night stay in Arcadian Resort / Parallel Hotel Skardu
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 03</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast 8:00 am <br>Shigar Valley and Safranga Cold Desert <br>Sports Activity For Client Choice Jeep Safari - Para Cycling - Horse Riding - etc <br>Visit Shigar fort <br>Sky Lantern Activity at sunset in Safranga Desert <br>Visit Skardu Traditional Bazar.  <br>Bar BQ Dinner  7:00 pm  & Bonfire with Traditional Music at 8:00 Pm - Night Stay in Skardu
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card --><div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 04</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast at 8:00 am <br>Visit to the beautiful Mankohta Water Fall <br>and then Departure to Khaplu <br>Visit historic Chaqchan Mosque <br>Visit Khaplu Palace fort  <br>Visit Yugo Village <br>Photography Workshop <br>Dinner , Bone Fire and Night Stay in Khaplu / Yugo Village /Muchlo Village
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 05</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast in Khaplu at 8:00 am <br>Visit Machlo Village either 4th Day or 5th Day <br>Departure for Chunda Valley Skardu <br>Visit Soq Valley  <br>Move back to Skardu <br>Night Stay in Skardu
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingTwo">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseTwo"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseTwo"
+                            >
+                              <span>Day 06</span>
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseTwo"
+                          class="collapse"
+                          aria-labelledby="faqHeadingTwo"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img2.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            Breakfast in Skardu at 7:30 am <br>Departure for Besham 8:30 am <br>Short stay at Astak stream <br>Night stay & Dinner in Besham Inn Hotel / Paralle
                             </p>
                           </div>
                         </div>
@@ -507,7 +627,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 07</span>
                             </button>
                           </h2>
                         </div>
@@ -519,18 +639,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            Breakfast at 8:00 am <br>Sightseeing on the way <br>Reach Islamabad at almost 4 PM and Lahore 9:30pm + 2 Hours &- time According to Situation / Traffic
+                            <br>Good  bye to Happy Client
                             </p>
                           </div>
                         </div>
@@ -721,9 +837,9 @@
                       <div class="row align-items-center">
                         <div class="col-lg-4">
                           <div class="review-summary">
-                            <h2>4.5<span>/5</span></h2>
-                            <p>Excellent</p>
-                            <span>Based on 4 reviews</span>
+                            <h2>4.4<span>/5</span></h2>
+                            <p>Average</p>
+                            <span>Based on 30 reviews</span>
                           </div>
                         </div>
                         <!-- end col-lg-4 -->
@@ -873,7 +989,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Samuel Carter</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -884,14 +1000,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">January 12, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          The Skardu tour was an incredible experience! From the breathtaking views of Deosai Plains to the serene beauty of Shangrila Lake, every moment was magical. The itinerary was well-organized, and the guides were knowledgeable and friendly. Highly recommended for adventure seekers!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -929,7 +1042,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Emily Hopkins</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -940,14 +1053,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">February 28, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          I absolutely loved the Skardu tour! The natural beauty of the region is unmatched, and the itinerary was well-planned. The guides were very accommodating, and the group size was perfect. I highly recommend this tour to anyone looking for a serene getaway.
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -985,7 +1095,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Ethan Harper</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -996,14 +1106,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">March 21, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          The Skardu tour exceeded all my expectations. The highlight for me was the visit to Khaplu and the peaceful moments by the lakes. The team was professional and ensured we had a great time. A perfect blend of adventure and relaxation!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1350,8 +1457,8 @@
                       <h3>Bestseller</h3>
                       <p>
                         <span class="text-form">From</span
-                        ><span class="text-value ms-2 me-1">$399.00</span>
-                        <span class="before-price">$412.00</span>
+                        ><span class="text-value ms-2 me-1">$600.00</span>
+                        <span class="before-price">$1200.00</span>
                       </p>
                     </div>
                   </div>

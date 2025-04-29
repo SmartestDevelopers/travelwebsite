@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/skardu.jpg') }}');">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/destination-img.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -40,7 +40,7 @@
               <div class="breadcrumb-btn">
                 <div class="btn-box">
                   
-                  <a
+                  <!-- <a
                     class="theme-btn"
                     data-src="{{asset('travel-website/images/destination-img.jpg')}}"
                     data-fancybox="gallery"
@@ -48,7 +48,7 @@
                     data-speed="700"
                   >
                     <i class="la la-photo me-2"></i>More Photos
-                  </a>
+                  </a> -->
                 </div>
                 <a
                   class="d-none"
@@ -116,11 +116,11 @@
                       >Itinerary</a
                     >
                   </li>
-                  <li>
+                  <!-- <li>
                     <a data-scroll="photo" href="#photo" class="scroll-link"
                       >Photo</a
                     >
-                  </li>
+                  </li> -->
                   <li>
                     <a data-scroll="faq" href="#faq" class="scroll-link">FAQ</a>
                   </li>
@@ -152,16 +152,16 @@
                 <div id="description" class="page-scroll">
                   <div class="single-content-item pb-4">
                     <h3 class="title font-size-26">
-                      3 Days Tour: the Great Wall of China
+                      10 Days Tour: Sikh Religious Sites Tour
                     </h3>
                     <div class="d-flex flex-wrap align-items-center pt-2">
-                      <p class="me-2">Huairou District, China</p>
+                      <p class="me-2">Lahore, Nowshera, Hasan Abdal, Peshawar, Haripur, Pakistan</p>
                       <p>
                         <span
                           class="badge text-bg-warning text-white font-size-16"
-                          >4.6</span
+                          >4.9</span
                         >
-                        <span>(4,209 Reviews)</span>
+                        <span>(30 Reviews)</span>
                       </p>
                     </div>
                   </div>
@@ -182,7 +182,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Duration
                             </h3>
-                            <span class="font-size-13">3 Days</span>
+                            <span class="font-size-13">10 Days 9 Nights</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -220,7 +220,7 @@
                             <h3 class="title font-size-15 font-weight-medium">
                               Tour Type
                             </h3>
-                            <span class="font-size-13">Adventures Tour</span>
+                            <span class="font-size-13">Religious Tour</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -237,9 +237,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Date
+                              Accommodation
                             </h3>
-                            <span class="font-size-13">Jan 19' - Dec 21'</span>
+                            <span class="font-size-13">Hotels</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -256,9 +256,9 @@
                           </div>
                           <div class="single-feature-titles">
                             <h3 class="title font-size-15 font-weight-medium">
-                              Min Age
+                              Guide
                             </h3>
-                            <span class="font-size-13">10+</span>
+                            <span class="font-size-13">Will be Provided</span>
                           </div>
                         </div>
                         <!-- end single-tour-feature -->
@@ -293,19 +293,10 @@
                   >
                     <h3 class="title font-size-20">Description</h3>
                     <p class="py-3">
-                      Per consequat adolescens ex, cu nibh commune temporibus
-                      vim, ad sumo viris eloquentiam sed. Mea appareat
-                      omittantur eloquentiam ad, nam ei quas oportere
-                      democritum. Prima causae admodum id est, ei timeam
-                      inimicus sed. Sit an meis aliquam, cetero inermis vel ut.
-                      An sit illum euismod facilisis, tamquam vulputate
-                      pertinacia eum at.
+                    Embark on a spiritual and cultural journey with our Sikh tours, exploring some of the most sacred and historically significant Gurdwaras in Pakistan. From the birthplace of Guru Nanak Dev Ji at Gurdwara Janam Asthan in Nankana Sahib to the serene Kartarpur Sahib, where Guru Nanak spent his final years, these tours offer a profound connection to Sikh heritage. Each site is steeped in history and spirituality, providing an enriching experience for devotees and history enthusiasts alike.
                     </p>
                     <p class="pb-4">
-                      Cum et probo menandri. Officiis consulatu pro et, ne sea
-                      sale invidunt, sed ut sint blandit efficiendi. Atomorum
-                      explicari eu qui, est enim quaerendum te. Quo harum viris
-                      id. Per ne quando dolore evertitur, pro ad cibo commune.
+                    Beyond the spiritual significance, these tours allow you to immerse yourself in the vibrant culture and traditions of the Sikh community. Experience the warm hospitality, savor traditional cuisine, and learn about the architectural marvels of Gurdwaras like Panja Sahib and Dera Sahib. Whether you're seeking a deeper understanding of Sikhism or simply looking to explore its rich history, these tours promise an unforgettable journey filled with inspiration and peace..
                     </p>
                     <h3 class="title font-size-15 font-weight-medium pb-3">
                       Highlights
@@ -315,19 +306,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Gurdwara Janam Asthan (Nankana Sahib)
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Gurdwara Darbar Sahib (Kartarpur)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Gurdwara Panja Sahib (Hassan Abdal)
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >Gurdwara Dera Sahib (Lahore)
                           </li>
                         </ul>
                       </div>
@@ -335,19 +325,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Gurdwara Rori Sahib (Eminabad)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >Gurdwara Bhai Joga Singh (Peshawar)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Gurdwara Choa Sahib (Jhelum)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Gurdwara Sacha Sauda (Farooqabad)
                           </li>
                         </ul>
                       </div>
@@ -360,7 +350,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -390,10 +380,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -721,9 +711,9 @@
                       <div class="row align-items-center">
                         <div class="col-lg-4">
                           <div class="review-summary">
-                            <h2>4.5<span>/5</span></h2>
+                            <h2>4.9<span>/5</span></h2>
                             <p>Excellent</p>
-                            <span>Based on 4 reviews</span>
+                            <span>Based on 3 reviews</span>
                           </div>
                         </div>
                         <!-- end col-lg-4 -->
@@ -873,7 +863,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Manpreet</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -884,14 +874,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">February 13, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          An amazing journey through Sikh heritage! The tour covered all the major Gurdwaras, and the arrangements were excellent. The visit to Gurdwara Janam Asthan was a deeply spiritual experience. I would highly recommend this tour to anyone interested in Sikh history.
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -929,7 +916,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Sanam Gill</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -940,14 +927,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">March 17, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          This tour was a perfect blend of history and spirituality. The visit to Gurdwara Panja Sahib was unforgettable, and the serene atmosphere of Kartarpur Sahib was truly inspiring. The team ensured a comfortable and enriching experience throughout the trip.
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -985,7 +969,7 @@
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Sunil Singh</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -996,14 +980,11 @@
                                 <i class="la la-star"></i>
                                 <i class="la la-star"></i>
                               </span>
-                              <p class="comment__date">April 5, 2019</p>
+                              <p class="comment__date">April 28, 2025</p>
                             </div>
                           </div>
                           <p class="comment-content">
-                            Lorem ipsum dolor sit amet, dolores mandamus
-                            moderatius ea ius, sed civibus vivendum imperdiet
-                            ei, amet tritani sea id. Ut veri diceret fierent
-                            mei, qui facilisi suavitate euripidis
+                          The Sikh tour was well-planned and executed. The guides provided detailed insights into the history of each Gurdwara, and the accommodations were comfortable. The highlight for me was the visit to Gurdwara Dera Sahib in Lahore. A truly enriching experience!
                           </p>
                           <div
                             class="comment-reply d-flex align-items-center justify-content-between"
@@ -1350,8 +1331,8 @@
                       <h3>Bestseller</h3>
                       <p>
                         <span class="text-form">From</span
-                        ><span class="text-value ms-2 me-1">$399.00</span>
-                        <span class="before-price">$412.00</span>
+                        ><span class="text-value ms-2 me-1">$1200.00</span>
+                        <span class="before-price">$2400.00</span>
                       </p>
                     </div>
                   </div>
