@@ -81,17 +81,14 @@
             <div class="section-heading margin-bottom-40px">
               <h2 class="sec__title">About Us</h2>
               <h4 class="title font-size-16 line-height-26 pt-4 pb-2">
-              Welcome to <strong>Travel Pakistan Now</strong>, your premier travel partner for unforgettable tourism experiences in Pakistan.
+              <strong></strong>Buddhist sites in Pakistan offer a unique glimpse into the ancient cultural and spiritual heritage of South Asia. The region, particularly in the northern areas, was once an important center for Buddhist monasticism and art, particularly during the Gandhara period (1st century BCE to 5th century CE).
               </h4>
+               <p class="sec__desc font-size-16 pb-3"><strong>Nature Sightseeing:</strong> Immerse yourself in the diverse beauty of Pakistan’s natural wonders. Nature sightseeing tours offer you a chance to explore the country’s most stunning and untouched landscapes.</p>
               <p class="sec__desc font-size-16 pb-3">
-              We specialize in providing a variety of exceptional travel services designed to meet the needs of every type of traveler:
-              </p>
-              <p class="sec__desc font-size-16 pb-3"><strong>Nature Sightseeing:</strong> Immerse yourself in the diverse beauty of Pakistan’s natural wonders. Nature sightseeing tours offer you a chance to explore the country’s most stunning and untouched landscapes.</p>
-              <p class="sec__desc font-size-16 pb-3">
-              <strong>Religious Tourism:</strong>Our religious tourism services take you to sacred sites that reflect the diverse faiths that have shaped the country, from historic mosques and shrines to significant spiritual landmarks that connect you with the soul of Pakistan.
+              <strong></strong>One of the most famous Buddhist sites is the ancient ruins of Taxila, a UNESCO World Heritage site located in Punjab. Taxila was an important Buddhist hub and educational center, attracting scholars from across Asia. The site contains various monasteries, stupas, and Buddhist sculptures that reflect the artistic influence of Greek, Persian, and Indian cultures.
               </p>
               <p class="sec__desc font-size-16">
-              <strong>Trekking Adventures:</strong> Whether it’s hiking through the rugged terrains of the Karakoram or the grandeur of the Himalayas, our trekking tours promise unforgettable experiences in the heart of Pakistan’s northern highlands.
+              <strong></strong> Another significant site is the Khyber Pakhtunkhwa province's Swat Valley, known for its Buddhist archaeological remnants. The Udegram Monastery and Butkara Stupa are prime examples of the valley's role in Buddhist history. The valley’s rich history and impressive stupas attract tourists and scholars, making it an important Buddhist pilgrimage site in Pakistan.
               </p>
             </div>
             <!-- end section-heading -->
@@ -100,12 +97,12 @@
           <div class="col-lg-5 ms-auto">
             <div class="image-box about-img-box">
               <img
-                src="{{ asset('travel-website/images/img24.jpg')}}"
+                src="{{ asset('travel-website/images/img9.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-1"
               />
               <img
-                src="{{ asset('travel-website/images/img25.jpg')}}"
+                src="{{ asset('travel-website/images/bud.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-2"
               />

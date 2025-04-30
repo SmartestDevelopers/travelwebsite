@@ -452,7 +452,7 @@
                 <th>id</th>
                 <th>email</th>
                 <!-- <th>status</th> -->
-                <th>action</th>
+                <!-- <th>action</th> -->
                 </tr>
         </thead>
         <tbody>
@@ -461,11 +461,11 @@
                 <td>{{ $subscription->id }}</td>
                 <td>{{ $subscription->email }}</td>
 
-                
+<!--                 
                 <td>
                     <a href="{{ url('subs.edit', $subscription->id) }}">Edit</a>
                     <a href="{{ url('subs.destroy', $subscription->id) }}">Delete</a>
-                    </td>
+                    </td> -->
                     </tr>
             @endforeach
         </tbody>

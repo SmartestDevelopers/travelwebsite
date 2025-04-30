@@ -187,20 +187,20 @@
                   </ul>
                   <ul class="social-profile text-center">
                     <li>
-                      <a href="#"><i class="lab la-facebook-f"></i></a>
+                      <a href="https://web.facebook.com/profile.php?id=61568604338068"><i class="lab la-facebook-f"></i></a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="#"><i class="lab la-twitter"></i></a>
-                    </li>
+                    </li> -->
                     <li>
-                      <a href="#"><i class="lab la-instagram"></i></a>
+                      <a href="https://www.instagram.com/travelpakistannow"><i class="lab la-instagram"></i></a>
                     </li>
-                    <li>
+                    <!-- <li>
                       <a href="#"><i class="lab la-linkedin-in"></i></a>
-                    </li>
-                    <li>
+                    </li> -->
+                    <!-- <li>
                       <a href="#"><i class="lab la-youtube"></i></a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>
@@ -219,27 +219,6 @@
     END CONTACT AREA
 ================================= -->
 
-    <!-- ================================
-    START MAP AREA
-================================= -->
-    <section class="map-area padding-bottom-100px">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="map-container">
-              <div id="map"></div>
-            </div>
-            <!-- end map-container -->
-          </div>
-          <!-- end col-lg-12 -->
-        </div>
-        <!-- end row -->
-      </div>
-      <!-- end container -->
-    </section>
-    <!-- end map-area -->
-    <!-- ================================
-    END MAP AREA
-================================= -->
+
 
 @endsection

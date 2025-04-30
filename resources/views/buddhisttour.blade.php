@@ -272,19 +272,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Takht-i-Bahi Monastery
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Taxila
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Jaulian Monastery
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >Dharmarajika Stupa
                           </li>
                         </ul>
                       </div>
@@ -292,19 +291,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Mohra Moradu
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >Butkara Stupa
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Shingardar Stupa
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Sirkap
                           </li>
                         </ul>
                       </div>
@@ -317,7 +316,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -347,10 +346,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -400,7 +399,7 @@
                                 alt="destination-img"
                               /> -->
                             </div>
-                            <p>Arrive in Islamabad in the morning and transfer to your hotel for some rest. In the afternoon, visit the Pakistan Museum to explore the history of Buddhism in the region. Conclude your day by exploring the iconic Faisal Mosque and vibrant local markets, immersing yourself in the city's culture.
+                            <p>- **Morning:** Arrive in Islamabad. Transfer to your hotel and rest. <br>- **Afternoon:** Visit the **Pakistan Museum** to understand the history of Buddhism in the region. <br>- **Evening:** Explore the **Faisal Mosque** and local markets
                             </p>
                           </div>
                         </div>
@@ -435,7 +434,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel to **Taxila** (about 30 minutes). <br>- **Afternoon:** Visit the **Taxila Museum** and archaeological sites, including **Dharmarajika Stupa** and **Jaggu Temple**. <br>- **Evening:** Return to Islamabad for overnight stay.
                             </p>
                           </div>
                         </div>
@@ -470,7 +469,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a scenic 2-hour drive to Peshawar via Haripur. Spend the afternoon exploring the Gandhara Art Galleries and Buddhist stupas, delving into the region's rich history. Conclude your day by visiting the vibrant Qissa Khawani Bazaar, immersing yourself in local culture and traditions.
+                            - **Morning:** Travel to **Taxila** (about 30 minutes). <br>-  <br>- **Evening:** Return to Islamabad for overnight stay.
                             </p>
                           </div>
                         </div>
@@ -487,7 +486,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 04 - Swat Valley</span>
                             </button>
                           </h2>
                         </div>
@@ -505,7 +504,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel to **Swat Valley** (approximately 4 hours to Mingora). <br>- **Afternoon:** Visit **Buddhist archaeological sites** in **Udegram** and **Butkara Stupa**. <br>- **Evening:** Stay overnight in Mingora.
                             </p>
                           </div>
                         </div>
@@ -522,7 +521,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 05 - Mingora and Kalam Valley</span>
                             </button>
                           </h2>
                         </div>
@@ -540,7 +539,8 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Explore **Kalam Valley** (about 2 hours from Mingora). <br>- **Afternoon:** Visit **Mahodand Lake** and enjoy the natural beauty. <br>
+                            - **Evening:** Return to Mingora for dinner and overnight stay.
                             </p>
                           </div>
                         </div>
@@ -557,7 +557,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 06 - Buddhist Sites in Malakand</span>
                             </button>
                           </h2>
                         </div>
@@ -575,7 +575,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Visit the ancient **Buddhist stupa** at **Shangla**. <br>- **Afternoon:** Continue exploring other local Buddhist sites, including **Buddhist carvings**. <br>- **Evening:** Stay overnight in Malakand.
                             </p>
                           </div>
                         </div>
@@ -592,7 +592,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 07 - Return to Islamabad</span>
                             </button>
                           </h2>
                         </div>
@@ -610,7 +610,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Travel back to Islamabad. <br>- **Afternoon:** Visit the **Dhamma Hall** and attend a meditation session, if available. <br>- **Evening:** Explore local flavors at nearby restaurants.
                             </p>
                           </div>
                         </div>
@@ -627,7 +627,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 08 - Lahore</span>
                             </button>
                           </h2>
                         </div>
@@ -645,7 +645,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Depart for **Lahore** (approximately 4 hours). <br>- **Afternoon:** Visit **Shalimar Gardens** and **Lahore Fort**, showcasing Mughal architecture that has Buddhist influences. <br>- **Evening:** Attend evening prayers at Jahangir's Tomb.
                             </p>
                           </div>
                         </div>
@@ -662,7 +662,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 09 - Gurdwara and Buddhst Connection</span>
                             </button>
                           </h2>
                         </div>
@@ -680,7 +680,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Focus on the **Buddhist connection** in Lahore, visiting the **Bhai Joga Singh Gurdwara**. <br>- **Afternoon:** Visit the **Shah Jahan Mosque** and other historical sites. <br>- **Evening:** Enjoy a cultural evening exploring Lahore's vibrant arts scene.
                             </p>
                           </div>
                         </div>
@@ -697,7 +697,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Taxila</span>
+                              <span>Day 10 - Departure</span>
                             </button>
                           </h2>
                         </div>
@@ -715,7 +715,7 @@
                               /> -->
                             </div>
                             <p>
-                            Start your day with a short 30-minute drive to Taxila, a hub of ancient Buddhist culture. Spend the afternoon exploring the Taxila Museum and iconic archaeological sites like Dharmarajika Stupa and Jaggu Temple. Conclude the day by returning to Islamabad for a restful overnight stay.
+                            - **Morning:** Last-minute shopping or relaxing in parks like **Shahdara Park**. <br>- **Afternoon:** Transfer to the airport for your departure flight.
                             </p>
                           </div>
                         </div>
@@ -1050,15 +1050,15 @@
                     <div class="comments-list padding-top-50px">
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team8.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Lobsang Ngawang</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1103,15 +1103,15 @@
                       <!-- end comments -->
                       <div class="comment comment-reply-item">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team9.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Jampa Norbu</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"
@@ -1156,15 +1156,15 @@
                       <!-- end comments -->
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team10.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
-                            <h3 class="comment__author">Jenny Doe</h3>
+                            <h3 class="comment__author">Karma Tshering</h3>
                             <div class="meta-data-inner d-flex">
                               <span
                                 class="ratings d-flex align-items-center me-1"

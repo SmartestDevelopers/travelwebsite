@@ -51,7 +51,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img.jpg')}}" alt="blog-img"/>
+                <img src="{{asset('travel-website/images/img13.jpg')}}" alt="blog-img"/>
                 <div class="post-format icon-element">
                   <i class="la la-photo"></i>
                 </div>
@@ -109,7 +109,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img2.jpg')}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/img10.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-play"></i>
                 </div>
@@ -166,7 +166,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img3.jpg')}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/destination-img4.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-music"></i>
                 </div>
@@ -223,7 +223,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img.jpg')}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/skardu.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-photo"></i>
                 </div>
@@ -281,7 +281,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img2.jpg')}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/img9.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-play"></i>
                 </div>
@@ -338,7 +338,7 @@
           <div class="col-lg-4 responsive-column">
             <div class="card-item blog-card">
               <div class="card-img">
-                <img src="{{asset('travel-website/images/blog-img3.jpg')}}" alt="blog-img" />
+                <img src="{{asset('travel-website/images/hun.jpg')}}" alt="blog-img" />
                 <div class="post-format icon-element">
                   <i class="la la-music"></i>
                 </div>

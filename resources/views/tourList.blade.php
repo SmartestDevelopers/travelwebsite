@@ -764,7 +764,7 @@
               <div class="card-body">
                 <h3 class="card-title">
                   <a href="{{url('/tour/buddhist-tour')}}"
-                    >Dharmarajika Stupa, Jaggu Temple, Other Buddhist Sites And Nature Tour </a
+                    >Buddhist Sites And Nature Tour </a
                   >
                 </h3>
                 <p class="card-meta">Taxila, Mingora, Haripur, Lahore Pakistan</p>
@@ -787,6 +787,7 @@
               </div>
             </div>
             <!-- end card-item -->
+
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="{{url('/tour/sikh-nature-tour')}}" class="d-block">
@@ -834,7 +835,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="{{url('/tour/sikh-site-tour')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img9.jpg')}}" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/sikh.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -872,7 +873,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="{{url('/tour/sikh-religious-tour')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img10.jpg')}}" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/gurdwara.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -915,7 +916,7 @@
              <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="{{url('/tour/skardu-tour')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img11.jpg')}}" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img12.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"
@@ -953,7 +954,7 @@
             <div class="card-item card-item-list">
               <div class="card-img">
                 <a href="{{url('/tour/skardu-waterfall-tour')}}" class="d-block">
-                  <img src="{{asset('travel-website/images/img12.jpg')}}" alt="Destination-img" />
+                  <img src="{{asset('travel-website/images/img11.jpg')}}" alt="Destination-img" />
                 </a>
                 <div
                   class="add-to-wishlist icon-element"

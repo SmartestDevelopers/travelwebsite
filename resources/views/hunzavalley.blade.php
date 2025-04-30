@@ -944,11 +944,11 @@
                     <div class="comments-list padding-top-50px">
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team8.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -997,11 +997,11 @@
                       <!-- end comments -->
                       <div class="comment comment-reply-item">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team9.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -1050,11 +1050,11 @@
                       <!-- end comments -->
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team10.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">

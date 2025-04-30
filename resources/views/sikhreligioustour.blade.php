@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/skardu.jpg') }}');">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/gurdwara.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -306,19 +306,18 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Dolorem mediocritatem
+                            >Gurdwara Janam Asthan (Nankana Sahib)
                           </li>
                           <li>
-                            <i class="la la-dot-circle text-color me-2"></i>Mea
-                            appareat
-                          </li>
-                          <li>
-                            <i class="la la-dot-circle text-color me-2"></i
-                            >Prima causae
+                            <i class="la la-dot-circle text-color me-2"></i>Gurdwara Darbar Sahib (Kartarpur)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Singulis indoctum
+                            >Gurdwara Panja Sahib (Hassan Abdal)
+                          </li>
+                          <li>
+                            <i class="la la-dot-circle text-color me-2"></i
+                            >SGurdwara Dera Sahib (Lahore)
                           </li>
                         </ul>
                       </div>
@@ -326,19 +325,19 @@
                         <ul class="list-items pb-3">
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Timeam inimicus
+                            >Gurdwara Rori Sahib (Eminabad)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Oportere democritum
+                            >Gurdwara Bhai Joga Singh (Peshawar)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Cetero inermis
+                            >Gurdwara Choa Sahib (Jhelum)
                           </li>
                           <li>
                             <i class="la la-dot-circle text-color me-2"></i
-                            >Pertinacia eum
+                            >Gurdwara Sacha Sauda (Farooqabad)
                           </li>
                         </ul>
                       </div>
@@ -351,7 +350,7 @@
                         </h3>
                         <ul class="list-items">
                           <li>
-                            <i class="la la-check text-success me-2"></i>Airfare
+                            <i class="la la-check text-success me-2"></i>Meals
                           </li>
                           <li>
                             <i class="la la-check text-success me-2"></i>Local
@@ -381,10 +380,10 @@
                             Gratuity
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Lunch
+                            <i class="la la-times text-danger me-2"></i>Shopping
                           </li>
                           <li>
-                            <i class="la la-times text-danger me-2"></i>Dinner
+                            <i class="la la-times text-danger me-2"></i>Personal Expenses
                           </li>
                         </ul>
                       </div>
@@ -416,8 +415,7 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 01 - Arrival in Lahore</span
                               >
                             </button>
                           </h2>
@@ -430,18 +428,202 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Arrive in Lahore. Transfer to your hotel and rest. <br>- **Afternoon:** Visit **Gurdwara Dera Sahib**, the site where Guru Arjan Dev Ji, the fifth Sikh Guru, is believed to be cremated. <br>- **Evening:** Explore the vibrant surroundings of Lahore, including local markets and street food.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 02 -Lahore Gurdwaras
+                                </span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Visit **Gurdwara Janam Asthan**, the birthplace of Guru Ram Das Ji. <br>- **Afternoon:** Explore **Gurdwara Panja Sahib**, famous for its sacred handprint of Guru Nanak Dev Ji. <br>- **Evening:** Attend prayers and kirtan at the gurdwara. Experience langar (community meal).
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 03 -Travel to Nankana Sahib</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Travel to **Nankana Sahib** (about 1.5 hours from Lahore). <br>- **Afternoon:** Visit **Gurdwara Janam Asthan** in Nankana Sahib. <br>- **Evening:** Relax and explore the town. Stay overnight.
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 04 -Nankana Sahib to Kartarpur</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Depart for **Kartarpur** (approximately 1 hour). <br>- **Afternoon:** Visit **Gurdwara Darbar Sahib Kartarpur**, a significant site where Guru Nanak Dev Ji spent his last years. <br>- **Evening:** Enjoy the serene atmosphere and historical significance of the site.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 05 -Travel to Hasan Abdal</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Head to **Hasan Abdal** (about 2 hours from Kartarpur). <br>- **Afternoon:** Visit **Gurdwara Panja Sahib**, known for its sacred rock. <br>- **Evening:** Participate in an evening prayer service.
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 06 -Hasan Abdal to Peshawar</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Travel to Peshawar (approximately 3 hours). <br>- **Afternoon:** Visit **Gurdwara Bhai Joga Singh** and explore the surrounding area. <br>- **Evening:** Enjoy dinner at a local restaurant and explore the vibrant culture of Peshawar
                             </p>
                           </div>
                         </div>
@@ -458,7 +640,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 07 - Peshawarto Lahore</span>
                             </button>
                           </h2>
                         </div>
@@ -470,18 +652,15 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Begin your return journey to Lahore. <br>- **Afternoon:** Free time for shopping and sightseeing in Lahore. <br>- **Evening:** Enjoy a farewell dinner featuring traditional Pakistani cuisine.
+
+
                             </p>
                           </div>
                         </div>
@@ -498,7 +677,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 08 - Departure</span>
                             </button>
                           </h2>
                         </div>
@@ -510,18 +689,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - Depending on your flight schedule, you may have some time for last-minute visits or relaxation before departure.
+
                             </p>
                           </div>
                         </div>
@@ -857,11 +1032,11 @@
                     <div class="comments-list padding-top-50px">
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="{{ asset('travel-website/images/team8.jpg')}}"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -910,11 +1085,11 @@
                       <!-- end comments -->
                       <div class="comment comment-reply-item">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="images/team9.jpg"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -963,11 +1138,11 @@
                       <!-- end comments -->
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="images/team10.jpg"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">

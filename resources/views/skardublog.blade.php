@@ -96,12 +96,12 @@
           <div class="col-lg-5 ms-auto">
             <div class="image-box about-img-box">
               <img
-                src="{{ asset('travel-website/images/img24.jpg')}}"
+                src="{{ asset('travel-website/images/skardu.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-1"
               />
               <img
-                src="{{ asset('travel-website/images/img25.jpg')}}"
+                src="{{ asset('travel-website/images/sk1.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-2"
               />

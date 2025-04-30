@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/destination-img.jpg') }}');">
+    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/sikh.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
@@ -403,7 +403,7 @@
                       class="accordion accordion-item padding-top-30px"
                       id="accordionExample"
                     >
-                      <div class="card">
+                    <div class="card">
                         <div class="card-header" id="faqHeadingOne">
                           <h2 class="mb-0">
                             <button
@@ -415,8 +415,8 @@
                               aria-controls="faqCollapseOne"
                             >
                               <span
-                                >Day 01 - Linfen – Historical place in
-                                Beijing</span
+                                >Day 01 -Arrival in Islamabad
+                                </span
                               >
                             </button>
                           </h2>
@@ -429,18 +429,276 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Arrive in Islamabad. Transfer to your hotel and rest. <br>- **Afternoon:** Visit the **Pakistan Museum** to understand the history of Buddhism in the region. <br>- **Evening:** Explore the **Faisal Mosque** and local markets.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 02 -Taxila</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Travel to **Taxila** (about 30 minutes). <br>- **Afternoon:** Visit the **Taxila Museum** and archaeological sites, including **Dharmarajika Stupa** and **Jaggu Temple**. <br>- **Evening:** Return to Islamabad for overnight stay.
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 03 -Haripur and Peshawar</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Depart for **Peshawar** via **Haripur** (about 2 hours). <br>- **Afternoon:** Visit **Gandhara Art Galleries** and **Buddhist stupas** in Peshawar. <br>- **Evening:** Explore **Qissa Khawani Bazaar** and experience local culture.
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 04 -Swat Valley</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Travel to **Swat Valley** (approximately 4 hours to Mingora). <br>- **Afternoon:** Visit **Buddhist archaeological sites** in **Udegram** and **Butkara Stupa**. <br>- **Evening:** Stay overnight in Mingora.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 05 -Mingora and Kalam Valley</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Explore **Kalam Valley** (about 2 hours from Mingora). <br>- **Afternoon:** Visit **Mahodand Lake** and enjoy the natural beauty. <br>- **Evening:** Return to Mingora for dinner and overnight stay.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 06 -Buddhist Sites in Malakand</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Visit the ancient **Buddhist stupa** at **Shangla**. <br>- **Afternoon:** Continue exploring other local Buddhist sites, including **Buddhist carvings**. <br>- **Evening:** Stay overnight in Malakand
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 07 -Return to Islamabad</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Travel back to Islamabad. <br>- **Afternoon:** Visit the **Dhamma Hall** and attend a meditation session, if available. <br>- **Evening:** Explore local flavors at nearby restaurants.
+
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- end card -->
+                      <div class="card">
+                        <div class="card-header" id="faqHeadingOne">
+                          <h2 class="mb-0">
+                            <button
+                              class="btn btn-link d-flex align-items-center justify-content-between font-size-16"
+                              type="button"
+                              data-bs-toggle="collapse"
+                              data-bs-target="#faqCollapseOne"
+                              aria-expanded="true"
+                              aria-controls="faqCollapseOne"
+                            >
+                              <span
+                                >Day 08 -Lahore</span
+                              >
+                            </button>
+                          </h2>
+                        </div>
+                        <div
+                          id="faqCollapseOne"
+                          class="collapse show"
+                          aria-labelledby="faqHeadingOne"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="card-body d-flex align-items-center">
+                            <div class="flex-shrink-0 mt-2 me-4">
+                              <!-- <img
+                                src="images/small-img.jpg"
+                                alt="destination-img"
+                              /> -->
+                            </div>
+                            <p>
+                            - **Morning:** Depart for **Lahore** (approximately 4 hours). <br>- **Afternoon:** Visit **Shalimar Gardens** and **Lahore Fort**, showcasing Mughal architecture that has Buddhist influences. <br>- **Evening:** Attend evening prayers at Jahangir's Tomb.
+
                             </p>
                           </div>
                         </div>
@@ -457,7 +715,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseTwo"
                             >
-                              <span>Day 02 - Beijing - Temple of Heaven</span>
+                              <span>Day 09 -Gurdwara And Buddhist Connectionn</span>
                             </button>
                           </h2>
                         </div>
@@ -469,18 +727,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img2.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Focus on the **Buddhist connection** in Lahore, visiting the **Bhai Joga Singh Gurdwara**. <br>- **Afternoon:** Visit the **Shah Jahan Mosque** and other historical sites. <br>- **Evening:** Enjoy a cultural evening exploring Lahore's vibrant arts scene.
+
                             </p>
                           </div>
                         </div>
@@ -497,7 +751,7 @@
                               aria-expanded="true"
                               aria-controls="faqCollapseThree"
                             >
-                              <span>Day 03 - Jinan to New york</span>
+                              <span>Day 10 - Departure</span>
                             </button>
                           </h2>
                         </div>
@@ -509,18 +763,14 @@
                         >
                           <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 mt-2 me-4">
-                              <img
+                              <!-- <img
                                 src="images/small-img3.jpg"
                                 alt="destination-img"
-                              />
+                              /> -->
                             </div>
                             <p>
-                              Mea appareat omittantur eloquentiam ad, nam ei
-                              quas oportere democritum. Prima causae admodum id
-                              est, ei timeam inimicus sed. Sit an meis aliquam,
-                              cetero inermis vel ut. An sit illum euismod
-                              facilisis Nullam id dolor id nibh ultricies
-                              vehicula ut id elit.
+                            - **Morning:** Last-minute shopping or relaxing in parks like **Shahdara Park**.
+                            <br>- **Afternoon:** Transfer to the airport for your departure flight.
                             </p>
                           </div>
                         </div>
@@ -855,11 +1105,11 @@
                     <div class="comments-list padding-top-50px">
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="images/team8.jpg"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -908,11 +1158,11 @@
                       <!-- end comments -->
                       <div class="comment comment-reply-item">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="images/team9.jpg"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">
@@ -961,11 +1211,11 @@
                       <!-- end comments -->
                       <div class="comment">
                         <div class="comment-avatar">
-                          <img
+                          <!-- <img
                             class="avatar__img"
                             alt=""
                             src="images/team10.jpg"
-                          />
+                          /> -->
                         </div>
                         <div class="comment-body">
                           <div class="meta-data">

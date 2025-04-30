@@ -81,17 +81,11 @@
             <div class="section-heading margin-bottom-40px">
               <h2 class="sec__title">About Us</h2>
               <h4 class="title font-size-16 line-height-26 pt-4 pb-2">
-              Welcome to <strong>Travel Pakistan Now</strong>, your premier travel partner for unforgettable tourism experiences in Pakistan.
+              <strong></strong>Pakistan offers a variety of breathtaking destinations for honeymooners, from serene hill stations to exotic beaches. Each spot is unique, providing couples with romantic escapes in nature’s embrace.
               </h4>
+              <p class="sec__desc font-size-16 pb-3"><strong></strong> Murree, located near Islamabad, is a popular destination for honeymooners, with its cool weather, lush green hills, and beautiful viewpoints. Couples can enjoy scenic walks, shopping, and cozy evenings in charming cottages. Similarly, Hunza Valley, with its snow-capped peaks, clear blue lakes, and rich culture, offers a peaceful and picturesque environment perfect for a romantic getaway.</p>
               <p class="sec__desc font-size-16 pb-3">
-              We specialize in providing a variety of exceptional travel services designed to meet the needs of every type of traveler:
-              </p>
-              <p class="sec__desc font-size-16 pb-3"><strong>Nature Sightseeing:</strong> Immerse yourself in the diverse beauty of Pakistan’s natural wonders. Nature sightseeing tours offer you a chance to explore the country’s most stunning and untouched landscapes.</p>
-              <p class="sec__desc font-size-16 pb-3">
-              <strong>Religious Tourism:</strong>Our religious tourism services take you to sacred sites that reflect the diverse faiths that have shaped the country, from historic mosques and shrines to significant spiritual landmarks that connect you with the soul of Pakistan.
-              </p>
-              <p class="sec__desc font-size-16">
-              <strong>Trekking Adventures:</strong> Whether it’s hiking through the rugged terrains of the Karakoram or the grandeur of the Himalayas, our trekking tours promise unforgettable experiences in the heart of Pakistan’s northern highlands.
+              <strong></strong>For beach lovers, the coastal city of Gwadar and the serene beach of Clifton in Karachi offer tranquility and beautiful seascapes. In addition, Skardu’s beautiful lakes, such as Shangrila Resort and Upper Kachura Lake, along with the surrounding mountains, create a magical atmosphere for newlyweds to enjoy. Whether it's adventure or relaxation, Pakistan’s honeymoon spots provide unforgettable experiences.
               </p>
             </div>
             <!-- end section-heading -->
@@ -100,12 +94,12 @@
           <div class="col-lg-5 ms-auto">
             <div class="image-box about-img-box">
               <img
-                src="{{ asset('travel-website/images/img24.jpg')}}"
+                src="{{ asset('travel-website/images/hun.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-1"
               />
               <img
-                src="{{ asset('travel-website/images/img25.jpg')}}"
+                src="{{ asset('travel-website/images/mal.jpg')}}"
                 alt="about-img"
                 class="img__item img__item-2"
               />

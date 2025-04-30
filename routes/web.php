@@ -46,7 +46,7 @@ Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
 
 
 
-Route::post('/register', 'FrontController@register');
+// Route::post('/register', 'FrontController@register');
 
 Route::resource('gallery', 'GalleryController');
 Route::resource('services', 'ServicesController');
