@@ -444,6 +444,55 @@
                     </div>
                   </div>
                   <div class="form-content">
+
+
+                  <table>
+                    <thead>
+                    <th>
+                      Customer Detail
+                    </th>
+                    <th>
+                      Booking Detail
+                    </th>
+                    <th>Booking Status</th>
+                    <th>Action</th>
+                    </thead>
+                    <tbody>
+                    @foreach($bookings as $booking)
+<tr>
+                  <td>
+                    {{ $booking->firstname }}, {{ $booking->lastname }} <br/>
+                {{ $booking->email }},
+                <a tel="{{ $booking->phone}}"> {{ $booking->phone }}</a> <br/>
+                {{ $booking->address }}
+                {{ $booking->country }}
+                    </td>
+                    <td>
+                      Booking Detail
+                    </td>
+                    <td> {{ $booking->status }}
+                    <form action="{{url('admin-booking-list-status-update')}}" method="POST">
+                    
+                    @csrf
+                    <input type="hidden" name="recordID" value="{{$booking->id}}" /> 
+                      <select name="status" class="form-control">
+                        <option value="peding"> Pending </option>
+                        <option  value="paid"> Paid </option>
+                        <option  value="completed"> Completed </option>
+                        <option  value="closed"> Closed </option>
+                      </select>
+                      <input type="submit" class="form-control btn btn-primary btn-sm" value="Update"/>
+                      </form>
+                     </td>
+                    <td>View | Edit | Delete</td>
+</tr>
+
+                    @endforeach
+
+                   
+                    
+                    </tbody>
+                  </table>
                     <div class="table-form table-responsive">
 
                     <table class="table table-bordered table-striped">
@@ -491,14 +540,12 @@
         </tbody>
         </table>
 
-
-            <div class="border-top mt-5"></div>
+          <div class="border-top mt-5"></div>
             <div class="row align-items-center">
               <div class="col-lg-7">
                 <div class="copy-right padding-top-30px">
                   <p class="copy__desc">
-                    &copy; Copyright Travel Pakistan Now <span id="get-year"></span> . Made
-                    with <span class="la la-heart"></span> by
+                    &copy; Copyright Travel Pakistan Now <span id="get-year"></span> 
                     <a href="https://smartestdevelopers.com/"
                       >Smartest Developers</a
                     >

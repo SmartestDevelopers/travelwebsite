@@ -110,6 +110,11 @@
                       <li><a href="{{url('/')}}">Home</a></li>
                       <li><a href="{{url('about')}}">About</a></li>
                       <li><a href="{{url('services')}}">Services</a></li>
+                      
+                      <li><a href="{{url('gallery')}}">Gallery</a></li>
+
+
+
                       <li><a href="{{url('tour-list')}}">Tours</a></li>
                       <!-- <li><a href="{{url('gallery')}}">Gallery</a></li> -->
                       <li><a href="{{url('faq')}}">FAQ</a></li>

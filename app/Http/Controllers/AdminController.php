@@ -98,12 +98,6 @@ class AdminController extends Controller
         
         $bookings = DB::table('bookings')->get();
 
-        // echo "<pre>";
-        // echo "<h1>Booking List</h1>";
-        // print_r($bookings);
-        // echo "</pre>";
-        // die();
-
         return view('booking.show', compact('bookings'));
     }
 
@@ -141,4 +135,19 @@ class AdminController extends Controller
         // Pass the data to the view
         return view('subs.subscribeemail', compact('subscriptions'));
     }
+
+    public function bookingListStatusUpdate(Request $request){
+
+            $stauts = $request->all();
+
+            // print_r($stauts);
+
+            echo $recordID = $stauts['recordID'];
+            echo  $status = $stauts['status'];
+
+
+        echo "Line 144";
+    }
+
 }
+

@@ -45,7 +45,6 @@ Route::post('/insert-contact-record', 'FrontController@insertContactRecord');
 //Route::post('/insert-contact-record-from-local-expert', 'FrontController@insertContactRecordFromLocalExpert');
 
 
-
 Route::post('/register', 'FrontController@register');
 
 Route::resource('gallery', 'GalleryController');
@@ -64,6 +63,8 @@ Route::post('/signup-data-insert', 'FrontController@signupDataInsert');
 
 Route::get('/admin-contact-list', 'AdminController@contactList');
 Route::get('/admin-booking-list', 'AdminController@bookingList');
+Route::post('/admin-booking-list-status-update', 'AdminController@bookingListStatusUpdate');
+
 Route::get('/admin-local-list', 'AdminController@localList');
 Route::get('/admin-faq-list', 'AdminController@faqList');
 Route::get('/admin-blog-list', 'AdminController@blogList');
@@ -90,9 +91,6 @@ Route::get('/tour/skardu-tour', 'TourDetailsController@skarduTour');
 Route::get('/tour/skardu-waterfall-tour', 'TourDetailsController@skarduWaterfallTour');
 Route::get('/tour/hunza-tour', 'TourDetailsController@hunzaValley');
 
-
-
-
 Route::get('/blog/buddhist-blog', 'BlogController@buddhistBlog');
 Route::get('/blog/honeymoon-blog', 'BlogController@honeymoonBlog');
 Route::get('/blog/skardu-blog', 'BlogController@skarduBlog');
@@ -104,5 +102,4 @@ Route::get('/blog/hunza-blog', 'BlogController@hunzaBlog');
 Route::get('/team/{locale}', 'HomeController@team');
 
 
-
-
+Route::get('gallery-two', 'HomeController@gallery');

@@ -1,0 +1,1 @@
+<ht>it is my gallery page</ht>
