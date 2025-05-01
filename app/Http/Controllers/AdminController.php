@@ -142,9 +142,9 @@ class AdminController extends Controller
 
             // print_r($stauts);
 
-            $recordID = $stauts['recordID'];
+            $recordID = $status['recordID'];
             
-            $status = $stauts['status'];
+            $status = $status['status'];
 
             DB::table('bookings')->where('id','=',$recordID)->update(['status' => $status]);
             return redirect()->back();

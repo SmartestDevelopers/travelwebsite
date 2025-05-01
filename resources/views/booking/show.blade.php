@@ -461,20 +461,19 @@
                     @foreach($bookings as $booking)
 <tr>
                   <td>
-                    {{ $booking->firstname }}, {{ $booking->lastname }} <br/>
+                    {{ $booking->fullname }}, <br/>
                 {{ $booking->email }},
                 <a tel="{{ $booking->phone}}"> {{ $booking->phone }}</a> <br/>
-                {{ $booking->address }}
                 {{ $booking->country }}
                     </td>
                     <td>
                        
                 {{ $booking->tour }} <br/>
                 From: {{ $booking->date_from }}<br/>
-                TO : {{ $booking->date_to }}<br/>
-                {{ $booking->adults }} 
-                {{ $booking->kids }}
-                {{ $booking->promotional_offers }}
+                To : {{ $booking->date_to }}<br/>
+                Adults : {{ $booking->adults }}<br/> 
+                Kids: {{ $booking->kids }}<br/>
+                Promo Offer: {{ $booking->promotional_offers }}
                     </td>
                     <td> {{ $booking->status }}
                     <form action="{{url('admin-booking-list-status-update')}}" method="POST">
@@ -482,7 +481,7 @@
                     @csrf
                     <input type="hidden" name="recordID" value="{{$booking->id}}" /> 
                       <select name="status" class="form-control">
-                        <option value="peding"> Pending </option>
+                        <option value="pending"> Pending </option>
                         <option  value="paid"> Paid </option>
                         <option  value="completed"> Completed </option>
                         <option  value="closed"> Closed </option>
@@ -494,86 +493,11 @@
 </tr>
 
                     @endforeach
-
-                   
-                    
-                    </tbody>
-                  </table>
-                    <div class="table-form table-responsive">
-
-                    <table class="table table-bordered table-striped">
-        <thead>
-            <tr>
-                <th>id</th>
-                <th>firstname</th>
-                <th>lastname</th>
-                <th>email</th>
-                <th>phone</th>
-                <th>address</th>
-                <th>country</th>
-                <th>tour</th>
-                <th>date_from</th>
-                <th>date_to</th>
-                <th>adults</th>
-                <th>kids</th>
-                <th>promotional_offers</th>
-                <!-- <th>action</th> -->
-                </tr>
-        </thead>
-        <tbody>
-            @foreach($bookings as $booking)
-            <tr>
-                <td>{{ $booking->id }}</td>
-                <td>{{ $booking->firstname }}</td>
-                <td>{{ $booking->lastname }}</td>
-                <td>{{ $booking->email }}</td>
-                <td>{{ $booking->phone }}</td>
-                <td>{{ $booking->address }}</td>
-                <td>{{ $booking->country }}</td>
-                <td>{{ $booking->tour }}</td>
-                <td>{{ $booking->date_from }}</td>
-                <td>{{ $booking->date_to }}</td>
-                <td>{{ $booking->adults }}</td>
-                <td>{{ $booking->kids }}</td>
-                <td>{{ $booking->promotional_offers }}</td>
-                
-                <!-- <td>
-                    <a href="{{ url('booking.edit', $booking->id) }}">Edit</a>
-                    <a href="{{ url('booking.destroy', $booking->id) }}">Delete</a>
-                    </td> -->
-                    </tr>
-            @endforeach
-        </tbody>
-        </table>
-
-          <div class="border-top mt-5"></div>
-            <div class="row align-items-center">
-              <div class="col-lg-7">
-                <div class="copy-right padding-top-30px">
-                  <p class="copy__desc">
-                    &copy; Copyright Travel Pakistan Now <span id="get-year"></span> 
-                    <a href="https://smartestdevelopers.com/"
-                      >Smartest Developers</a
-                    >
-                  </p>
-                </div>
+  
                 <!-- end copy-right -->
               </div>
               <!-- end col-lg-7 -->
-              <div class="col-lg-5">
-                <div class="copy-right-content text-end padding-top-30px">
-                  <ul class="social-profile">
-                    <li>
-                      <a href="#"><i class="lab la-facebook-f"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lab la-instagram"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="lab la-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
+                                 </div>
                 <!-- end copy-right-content -->
               </div>
               <!-- end col-lg-5 -->

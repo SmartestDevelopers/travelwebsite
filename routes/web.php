@@ -102,4 +102,4 @@ Route::get('/blog/hunza-blog', 'BlogController@hunzaBlog');
 Route::get('/team/{locale}', 'HomeController@team');
 
 
-Route::get('gallery-two', 'HomeController@gallery');
+// Route::get('gallery-two', 'HomeController@gallery');
