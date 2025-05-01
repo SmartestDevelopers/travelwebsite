@@ -142,11 +142,13 @@ class AdminController extends Controller
 
             // print_r($stauts);
 
-            echo $recordID = $stauts['recordID'];
-            echo  $status = $stauts['status'];
+            $recordID = $stauts['recordID'];
+            
+            $status = $stauts['status'];
 
+            DB::table('bookings')->where('id','=',$recordID)->update(['status' => $status]);
+            return redirect()->back();
 
-        echo "Line 144";
     }
 
 }

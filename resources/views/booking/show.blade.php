@@ -446,7 +446,7 @@
                   <div class="form-content">
 
 
-                  <table>
+                   <table class="table table-bordered table-striped">
                     <thead>
                     <th>
                       Customer Detail
@@ -468,7 +468,13 @@
                 {{ $booking->country }}
                     </td>
                     <td>
-                      Booking Detail
+                       
+                {{ $booking->tour }} <br/>
+                From: {{ $booking->date_from }}<br/>
+                TO : {{ $booking->date_to }}<br/>
+                {{ $booking->adults }} 
+                {{ $booking->kids }}
+                {{ $booking->promotional_offers }}
                     </td>
                     <td> {{ $booking->status }}
                     <form action="{{url('admin-booking-list-status-update')}}" method="POST">
