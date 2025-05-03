@@ -32,7 +32,7 @@
     <!-- ================================
     START BREADCRUMB AREA
 ================================= -->
-    <section class="breadcrumb-area py-0" style="background-image: url('{{ asset('travel-website/images/destination-img3.jpg') }}');">
+    <section class="py-0" style="background-size:cover; background-image: url('{{ asset('travel-website/images/destination-img3.jpg') }}');">
       <div class="breadcrumb-wrap">
         <div class="container">
           <div class="row">
