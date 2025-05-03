@@ -15,7 +15,14 @@ class CreateToursFaqTable extends Migration
     {
         Schema::create('tours_faq', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('tour_id'); // foreign key to the tours table
+            $table->string('question');
+            $table->text('answer');
+            $table->integer('sort_order')->default(0);
             $table->timestamps();
+
+            // Foreign key constraint
+            $table->foreign('tour_id')->references('id')->on('tours')->onDelete('cascade');
         });
     }
 
